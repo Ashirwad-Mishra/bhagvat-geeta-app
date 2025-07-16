@@ -1,0 +1,162 @@
+/* Main container for the entire chapter component */
+.chapter-view {
+    background-color: #ffffff;
+    border-radius: 1rem; /* 16px */
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    padding: 1.5rem; /* 24px */
+    animation: fade-in 0.5s ease-out forwards;
+}
+/* Add this to the end of your Chapter1.css file */
+
+/* Style for the temporary highlight on a searched verse */
+.verse-card.highlight-verse {
+  transition: box-shadow 0.3s ease-in-out;
+  box-shadow: 0 0 0 4px #f97316; /* A bright orange ring */
+}
+
+/* Header section within the chapter view */
+.chapter-header {
+    text-align: center;
+    margin-bottom: 2rem; /* 32px */
+    border-bottom: 2px solid #fed7aa; /* A light orange */
+    padding-bottom: 1.5rem; /* 24px */
+}
+
+.chapter-header .chapter-number {
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-weight: 600;
+    color: #f97316; /* A bright orange */
+    font-size: 1.125rem; /* 18px */
+}
+
+.chapter-header .chapter-title-sanskrit {
+    font-size: 2.25rem; /* 36px */
+    font-weight: 700;
+    color: #374151; /* A dark gray */
+    margin-top: 0.5rem; /* 8px */
+}
+
+.chapter-header .chapter-title-english {
+    font-size: 1.5rem; /* 24px */
+    font-weight: 300;
+    color: #4b5563; /* A muted gray */
+    margin-top: 0.25rem; /* 4px */
+}
+
+/* NEW: Container for the toggle button */
+.translation-toggle-container {
+    margin-top: 1.5rem; /* 24px */
+}
+
+/* NEW: Style for the toggle button */
+.translation-toggle-btn {
+    background-color: #f97316;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 9999px; /* pill shape */
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out, transform 0.1s ease-in-out;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.translation-toggle-btn:hover {
+    background-color: #ea580c;
+}
+
+.translation-toggle-btn:active {
+    transform: scale(0.98);
+}
+
+/* Container for all the verse cards */
+.verses-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem; /* 32px */
+}
+
+/* Individual card for each verse */
+.verse-card {
+    background-color: rgba(255, 247, 237, 0.6); /* A very light, semi-transparent orange */
+    border-radius: 0.75rem; /* 12px */
+    border: 1px solid rgba(254, 215, 170, 0.5); /* A light, semi-transparent orange border */
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    padding: 1.5rem; /* 24px */
+}
+
+.verse-card .verse-id {
+    font-weight: 700;
+    color: #9a3412; /* A darker orange-brown */
+    margin-bottom: 1rem; /* 16px */
+}
+
+.verse-card .verse-sanskrit,
+.verse-card .verse-hindi,
+.verse-card .verse-english {
+    margin-bottom: 1rem; /* 16px */
+}
+
+.verse-card h5 {
+    font-weight: 600;
+    color: #374151; /* A dark gray */
+    margin-bottom: 0.5rem; /* 8px */
+}
+
+.verse-card .sanskrit-text {
+    font-family: serif;
+    font-size: 1.25rem; /* 20px */
+    color: #1f2937; /* A very dark gray */
+    white-space: pre-wrap;
+    line-height: 1.75;
+}
+
+.verse-card .translation-text {
+    font-family: sans-serif;
+    font-size: 1.125rem; /* 18px */
+    color: #1f2937; /* A very dark gray */
+    line-height: 1.75;
+}
+
+/* NEW: Wrapper for the translations to allow for animations */
+.translations-wrapper {
+    animation: fade-in-translations 0.4s ease-out;
+}
+
+@keyframes fade-in-translations {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+/* Media query for larger screens */
+@media (min-width: 768px) {
+    .chapter-view {
+        padding: 2rem;
+    }
+    .verse-card {
+        padding: 2rem;
+    }
+    .chapter-header .chapter-title-sanskrit {
+        font-size: 3rem; /* 48px */
+    }
+    .chapter-header .chapter-title-english {
+        font-size: 1.875rem; /* 30px */
+    }
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

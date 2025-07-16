@@ -1,0 +1,82 @@
+/* Main container for the search bar */
+.search-bar-container {
+    position: relative;
+    width: 100%;
+    max-width: 600px; /* Or any width you prefer */
+    margin: 0 auto 2rem auto; /* Center the search bar */
+}
+
+/* The search input field */
+.search-input {
+    width: 100%;
+    padding: 1rem 1.5rem;
+    font-size: 1.125rem;
+    color: #374151;
+    background-color: #ffffff;
+    border: 2px solid #e5e7eb; /* A light gray border */
+    border-radius: 9999px; /* Pill shape */
+    transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    box-sizing: border-box; /* Ensures padding doesn't affect width */
+}
+
+.search-input:focus {
+    outline: none;
+    border-color: #f97316; /* Bright orange on focus */
+    box-shadow: 0 0 0 3px rgba(249, 115, 22, 0.3);
+}
+
+/* Container for the search results dropdown */
+.search-results-container {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    margin-top: 0.5rem;
+    background-color: #ffffff;
+    border-radius: 0.75rem;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    border: 1px solid #e5e7eb;
+    max-height: 400px;
+    overflow-y: auto;
+    z-index: 100;
+}
+
+/* Individual result item */
+.search-result-item {
+    padding: 1rem 1.5rem;
+    cursor: pointer;
+    border-bottom: 1px solid #f3f4f6;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.search-result-item:last-child {
+    border-bottom: none;
+}
+
+.search-result-item:hover {
+    background-color: #fff7ed; /* Light cream on hover */
+}
+
+/* Verse ID in the result item */
+.search-result-item .verse-id {
+    font-weight: 700;
+    color: #9a3412; /* Dark orange-brown */
+    margin-bottom: 0.25rem;
+}
+
+/* The text snippet in the result item */
+.search-result-item .verse-snippet {
+    font-size: 0.9rem;
+    color: #4b5563;
+    /* Truncate long text with an ellipsis */
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* Highlighted text within the snippet */
+.search-result-item .verse-snippet .highlight {
+    font-weight: 700;
+    color: #1f2937;
+    background-color: #fde68a; /* A soft yellow highlight */
+}

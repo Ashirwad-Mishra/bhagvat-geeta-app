@@ -1,0 +1,55 @@
+.navbar {
+    padding: 1rem;
+    background-color: #7c2d12; /* A deep orange-brown */
+    border-radius: 0.75rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    margin-bottom: 2rem;
+}
+
+.navbar-header {
+    color: white;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.navbar-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.nav-button {
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 1.125rem;
+    border-radius: 0.5rem;
+    transition: all 0.2s ease-in-out;
+    border: none;
+    cursor: pointer;
+    background-color: #fed7aa; /* A light orange */
+    color: #7c2d12; /* The deep orange-brown */
+}
+
+.nav-button:hover {
+    background-color: white;
+    transform: scale(1.05);
+}
+
+.nav-button.active {
+    background-color: white;
+    color: #7c2d12;
+    transform: scale(1.1);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    outline: 2px solid white;
+}
+.nav-button:focus {
+    outline: 2px solid #7c2d12; /* Deep orange-brown for focus */
+    outline-offset: 2px;
+}
