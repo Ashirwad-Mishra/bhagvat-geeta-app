@@ -1,0 +1,76 @@
+/* Main container for the animated background */
+.animated-background {
+    position: fixed; /* Stays in place during scroll */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to bottom, #0b071c, #2a1a4a, #4a2f78); /* Deep cosmic gradient */
+    overflow: hidden;
+    z-index: -1; /* Sits behind all other content */
+}
+
+/* --- Starry Sky Effect --- */
+.stars, .stars2, .stars3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+.stars {
+    background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100"><circle cx="10" cy="10" r="1" fill="white"/><circle cx="50" cy="30" r="0.5" fill="white"/><circle cx="80" cy="70" r="1" fill="white"/></svg>');
+    animation: animateStars 50s linear infinite;
+}
+
+.stars2 {
+    background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200"><circle cx="30" cy="80" r="1.2" fill="white"/><circle cx="150" cy="120" r="0.8" fill="white"/><circle cx="180" cy="20" r="1" fill="white"/></svg>');
+    animation: animateStars 100s linear infinite;
+}
+
+.stars3 {
+    background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300"><circle cx="90" cy="200" r="1" fill="white"/><circle cx="250" cy="50" r="1.5" fill="white"/><circle cx="20" cy="20" r="0.5" fill="white"/></svg>');
+    animation: animateStars 150s linear infinite;
+}
+
+@keyframes animateStars {
+    from { transform: translateY(0); }
+    to { transform: translateY(-1000px); }
+}
+
+
+/* --- Virat Swaroop Glowing Aura --- */
+.virat-swaroop-aura {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50vw;
+    height: 50vw;
+    max-width: 600px;
+    max-height: 600px;
+    background: radial-gradient(circle, rgba(255, 223, 186, 0.5) 0%, rgba(255, 204, 153, 0.3) 40%, rgba(255, 170, 85, 0.1) 70%, rgba(74, 47, 120, 0) 100%);
+    border-radius: 50%;
+    animation: pulseAura 8s ease-in-out infinite;
+}
+
+@keyframes pulseAura {
+    0% { transform: translateX(-50%) scale(0.95); opacity: 0.7; }
+    50% { transform: translateX(-50%) scale(1.05); opacity: 1; }
+    100% { transform: translateX(-50%) scale(0.95); opacity: 0.7; }
+}
+
+
+/* --- Arjuna Silhouette --- */
+.arjuna-silhouette {
+    position: absolute;
+    bottom: -50px; /* Hides the base */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 400px;
+    height: 400px;
+    opacity: 0.6;
+}
