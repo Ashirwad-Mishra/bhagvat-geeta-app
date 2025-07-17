@@ -1991,7 +1991,936 @@ export const allChaptersData = [
       english: "A person who accepts the path of devotional service is not bereft of the results derived from studying the Vedas, performing austere sacrifices, giving charity or pursuing philosophical and fruitive activities. Simply by performing devotional service, he attains all these, and at the end he reaches the supreme eternal abode."
     }
   ]
-}
-  // When you create Chapter 9, you will add its data object here.
-  // { chapter: 9, title: "...", verses: [...] },
+},
+{
+  chapter: 9,
+  title: "Rāja Vidyā Rāja Guhya Yoga",
+  english_title: "The Yoga of Royal and Secret Knowledge",
+  verses: [
+    {
+      id: "9.1",
+      sanskrit: "श्रीभगवानुवाच |\nइदं तु ते गुह्यतमं प्रवक्ष्याम्यनसूयवे |\nज्ञानं विज्ञानसहितं यज्ज्ञात्वा मोक्ष्यसेऽशुभात् ||९-१||",
+      hindi: "श्री भगवान ने कहा - हे अर्जुन! चूँकि तुम मुझसे कभी ईर्ष्या नहीं करते, इसलिए मैं तुम्हें यह परम गुह्यज्ञान तथा अनुभूति बतलाऊँगा, जिसे जानकर तुम संसार के सारे क्लेशों से मुक्त हो जाओगे।",
+      english: "The Supreme Personality of Godhead said: My dear Arjuna, because you are never envious of Me, I shall impart to you this most confidential knowledge and realization, knowing which you shall be relieved of the miseries of material existence."
+    },
+    {
+      id: "9.2",
+      sanskrit: "राजविद्या राजगुह्यं पवित्रमिदमुत्तमम् |\nप्रत्यक्षावगमं धर्म्यं सुसुखं कर्तुमव्ययम् ||९-२||",
+      hindi: "यह ज्ञान सब विद्याओं का राजा है, जो समस्त रहस्यों में सर्वाधिक गोपनीय है। यह परम शुद्ध है और चूँकि यह आत्मा की प्रत्यक्ष अनुभूति कराने वाला है, अतः यह धर्म का सिद्धान्त है। यह अविनाशी है और अत्यन्त सुखपूर्वक सम्पन्न किया जाता है।",
+      english: "This knowledge is the king of education, the most secret of all secrets. It is the purest knowledge, and because it gives direct perception of the self by realization, it is the perfection of religion. It is everlasting, and it is joyfully performed."
+    },
+    {
+      id: "9.3",
+      sanskrit: "अश्रद्दधानाः पुरुषा धर्मस्यास्य परन्तप |\nअप्राप्य मां निवर्तन्ते मृत्युसंसारवर्त्मनि ||९-३||",
+      hindi: "हे परन्तप! जो लोग भक्ति में श्रद्धा नहीं रखते, वे मुझे प्राप्त नहीं कर पाते। अतः वे इस भौतिक जगत् में जन्म-मृत्यु के मार्ग पर वापस आते रहते हैं।",
+      english: "Those who are not faithful in this devotional service cannot attain Me, O conqueror of enemies. Therefore they return to the path of birth and death in this material world."
+    },
+    {
+      id: "9.4",
+      sanskrit: "मया ततमिदं सर्वं जगदव्यक्तमूर्तिना |\nमत्स्थानि सर्वभूतानि न चाहं तेष्ववस्थितः ||९-४||",
+      hindi: "यह सम्पूर्ण जगत् मेरे अव्यक्त रूप द्वारा व्याप्त है। समस्त जीव मुझमें हैं, किन्तु मैं उनमें नहीं हूँ।",
+      english: "By Me, in My unmanifested form, this entire universe is pervaded. All beings are in Me, but I am not in them."
+    },
+    {
+      id: "9.5",
+      sanskrit: "न च मत्स्थानि भूतानि पश्य मे योगमैश्वरम् |\nभूतभृन्न च भूतस्थो ममात्मा भूतभावनः ||९-५||",
+      hindi: "यद्यपि सारी वस्तुएँ मुझमें स्थित हैं, किन्तु मैं उनमें नहीं हूँ। मेरे इस अचिन्त्य योग-ऐश्वर्य को देखो! यद्यपि मैं समस्त जीवों का पालक (भर्ता) हूँ और सर्वव्यापी हूँ, लेकिन मैं इस भौतिक अभिव्यक्ति का अंश नहीं हूँ, क्योंकि मैं सृष्टि का कारणस्वरूप हूँ।",
+      english: "And yet everything that is created does not rest in Me. Behold My mystic opulence! Although I am the maintainer of all living entities and although I am everywhere, I am not a part of this cosmic manifestation, for My Self is the very source of creation."
+    },
+    {
+      id: "9.6",
+      sanskrit: "यथाकाशस्थितो नित्यं वायुः सर्वत्रगो महान् |\nतथा सर्वाणि भूतानि मत्स्थानीत्युपधारय ||९-६||",
+      hindi: "जिस प्रकार सर्वत्र बहने वाली प्रबल वायु सदैव आकाश में स्थित रहती है, उसी प्रकार तुम जान लो कि समस्त उत्पन्न प्राणी मुझमें स्थित रहते हैं।",
+      english: "Understand that as the mighty wind, blowing everywhere, rests always in the sky, all created beings rest in Me."
+    },
+    {
+      id: "9.7",
+      sanskrit: "सर्वभूतानि कौन्तेय प्रकृतिं यान्ति मामिकाम् |\nकल्पक्षये पुनस्तानि कल्पादौ विसृजाम्यहम् ||९-७||",
+      hindi: "हे कुन्तीपुत्र! कल्प का अन्त होने पर सारे प्राणी मेरी प्रकृति में प्रवेश करते हैं और अन्य कल्प के आरम्भ होने पर मैं उन्हें अपनी शक्ति से पुनः उत्पन्न करता हूँ।",
+      english: "O son of Kunti, at the end of the millennium all material manifestations enter into My nature, and at the beginning of another millennium, by My potency, I create them again."
+    },
+    {
+      id: "9.8",
+      sanskrit: "प्रकृतिं स्वामवष्टभ्य विसृजामि पुनः पुनः |\nभूतग्राममिमं कृत्स्नमवशं प्रकृतेर्वशात् ||९-८||",
+      hindi: "सम्पूर्ण विराट जगत् मेरे अधीन है। यह मेरी इच्छा से बारम्बार स्वतः प्रकट होता रहता है और मेरी ही इच्छा से अन्त में विनष्ट होता है।",
+      english: "The whole cosmic order is under Me. Under My will it is automatically manifested again and again, and under My will it is annihilated at the end."
+    },
+    {
+      id: "9.9",
+      sanskrit: "न च मां तानि कर्माणि निबध्नन्ति धनञ्जय |\nउदासीनवदासीनमसक्तं तेषु कर्मसु ||९-९||",
+      hindi: "हे धनञ्जय! ये सारे कर्म मुझे नहीं बाँध पाते। मैं इन समस्त कर्मों से उदासीन तथा अनासक्त भाव से पृथक् रहता हूँ।",
+      english: "O Dhananjaya, all this work cannot bind Me. I am ever detached from all these material activities, seated as though neutral."
+    },
+    {
+      id: "9.10",
+      sanskrit: "मयाध्यक्षेण प्रकृतिः सूयते सचराचरम् |\nहेतुनानेन कौन्तेय जगद्विपरिवर्तते ||९-१०||",
+      hindi: "हे कुन्तीपुत्र! यह भौतिक प्रकृति मेरी शक्तियों में से एक है और मेरी अध्यक्षता में कार्य करती है, जिससे सारे चर तथा अचर प्राणी उत्पन्न होते हैं। इसके शासन में यह जगत् बारम्बार सृजित और विनष्ट होता रहता है।",
+      english: "This material nature, which is one of My energies, is working under My direction, O son of Kunti, producing all moving and nonmoving beings. Under its rule this manifestation is created and annihilated again and again."
+    },
+    {
+      id: "9.11",
+      sanskrit: "अवजानन्ति मां मूढा मानुषीं तनुमाश्रितम् |\nपरं भावमजानन्तो मम भूतमहेश्वरम् ||९-११||",
+      hindi: "जब मैं मनुष्य रूप में अवतरित होता हूँ, तो मूर्ख मेरा उपहास करते हैं। वे मुझ परमेश्वर के उस दिव्य स्वभाव को नहीं जानते जो समस्त वस्तुओं का स्वामी है।",
+      english: "Fools deride Me when I descend in the human form. They do not know My transcendental nature as the Supreme Lord of all that be."
+    },
+    {
+      id: "9.12",
+      sanskrit: "मोघाशा मोघकर्माणो मोघज्ञाना विचेतसः |\nराक्षसीमासुरीं चैव प्रकृतिं मोहिनीं श्रिताः ||९-१२||",
+      hindi: "जो लोग इस प्रकार मोहग्रस्त होते हैं, वे आसुरी तथा नास्तिक विचारों के प्रति आकृष्ट रहते हैं। इस मोहग्रस्त अवस्था में उनकी मुक्ति-कामना, उनके सकाम कर्म तथा ज्ञान का अनुशीलन, सभी निष्फल हो जाते हैं।",
+      english: "Those who are thus bewildered are attracted by demonic and atheistic views. In that deluded condition, their hopes for liberation, their fruitive activities, and their culture of knowledge are all defeated."
+    },
+    {
+      id: "9.13",
+      sanskrit: "महात्मानस्तु मां पार्थ दैवीं प्रकृतिमाश्रिताः |\nभजन्त्यनन्यमनसो ज्ञात्वा भूतादिमव्ययम् ||९-१३||",
+      hindi: "हे पार्थ! मोहमुक्त महात्माजन दैवी प्रकृति की शरण में रहते हैं। वे मेरी पूजा भक्तिपूर्वक करते हैं, क्योंकि वे मुझे आदि तथा अविनाशी श्रीभगवान् के रूप में जानते हैं।",
+      english: "O son of Pritha, those who are not deluded, the great souls, are under the protection of the divine nature. They are fully engaged in devotional service because they know Me as the Supreme Personality of Godhead, original and inexhaustible."
+    },
+    {
+      id: "9.14",
+      sanskrit: "सततं कीर्तयन्तो मां यतन्तश्च दृढव्रताः |\nनमस्यन्तश्च मां भक्त्या नित्ययुक्ता उपासते ||९-१४||",
+      hindi: "ये महात्मा मेरी महिमा का नित्य कीर्तन करते हुए, दृढ़संकल्प के साथ प्रयास करते हुए, मुझे नमस्कार करते हुए, भक्तिभाव से मेरी पूजा करते हैं।",
+      english: "Always chanting My glories, endeavoring with great determination, bowing down before Me, these great souls perpetually worship Me with devotion."
+    },
+    {
+      id: "9.15",
+      sanskrit: "ज्ञानयज्ञेन चाप्यन्ये यजन्तो मामुपासते |\nएकत्वेन पृथक्त्वेन बहुधा विश्वतोमुखम् ||९-१५||",
+      hindi: "अन्य लोग जो ज्ञान के अनुशीलन द्वारा यज्ञ करते हैं, वे भगवान् की पूजा उनके अद्वय रूप में, विविध रूपों में तथा विराट रूप में करते हैं।",
+      english: "Others, who engage in sacrifice by the cultivation of knowledge, worship the Supreme Lord as the one without a second, as diverse in many, and in the universal form."
+    },
+    {
+      id: "9.16",
+      sanskrit: "अहं क्रतुरहं यज्ञः स्वधाहमहमौषधम् |\nमन्त्रोऽहमहमेवाज्यमहमग्निरहं हुतम् ||९-१६||",
+      hindi: "किन्तु वैदिक अनुष्ठान, यज्ञ, पितरों को दिया जाने वाला अर्पण, औषधि, दिव्य ध्वनि (मन्त्र), घी, अग्नि तथा आहुति भी मैं ही हूँ।",
+      english: "But it is I who am the ritual, I the sacrifice, the offering to the ancestors, the healing herb, the transcendental chant. I am the butter and the fire and the offering."
+    },
+    {
+      id: "9.17",
+      sanskrit: "पिताहमस्य जगतो माता धाता पितामहः |\nवेद्यं पवित्रमोङ्कार ऋक्साम यजुरेव च ||९-१७||",
+      hindi: "मैं इस ब्रह्माण्ड का पिता, माता, आश्रय तथा पितामह हूँ। मैं ज्ञेय (जानने योग्य), शोधक तथा ओंकार हूँ। मैं ऋग्वेद, सामवेद तथा यजुर्वेद भी हूँ।",
+      english: "I am the father of this universe, the mother, the support and the grandsire. I am the object of knowledge, the purifier and the syllable om. I am also the Rig, the Sama and the Yajur Vedas."
+    },
+    {
+      id: "9.18",
+      sanskrit: "गतिर्भर्ता प्रभुः साक्षी निवासः शरणं सुहृत् |\nप्रभवः प्रलयः स्थानं निधानं बीजमव्ययम् ||९-१८||",
+      hindi: "मैं ही लक्ष्य, पालक, स्वामी, साक्षी, धाम, शरणस्थली तथा अत्यन्त प्रिय मित्र हूँ। मैं सृष्टि तथा प्रलय, सबका आधार, आश्रय तथा अविनाशी बीज भी हूँ।",
+      english: "I am the goal, the sustainer, the master, the witness, the abode, the refuge and the most dear friend. I am the creation and the annihilation, the basis of everything, the resting place and the eternal seed."
+    },
+    {
+      id: "9.19",
+      sanskrit: "तपाम्यहमहं वर्षं निगृह्णाम्युत्सृजामि च |\nअमृतं चैव मृत्युश्च सदसच्चाहमर्जुन ||९-१९||",
+      hindi: "हे अर्जुन! मैं ही ताप प्रदान करता हूँ और वर्षा को रोकता तथा लाता हूँ। मैं अमृत हूँ और साक्षात् मृत्यु भी। आत्मा तथा पदार्थ (सत् तथा असत्) दोनों मुझमें ही हैं।",
+      english: "O Arjuna, I give heat, and I withhold and send forth the rain. I am immortality, and I am also death personified. Both spirit and matter are in Me."
+    },
+    {
+      id: "9.20",
+      sanskrit: "त्रैविद्या मां सोमपाः पूतपापा यज्ञैरिष्ट्वा स्वर्गतिं प्रार्थयन्ते |\nते पुण्यमासाद्य सुरेन्द्रलोकम् अश्नन्ति दिव्यान्दिवि देवभोगान् ||९-२०||",
+      hindi: "जो वेदों का अध्ययन करते तथा सोमरस का पान करते हैं, वे स्वर्ग की प्राप्ति की कामना करते हैं। वे अप्रत्यक्ष रूप से मेरी पूजा करते हैं। वे पापकर्मों से शुद्ध होकर इन्द्र के पवित्र स्वर्गिक धाम में जन्म लेते हैं, जहाँ वे देवताओं का सा आनन्द भोगते हैं।",
+      english: "Those who study the Vedas and drink the soma juice, seeking the heavenly planets, worship Me indirectly. Purified of sinful reactions, they take birth on the pious, heavenly planet of Indra, where they enjoy godly delights."
+    },
+    {
+      id: "9.21",
+      sanskrit: "ते तं भुक्त्वा स्वर्गलोकं विशालं क्षीणे पुण्ये मर्त्यलोकं विशन्ति |\nएवं त्रयीधर्ममनुप्रपन्ना गतागतं कामकामा लभन्ते ||९-२१||",
+      hindi: "इस प्रकार जब वे (उन लोगों) विशाल स्वर्गिक इन्द्रियसुख को भोग लेते हैं और उनके पुण्यकर्मों के फल क्षीण हो जाते हैं, तो वे इस मृत्युलोक में पुनः लौट आते हैं। इस प्रकार जो तीनों वेदों के सिद्धान्तों में दृढ रहकर इन्द्रियसुख की कामना करते हैं, उन्हें जन्म-मृत्यु का चक्र ही मिल पाता है।",
+      english: "When they have thus enjoyed vast heavenly sense pleasure and the results of their pious activities are exhausted, they return to this mortal planet again. Thus those who seek sense enjoyment by adhering to the principles of the three Vedas achieve only repeated birth and death."
+    },
+    {
+      id: "9.22",
+      sanskrit: "अनन्याश्चिन्तयन्तो मां ये जनाः पर्युपासते |\nतेषां नित्याभियुक्तानां योगक्षेमं वहाम्यहम् ||९-२२||",
+      hindi: "किन्तु जो लोग अनन्यभाव से मेरे दिव्य स्वरूप का ध्यान करते हुए निरन्तर मेरी पूजा करते हैं, उनकी जो आवश्यकताएँ होती हैं, उन्हें मैं पूरा करता हूँ और जो कुछ उनके पास है, उसकी रक्षा करता हूँ।",
+      english: "But those who always worship Me with exclusive devotion, meditating on My transcendental form—to them I carry what they lack, and I preserve what they have."
+    },
+    {
+      id: "9.23",
+      sanskrit: "येऽप्यन्यदेवताभक्ता यजन्ते श्रद्धयान्विताः |\nतेऽपि मामेव कौन्तेय यजन्त्यविधिपूर्वकम् ||९-२३||",
+      hindi: "हे कुन्तीपुत्र! जो लोग अन्य देवताओं के भक्त हैं और उनकी श्रद्धापूर्वक पूजा करते हैं, वास्तव में वे भी अविधिपूर्वक मेरी ही पूजा करते हैं।",
+      english: "Those who are devotees of other gods and who worship them with faith actually worship only Me, O son of Kunti, but they do so in a wrong way."
+    },
+    {
+      id: "9.24",
+      sanskrit: "अहं हि सर्वयज्ञानां भोक्ता च प्रभुरेव च |\nन तु मामभिजानन्ति तत्त्वेनातश्च्यवन्ति ते ||९-२४||",
+      hindi: "मैं ही समस्त यज्ञों का एकमात्र भोक्ता तथा स्वामी हूँ। अतः जो लोग मेरे वास्तविक दिव्य स्वभाव को नहीं पहचान पाते, वे नीचे गिर जाते हैं।",
+      english: "I am the only enjoyer and master of all sacrifices. Therefore, those who do not recognize My true transcendental nature fall down."
+    },
+    {
+      id: "9.25",
+      sanskrit: "यान्ति देवव्रता देवान्पितॄन्यान्ति पितृव्रताः |\nभूतानि यान्ति भूतेज्या यान्ति मद्याजिनोऽपि माम् ||९-२५||",
+      hindi: "जो देवताओं की पूजा करते हैं, वे देवताओं के बीच जन्म लेंगे, जो पितरों को पूजते हैं, वे पितरों के पास जाते हैं, जो भूत-प्रेतों की पूजा करते हैं, वे उन्हीं के बीच जन्म लेते हैं और जो मेरी पूजा करते हैं, वे मेरे साथ निवास करते हैं।",
+      english: "Those who worship the demigods will take birth among the demigods; those who worship the ancestors go to the ancestors; those who worship ghosts and spirits will take birth among such beings; and those who worship Me will live with Me."
+    },
+    {
+      id: "9.26",
+      sanskrit: "पत्रं पुष्पं फलं तोयं यो मे भक्त्या प्रयच्छति |\nतदहं भक्त्युपहृतमश्नामि प्रयतात्मनः ||९-२६||",
+      hindi: "यदि कोई प्रेम तथा भक्ति के साथ मुझे पत्र, पुष्प, फल या जल प्रदान करता है, तो मैं उसे स्वीकार करता हूँ।",
+      english: "If one offers Me with love and devotion a leaf, a flower, a fruit or water, I will accept it."
+    },
+    {
+      id: "9.27",
+      sanskrit: "यत्करोषि यदश्नासि यज्जुहोषि ददासि यत् |\nयत्तपस्यसि कौन्तेय तत्कुरुष्व मदर्पणम् ||९-२७||",
+      hindi: "हे कुन्तीपुत्र! तुम जो कुछ करते हो, जो कुछ खाते हो, जो कुछ अर्पित करते हो या दान देते हो और जो भी तपस्या करते हो, उसे मुझे अर्पित करते हुए करो।",
+      english: "Whatever you do, whatever you eat, whatever you offer or give away, and whatever austerities you perform—do that, O son of Kunti, as an offering to Me."
+    },
+    {
+      id: "9.28",
+      sanskrit: "शुभाशुभफलैरेवं मोक्ष्यसे कर्मबन्धनैः |\nसन्न्यासयोगयुक्तात्मा विमुक्तो मामुपैष्यसि ||९-२८||",
+      hindi: "इस तरह तुम कर्म के बन्धन तथा इसके शुभ-अशुभ फलों से मुक्त हो सकोगे। इस संन्यासयोग में अपने चित्त को स्थिर करके तुम मुक्त होकर मेरे पास आ सकोगे।",
+      english: "In this way you will be freed from bondage to work and its auspicious and inauspicious results. With your mind fixed on Me in this principle of renunciation, you will be liberated and come to Me."
+    },
+    {
+      id: "9.29",
+      sanskrit: "समोऽहं सर्वभूतेषु न मे द्वेष्योऽस्ति न प्रियः |\nये भजन्ति तु मां भक्त्या मयि ते तेषु चाप्यहम् ||९-२९||",
+      hindi: "मैं न तो किसी से द्वेष करता हूँ, न ही किसी के साथ पक्षपात करता हूँ। मैं सबों के लिए समभाव हूँ। किन्तु जो भी भक्तिपूर्वक मेरी सेवा करता है, वह मेरा मित्र है, मुझमें स्थित रहता है और मैं भी उसका मित्र हूँ।",
+      english: "I envy no one, nor am I partial to anyone. I am equal to all. But whoever renders service unto Me in devotion is a friend, is in Me, and I am also a friend to him."
+    },
+    {
+      id: "9.30",
+      sanskrit: "अपि चेत्सुदुराचारो भजते मामनन्यभाक् |\nसाधुरेव स मन्तव्यः सम्यग्व्यवसितो हि सः ||९-३०||",
+      hindi: "यदि कोई जघन्य से जघन्य कर्म करता है, किन्तु यदि वह भक्ति में रत रहता है तो उसे साधु मानना चाहिए, क्योंकि वह अपने संकल्प में अडिग रहता है।",
+      english: "Even if one commits the most abominable action, if he is engaged in devotional service he is to be considered saintly because he is properly situated in his determination."
+    },
+    {
+      id: "9.31",
+      sanskrit: "क्षिप्रं भवति धर्मात्मा शश्वच्छान्तिं निगच्छति |\nकौन्तेय प्रतिजानीहि न मे भक्तः प्रणश्यति ||९-३१||",
+      hindi: "वह तुरन्त धर्मात्मा बन जाता है और स्थायी शान्ति को प्राप्त होता है। हे कुन्तीपुत्र! निडर होकर घोषणा कर दो कि मेरे भक्त का कभी विनाश नहीं होता।",
+      english: "He quickly becomes righteous and attains lasting peace. O son of Kunti, declare it boldly that My devotee never perishes."
+    },
+    {
+      id: "9.32",
+      sanskrit: "मां हि पार्थ व्यपाश्रित्य येऽपि स्युः पापयोनयः |\nस्त्रियो वैश्यास्तथा शूद्रास्तेऽपि यान्ति परां गतिम् ||९-३२||",
+      hindi: "हे पार्थ! जो लोग मेरी शरण ग्रहण करते हैं, वे भले ही निम्नजन्मा स्त्री, वैश्य (वणिक) तथा शूद्र (श्रमिक) क्यों न हों, वे परमधाम को प्राप्त करते हैं।",
+      english: "O son of Pritha, those who take shelter in Me, though they be of lower birth—women, vaishyas [merchants] and shudras [laborers]—can approach the supreme destination."
+    },
+    {
+      id: "9.33",
+      sanskrit: "किं पुनर्ब्राह्मणाः पुण्या भक्ता राजर्षयस्तथा |\nअनित्यमसुखं लोकमिमं प्राप्य भजस्व माम् ||९-३३||",
+      hindi: "फिर धर्मात्मा ब्राह्मणों, भक्तों तथा राजर्षियों के लिए तो कहना ही क्या है! अतः इस क्षणिक दुखमय संसार में आ जाने पर मेरी प्रेमाभक्ति में अपने आपको लगाओ।",
+      english: "How much more this is so of the righteous brahmanas, the devotees and the saintly kings. Therefore, having come to this temporary, miserable world, engage in loving service unto Me."
+    },
+    {
+      id: "9.34",
+      sanskrit: "मन्मना भव मद्भक्तो मद्याजी मां नमस्कुरु |\nमामेवैष्यसि युक्त्वैवमात्मानं मत्परायणः ||९-३४||",
+      hindi: "अपने मन को मेरे नित्य चिन्तन में लगाओ, मेरे भक्त बनो, मुझे नमस्कार करो और मेरी ही पूजा करो। इस प्रकार मुझमें पूर्णतया तल्लीन होने पर तुम निश्चित रूप से मुझको प्राप्त होगे।",
+      english: "Engage your mind always in thinking of Me, become My devotee, offer obeisances to Me and worship Me. Being completely absorbed in Me, surely you will come to Me."
+    }
+  ]
+},
+ {
+  chapter: 10,
+  title: "Vibhūti Yoga",
+  english_title: "The Yoga of Divine Glories",
+  verses: [
+    {
+      id: "10.1",
+      sanskrit: "श्रीभगवानुवाच |\nभूय एव महाबाहो श्रृणु मे परमं वचः |\nयत्तेऽहं प्रीयमाणाय वक्ष्यामि हितकाम्यया ||१०-१||",
+      hindi: "श्री भगवान् बोले: हे महाबाहु अर्जुन! अब फिर से तू मेरा सबसे श्रेष्ठ वचन सुन। मैं तेरे परम प्रिय और कल्याण की इच्छा से तुझे यह कह रहा हूँ।",
+      english: "The Blessed Lord said: Listen again, O mighty-armed Arjuna. Because you are My dear friend, for your benefit I shall speak to you further, giving knowledge that is better than what I have already explained."
+    },
+    {
+      id: "10.2",
+      sanskrit: "न मे विदुः सुरगणाः प्रभवं न महर्षयः |\nअहमादिर्हि देवानां महर्षीणां च सर्वशः ||१०-२||",
+      hindi: "मुझे न तो देवगण जानते हैं, और न ही महान् ऋषिगण। क्योंकि मैं ही देवताओं और महर्षियों का सर्वथा आदिपुरुष हूँ।",
+      english: "Neither the hosts of demigods nor the great sages know My origin, for in every respect I am the source of the demigods and sages."
+    },
+    {
+      id: "10.3",
+      sanskrit: "यो मामजमनादिं च वेत्ति लोकमहेश्वरम् |\nअसंमूढः स मर्त्येषु सर्वपापैः प्रमुच्यते ||१०-३||",
+      hindi: "जो मनुष्य मुझे अजन्मा, अनादि और समस्त लोकों का परमेश्वर जानता है, वह मोह से रहित होता है और समस्त पापों से मुक्त हो जाता है।",
+      english: "He who knows Me as the unborn, as the beginningless, as the great Lord of the worlds—he among mortals is undeluded; he is freed from all sins."
+    },
+    {
+      id: "10.4",
+      sanskrit: "बुद्धिर्ज्ञानमसम्मोहः क्षमा सत्यम् दमः शमः |\nसुखं दुःखं भवोऽभावो भयं चाभयमेव च ||१०-४||\nअहिंसा समता तुष्टिस्तपो दानं यशोऽयशः |\nभवन्ति भावा भूतानां मत्त एव पृथग्विधाः ||१०-५||",
+      hindi: "बुद्धि, ज्ञान, संशय न होना, क्षमा, सत्य, इन्द्रिय संयम, मन की शान्ति, सुख-दुःख, उत्पत्ति और विनाश, भय और अभय, अहिंसा, समता, सन्तुष्टि, तप, दान, यश और अपयश—ये सब भूतों में मुझसे ही उत्पन्न होते हैं।",
+      english: "Intelligence, knowledge, freedom from doubt and delusion, forgiveness, truthfulness, control of the senses, control of the mind, happiness and distress, birth and death, fear and fearlessness, nonviolence, equanimity, satisfaction, austerity, charity, fame and infamy—all these various qualities of living beings are created by Me alone."
+    },
+    {
+      id: "10.6",
+      sanskrit: "महर्षयः सप्त पूर्वे चत्वारो मनवस्तथा |\nमद्भावा मानसा जाता यस्यांशां विबुधाः प्रजा: ||१०-६||",
+      hindi: "सात महर्षि और चार प्राचीन मनु, सब मेरे मन से उत्पन्न हुए। और उनके वंशज संसार के प्राणी हैं।",
+      english: "The seven great sages and before them the four Manus, who are progenitors of mankind, are born from My mind, and from them, all the people of the world have descended."
+    },
+    {
+      id: "10.7",
+      sanskrit: "एतां विभूतिं योगं च मम यो वेत्ति तत्वतः |\nसोऽविकम्पेन योगेन युज्यते नात्र संशयः ||१०-७||",
+      hindi: "जो मुझमें इन दिव्य विभूतियों और योग के तत्त्व को यथार्थ रूप में जानता है, वह अविचलित योग से मुझसे जुड़ा रहता है; इसमें कोई संदेह नहीं।",
+      english: "He who comprehends in truth this glory and power of Mine, is united with Me through unfaltering Yoga. Of this there is no doubt."
+    },
+    {
+      id: "10.8",
+      sanskrit: "अहं सर्वस्य प्रभवो मत्तः सर्वं प्रवर्तते |\nइति मत्वा भजन्ते मां बुद्धा भावसमन्विताः ||१०-८||",
+      hindi: "मैं ही सबका उद्गम हूँ; मुझसे ही सब कुछ प्रवाहित होता है। यह जानकर बुद्धिमान भक्त प्रेम से मेरी पूजा करते हैं।",
+      english: "I am the source of all spiritual and material worlds. Everything emanates from Me; the wise who know this perfectly engage in My devotional service and worship Me with all their hearts."
+    },
+    {
+      id: "10.9",
+      sanskrit: "मच्चित्ता मद्गतप्राणा बोधयन्तः परस्परम् |\nकथयन्तश्च मां नित्यं तुष्यन्ति च रमन्ति च ||१०-९||",
+      hindi: "मेरा चिन्तन करने वाले, मुझमें जीवन समर्पित करने वाले, एक-दूसरे को उपदेश देते हैं और मेरी महिमा का वर्णन करके सन्तुष्ट और आनन्दित होते हैं।",
+      english: "The thoughts of My pure devotees dwell in Me, their lives are fully devoted to My service, and they derive great satisfaction and bliss from always enlightening one another and conversing about Me."
+    },
+    {
+      id: "10.10",
+      sanskrit: "तेषां सततयुक्तानां भजतां प्रीतिपूर्वकम् |\nददामि बुद्धियोगं तं येन मामुपयान्ति ते ||१०-१०||",
+      hindi: "जो हमेशा भक्ति में लगे रहते हैं, उन्हें मैं वह बुद्धियोग देता हूँ जिससे वे मुझे प्राप्त कर लेते हैं।",
+      english: "To those who are constantly devoted to serving Me with love, I give the understanding by which they can come to Me."
+    },
+    {
+      id: "10.11",
+      sanskrit: "तेषामेवानुकम्पार्थमहमज्ञानजं तमः |\nनाशयाम्यात्मभावस्थो ज्ञानदीपेन भास्वता ||१०-११||",
+      hindi: "उन पर दया करके, मैं उनके भीतर स्थित होकर, अज्ञान के अंधकार को ज्ञान के उज्ज्वल दीप से दूर करता हूँ।",
+      english: "To show them special mercy, I, dwelling in their hearts, destroy with the shining lamp of knowledge the darkness born of ignorance."
+    },
+    {
+      id: "10.12",
+      sanskrit: "अर्जुन उवाच |\nपरं ब्रह्म परं धाम पवित्रं परमानम् |\nपुरुषं शाश्वतं दिव्यमादिदेवमजं विभुम् ||१०-१२||",
+      hindi: "अर्जुन ने कहा: आप परम ब्रह्म, परम धाम, परम पवित्र आत्मा, सनातन पुरुष, दिव्य आदि-देव, अजन्मा और सर्वव्यापी हैं।",
+      english: "Arjuna said: You are the Supreme Brahman, the ultimate abode, the purest, the Absolute Truth. You are the eternal, transcendental, original Person, the unborn, the greatest."
+    },
+    {
+      id: "10.13",
+      sanskrit: "आहुस्त्वामृषयः सर्वे देवर्षिर्नारदस्तथा |\nअसितो देवलो व्यासः स्वयं चैव ब्रवीषि मे ||१०-१३||",
+      hindi: "ऋषि, देवर्षि नारद, असित, देवल, व्यास—सभी आपकी दिव्यता का वर्णन करते हैं, और आप स्वयं भी ऐसा कहते हैं।",
+      english: "All the great sages such as Narada, Asita, Devala, and Vyasa proclaim this of You, and now You Yourself are declaring it to me."
+    },
+    {
+      id: "10.14",
+      sanskrit: "सर्वमेतदृतं मन्ये यन्मां वदसि केशव |\nन हि ते भगवन्व्यक्तिं विदुर्देवा न दानवाः ||१०-१४||",
+      hindi: "हे केशव! जो कुछ भी आप मुझसे कह रहे हैं, उसे मैं सत्य मानता हूँ। न तो देवगण और न ही असुरगण आपकी दिव्यता को जान सकते हैं।",
+      english: "O Krishna, I totally accept as truth all that You have told me. Neither the gods nor demons, O Lord, know Thy personality."
+    },
+    {
+      id: "10.15",
+      sanskrit: "स्वयमेवात्मानं वेत्थ त्वं पुरुषोत्तम |\nभूतभावन भूतेश देवदेव जगत्पते ||१०-१५||",
+      hindi: "हे पुरुषोत्तम! केवल आप ही अपने-आप को जानते हैं, क्योंकि आप समस्त जीवों के उत्पन्नकर्ता, स्वामी, देवों के देव एवं जगत के अधिपति हैं।",
+      english: "Indeed, You alone know Yourself by Your own internal potency, O Supreme Person, origin of all beings, Lord of all beings, God of gods, Lord of the universe!"
+    },
+    {
+      id: "10.16",
+      sanskrit: "वक्तुमर्हस्यशेषेण दिव्या ह्यात्मविभूतयः |\nयाभिर्विभूतिभिर्लोकानिमांस्त्वं व्यापक्श्य ||१०-१६||",
+      hindi: "कृपया मुझे विस्तार से अपनी दिव्य विभूतियों का वर्णन करें, जिनके द्वारा आप इन समस्त लोकों में व्याप्त हैं।",
+      english: "Please tell me in detail of Your divine powers, by which You pervade all these worlds."
+    },
+    {
+      id: "10.17",
+      sanskrit: "कथं विद्यामहं योगिंस्त्वां सदा परिचिन्तयन् |\nकेषु केषु च भावेषु चिन्त्योऽसि भगवन्मया ||१०-१७||",
+      hindi: "हे योगेश्वर! मैं किस तरह निरंतर आपका ध्यान करूं और आपको जानूं? मुझे यह विस्तार से बताइए।",
+      english: "How should I meditate on You? In what various forms are You to be thought of, O Blessed Lord?"
+    },
+    {
+      id: "10.18",
+      sanskrit: "विस्तरेणात्मनो योगं विभूतिं च जनार्दन |\nभूयः कथय तृप्तिर्हि श्रृण्वतो नास्ति मेऽमृतम् ||१०-१८||",
+      hindi: "हे जनार्दन! अपनी योगशक्ति और विभूतियों का फिर से विस्तार से वर्णन कीजिए। मुझे सुनकर कभी तृप्ति नहीं होती।",
+      english: "Please describe again in detail, Your mystic power and opulences, for I am never satiated in hearing Your nectar."
+    },
+    {
+      id: "10.19",
+      sanskrit: "श्रीभगवानुवाच |\nहन्त ते कथयिष्यामि दिव्या ह्यात्मविभूतयः |\nप्राधान्यतः कुरुश्रेष्ठ नास्त्यन्तो विस्तरस्य मे ||१०-१९||",
+      hindi: "श्रीभगवान् बोले: हे कुरुश्रेष्ठ अर्जुन! अब मैं अपनी मुख्य-मुख्य दिव्य विभूतियाँ कहूँगा; मेरा विस्तार का कोई अंत नहीं।",
+      english: "The Blessed Lord said: Yes, I will tell you of My special divine manifestations. O best of the Kurus, for there is no end to My expansions."
+    },
+    {
+      id: "10.20",
+      sanskrit: "अहमात्मा गुडाकेश सर्वभूताशयस्थितः |\nअहमादिश्च मध्यं च भूतानामन्त एव च ||१०-२०||",
+      hindi: "हे गुडाकेश! मैं समस्त जीवों के हृदय में स्थित आत्मा हूँ। मैं ही जीवों का आदि, मध्य और अंत हूँ।",
+      english: "I am the Self, O Gudakesha, seated in the hearts of all creatures. I am the beginning, the middle, and the end of all beings."
+    },
+    {
+      id: "10.21",
+      sanskrit: "आदित्यानामहं विष्णुर्ज्योतिषां रविरंशुमान् |\nमरीचिर्मरुतामस्मि नकषत्राणामहं शशी ||१०-२१||",
+      hindi: "मैं आदित्यों में विष्णु हूँ, प्रकाशों में तेजस्वी सूर्य, मरुतों में मरीचि हूँ और नक्षत्रों में चंद्रमा हूँ।",
+      english: "Of the Adityas I am Vishnu; of lights I am the radiant sun; of the Maruts I am Marichi; among stars I am the moon."
+    },
+    {
+      id: "10.22",
+      sanskrit: "वेदनां सामवेदोऽस्मि देवानामस्मि वासवः |\nइन्द्रियाणां मनश्चास्मि भूतानामस्मि चेतना ||१०-२२||",
+      hindi: "वेदों में मैं सामवेद हूँ, देवों में इन्द्र हूँ, इन्द्रियों में मन हूँ और प्राणियों में चेतना हूँ।",
+      english: "Of the Vedas I am the Sama-veda; of the demigods I am Indra; of the senses I am the mind, and in living beings I am consciousness."
+    },
+    {
+      id: "10.23",
+      sanskrit: "रुद्राणां शंकरश्चास्मि वित्तेशो यक्षरक्षसाम् |\nवसूनां पावकश्चास्मि मेरुः शिखरिणामहम् ||१०-२३||",
+      hindi: "रुद्रों में मैं शंकर हूँ, यक्षों में कुबेर हूँ, वसुओं में अग्नि हूँ और पर्वतों में मेरु हूँ।",
+      english: "Of all the Rudras I am Shiva, of the Yaksas and Rakshasas I am the lord of wealth (Kubera), of Vasus I am fire, and of mountains I am Meru."
+    },
+    {
+      id: "10.24",
+      sanskrit: "पूरोधसां च मुख्यं मां विद्धि पार्थ बृहस्पतिम् |\nसेनानीनामहं स्कन्दः सरसामस्मि सागरः ||१०-२४||",
+      hindi: "पुरोहितों में मैं बृहस्पति हूँ, सेनापतियों में कार्तिकेय (स्कंद) हूँ, और जलाशयों में समुद्र हूँ।",
+      english: "Of priests, O Arjuna, know Me to be the chief, Brihaspati; of commanders I am Skanda; of bodies of water I am the ocean."
+    },
+    {
+      id: "10.25",
+      sanskrit: "महर्षीणां भरद्वाजोऽहं गिरामस्म्येकमक्षरम् |\nयज्ञानां जपयज्ञोऽस्मि स्थावराणां हिमालयः ||१०-२५||",
+      hindi: "महर्षियों में मैं भरद्वाज हूँ, वाणियों में एक अक्षर (ओंकार) हूँ, यज्ञों में जप-यज्ञ हूँ, और स्थावरों में हिमालय हूँ।",
+      english: "Of the great sages I am Bhrigu; of vibrations I am the transcendental Om. Of sacrifices I am the chanting of the holy names [japa], and of immovable things I am the Himalayas."
+    },
+    {
+      id: "10.26",
+      sanskrit: "अश्वत्थः सर्ववृक्षाणां देवर्षीणां च नारदः |\nगन्धर्वाणां चित्ररथः सिद्धानां कपिलो मुनिः ||१०-२६||",
+      hindi: "वृक्षों में मैं अश्वत्थ (पीपल) हूँ, देवर्षियों में नारद हूँ, गंधर्वों में चित्ररथ हूँ, और सिद्धों में कपिल मुनि हूँ।",
+      english: "Of all trees I am the pippal (Ashvattha); among divine sages I am Narada; of Gandharvas I am Chitraratha; among perfected beings I am the sage Kapila."
+    },
+    {
+      id: "10.27",
+      sanskrit: "उच्चैःश्रवसमश्वानां विद्धि माममृतोद्भवम् |\nऐरावतं गजेन्द्राणां नराणां च नराधिपम् ||१०-२७||",
+      hindi: "घोड़ों में मैं अमृत से उत्पन्न उच्चैःश्रवा हूँ; हाथियों में ऐरावत हूँ, और मानवों में राजा हूँ।",
+      english: "Of horses know Me to be Uchchaihshravas, produced during the churning of the ocean for nectar; of elephants I am Airavata, and among men, I am the monarch."
+    },
+    {
+      id: "10.28",
+      sanskrit: "आयुधानामहं वज्रं धेनूनामस्मि कामधुक् |\nप्रजनश्चास्मि कन्दर्पः सर्पाणामस्मि वासुकिः ||१०-२८||",
+      hindi: "अस्त्रों में मैं वज्र हूँ, गायों में कामधेनु हूँ, सन्तानों में कामदेव हूँ, और सर्पों में वासुकि हूँ।",
+      english: "Among weapons I am the thunderbolt; among cows I am Kamadhenu; I am the cause of procreation, and among serpents I am Vasuki."
+    },
+    {
+      id: "10.29",
+      sanskrit: "अनन्तश्चास्मि नागानां वरुणो यादसामहम् |\nअर्यमा पितृणामस्मि यमः संयमतामहम् ||१०-२९||",
+      hindi: "नागों में मैं अनंत हूँ, जलचरों में वरुण हूँ, पितरों में अर्यमा हूँ, और नियंत्रकों में यमराज हूँ।",
+      english: "Of the many-hooded Nagas I am Ananta; among aquatics I am Varuna; among departed ancestors I am Aryama; among dispensers of law I am Yama."
+    },
+    {
+      id: "10.30",
+      sanskrit: "प्रह्लादश्चास्मि दैत्यानां कालः कलयतामहम् |\nमृगाणां च मृगेन्द्रोऽहं वैनतेयश्च पक्षिणाम् ||१०-३०||",
+      hindi: "दैत्यगणों में मैं प्रह्लाद हूँ, समय का प्रतिनिधि हूँ, पशुओं में सिंह हूँ, और पक्षियों में गरुड़ हूँ।",
+      english: "Among the Daityas I am Prahlada; among subduers I am time; among beasts I am the lion; among birds I am Garuda."
+    },
+    {
+      id: "10.31",
+      sanskrit: "पवनः पवतामस्मि रामः शस्त्रभृतामहम् |\nझषाणां मकरश्चास्मि स्रोतसामस्मि जाह्नवी ||१०-३१||",
+      hindi: "शुद्ध करने वालों में वायु हूँ; योद्धाओं में राम हूँ; मछलियों में मत्स्यराज (मकर) हूँ; नदियों में गंगा हूँ।",
+      english: "Of purifiers I am the wind; of the wielders of weapons I am Rama; among fishes I am the shark, and of flowing rivers I am the Ganges."
+    },
+    {
+      id: "10.32",
+      sanskrit: "सर्गाणामादिरन्तश्च मध्यं चैवाहमर्जुन |\nअध्यात्मविज्ञानविद्यानां वादः प्रवदतामहम् ||१०-३२||",
+      hindi: "सृजन में आदि, मध्य और अंत मैं हूँ; अध्यात्मविद्या में विज्ञान हूँ; विवाद में मैं तर्क हूँ।",
+      english: "Of all creations, I am the beginning and the end and also the middle, O Arjuna; of sciences I am the science of the self, and among logicians I am the conclusive truth."
+    },
+    {
+      id: "10.33",
+      sanskrit: "अक्षराणामकारोऽस्मि द्वंद्वः सामासिकस्य च |\nअहमेवाक्षयः कालो धर्मवृन्दो वृणीत तम् ||१०-३३||",
+      hindi: "अक्षरों में मैं 'अ' हूँ, समासों में द्वंद्व समास हूँ, मैं ही अन्त रहित काल हूँ, और धर्मों का समूह भी मैं ही हूँ।",
+      english: "Of letters I am the letter 'A', and among compound words I am the dual compound. I am also inexhaustible time, and I am the creator facing everywhere."
+    },
+    {
+      id: "10.34",
+      sanskrit: "मृत्युः सर्वहरश्चाहमुद्भवश्च भविष्यताम् |\nकीर्तिः श्रीर्वाक्च नारीणां स्मृतिर्मेधा धृतिः क्षमा ||१०-३४||",
+      hindi: "मैं सबका सर्वनाश करने वाला मृत्यु हूँ, और उत्पन्न होने वालों का जन्म भी हूँ; स्त्रियों में कीर्ति, श्री, वाणी, स्मृति, मेधा, धैर्य और क्षमा हूँ।",
+      english: "I am all-devouring death, and I am the generating principle of all that is yet to be. Among women, I am fame, fortune, speech, memory, intelligence, steadfastness, and patience."
+    },
+    {
+      id: "10.35",
+      sanskrit: "बृहत्साम तथा साम्नां गायत्री छन्दसामहम् |\nमासानां मार्गशीर्षोऽहमृतूनां कुसुमाकरः ||१०-३५||",
+      hindi: "सामवेद के भजनों में बृहत्साम और छन्दों में गायत्री हूँ; महीनों में मार्गशीर्ष हूं और ऋतुओं में वसंत हूँ।",
+      english: "Of hymns in the Sama Veda I am the Brihat-sama, of metres I am the Gayatri. Of months I am Margashirsha (November-December), and of seasons I am spring."
+    },
+    {
+      id: "10.36",
+      sanskrit: "द्यूतं छलयतामस्मि तेजस्तेजस्विनामहम् |\nजयोऽस्मि व्यवसायोऽस्मि सत्त्वं सत्त्ववतामहम् ||१०-३६||",
+      hindi: "धोखे करने वालों में मैं जुआ हूँ; तेजस्वियों में तेज हूँ; विजय मैं हूँ; निश्चय मैं हूँ; और सद्गुणी पुरुषों में सत् मैं हूँ।",
+      english: "I am also the gambling of cheats, and of the splendid I am the splendor. I am victory, I am adventure, and I am the strength of the strong."
+    },
+    {
+      id: "10.37",
+      sanskrit: "वृष्णीनां वासुदेवोऽस्मि पाण्डवानां धनञ्जयः |\nमुनीनामप्यहं व्यासः कवीनामुशना कविः ||१०-३७||",
+      hindi: "वृष्णिवंशी में मैं वासुदेव (कृष्ण) हूँ; पाण्डवों में अर्जुन हूँ; मुनियों में व्यास हूँ; और कवियों में शुक्राचार्य हूँ।",
+      english: "Among the Vrishnis I am Vasudeva; among the Pandavas I am Arjuna; among sages I am Vyasa; and among poets I am Ushanas."
+    },
+    {
+      id: "10.38",
+      sanskrit: "दण्डो दमयतामस्मि नीतिरस्मि जिगीषताम् |\nमौनं चैवास्मि रहस्यानां ज्ञानं ज्ञानवतामहम् ||१०-३८||",
+      hindi: "दण्ड देने वालों में मैं दण्ड हूँ; विजय चाहने वालों में नीति हूँ; रहस्यों में मौन हूँ; और ज्ञानियों में ज्ञान हूँ।",
+      english: "Among all means of suppressing lawlessness I am punishment, and among those who seek victory I am morality. Among secrets I am silence, and among wise I am wisdom."
+    },
+    {
+      id: "10.39",
+      sanskrit: "यच्चापि सर्वभूतानां बीजं तदहमर्जुन |\nन तदस्ति विना यत्स्यान्मया भूतं चराचरम् ||१०-३९||",
+      hindi: "हे अर्जुन! समस्त प्राणियों का जो भी बीज है, वह मैं ही हूँ। मेरे बिना कोई भी चराचर जीवित नहीं रहता।",
+      english: "Furthermore, O Arjuna, I am the generating seed of all existences. There is no being—moving or nonmoving—that can exist without Me."
+    },
+    {
+      id: "10.40",
+      sanskrit: "नान्तोऽस्ति मम दिव्यानां विभूतिनां परन्तप |\nएष तूद्देशतः प्रोक्तो विभूतेर्विस्तरो मया ||१०-४०||",
+      hindi: "हे परन्तप अर्जुन! मेरी दिव्य विभूतियों का कोई अन्त नहीं है; मैंने तुझे अपने विभूतियों का संक्षिप्त वर्णन किया है।",
+      english: "O conqueror of enemies, there is no end to My divine manifestations. What I have spoken to you is but a mere indication of My infinite opulences."
+    },
+    {
+      id: "10.41",
+      sanskrit: "यद्यद्विभूतिमत्सत्त्वं श्रीमदूर्जितमेव वा |\nतत्तदेवावगच्छ त्वं मम तेजोंऽशसम्भवम् ||१०-४१||",
+      hindi: "जो भी विभूतियुक्त, समृद्ध या तेजस्वी वस्तु है, वह मेरी तेज का अंश है—यह जान ले।",
+      english: "Know that all opulent, beautiful and glorious creations spring from but a spark of My splendor."
+    },
+    {
+      id: "10.42",
+      sanskrit: "अथवा बहुनैतेन किं ज्ञातेन तवार्जुन |\nविष्टभ्याहमिदं कृत्स्नमेकांशेन स्थितो जगत् ||१०-४२||",
+      hindi: "हे अर्जुन! इतने से तुझे क्या लाभ? मैं अपने एक अंश से इस सम्पूर्ण जगत को धारित करता हूँ।",
+      english: "But what need is there, Arjuna, for all this detailed knowledge? With a single fragment of Myself I pervade and support this entire universe."
+    }
+  ]
+},
+{
+  chapter: 11,
+  title: "विश्वरूपदर्शन योग",
+  english_title: "The Yoga of the Vision of the Cosmic Form",
+  verses: [
+    {
+      id: "11.1",
+      sanskrit: "तस्यैवात्म्यतिरेकेण किं पुनर्ज्ञानमुच्यते |\nविषीदसि मत्प्रेति न तु मे सखा मृष्यसे ||११-१||",
+      hindi: "हे मेरे परम सखा! उस दिव्य स्वरूप को देखकर यदि तुम मोहग्रस्त होकर हतोत्साहित हो रहे हो और मुझसे दूर हो रहे हो, तो यह उचित नहीं है।",
+      english: "If you become disheartened seeing My universal form, why should you not be disheartened? Do not grieve, because friendship with Me is unbroken."
+    },
+    {
+      id: "11.2",
+      sanskrit: "ततो मे याचितः श्रीर्मामक्षूपी महात्मनः |\nद्वादश रूपाणि कृष्ण पश्यमि मग्नमेदसः ||११-२||",
+      hindi: "तब हे महात्मा! आपसे विद्या के लिए प्रार्थना करते हुए मैंने कहा – हे कृष्ण! मैं आपकी बारह रूपें दशानन स्वरूप में देखता हूं, कृपया और रूप दिखायें।",
+      english: "Then the blessed Lord Sri Krishna said: O Arjuna, I will now describe My divine manifestations, beginning with the twelve forms with great heads that you saw."
+    },
+    {
+      id: "11.3",
+      sanskrit: "अर्जुन उवाच |\nमदानीं त्वया ददर्श विश्वरूपं महात्मनः |\nदिव्यं दशनयनं दिव्यं सर्वলোকव्यापिनम् ||११-३||",
+      hindi: "अर्जुन बोले: हे महात्मा! मैंने तुम्हारा यह दिव्य, अनेक नेत्रों और सब लोकों में फैला हुआ विराट स्वरूप अभी अभी देखा।",
+      english: "Arjuna said: O Mighty One, I have just now seen Your divine cosmic form with its many faces, eyes and wondrous sights, displaying forms of many colors and arrays."
+    },
+    {
+      id: "11.4",
+      sanskrit: "एवं दيدृशे तिमिरे मां वाचं कृत्वा हरिश्चरः |\nप्रणम्य स्वयम्भूमेन विस्मितो ममांशुसः ||११-४||",
+      hindi: "इस प्रकार विराट रूप देखकर तुमने मुझसे बात की, मैं स्वयम्भू के सम्मुख नमस्कार कर, तुम्हारे तेवर देखकर विस्मित हो गया।",
+      english: "After seeing Me thus, O Arjuna, you spoke to Me, bowing before Me, astonished by My great radiance."
+    },
+    {
+      id: "11.5",
+      sanskrit: "एवं दिदृक्षः शौर्यं तेजः शोभां च भास्करः |\nसर्वैर्मुनिभिः संयुता दैवताः स्तुवन्ति मामकम् ||११-५||",
+      hindi: "हे भास्कर (सूर्य)! आपने जो पराक्रम, तेज और शोभा का अवतार देखा, वह सभी मुनियों और देवताओं द्वारा प्रशंसित है।",
+      english: "Beholding My heroic power and brilliant features, all the great sages and divine beings worship Me with reverence."
+    },
+    {
+      id: "11.6",
+      sanskrit: "देवाः सर्वे नरर्षिभिः सुकृतिनो मदाश्रिताः |\nजघृनु मां दृढभक्त्या तमुवाच परमं मम ||११-६||",
+      hindi: "मेरा पूजन करते हुए सभी देव, मुनि एवं भाग्यशाली जीव दृढ़ भक्ति से मुझे देखकर बोले कि तुम परम हो।",
+      english: "All the celestial gods and sages, devoted to Me with firm faith, began to praise Me as the Supreme Absolute."
+    },
+    {
+      id: "11.7",
+      sanskrit: "पश्यामि देहिनां देवांश्च सर्वांस्तथैव च मानवाः |\nपश्यमि पार्थ जगत्कृत्स्नमिमं दिव्यं रूपमैश्वरम् ||११-७||",
+      hindi: "हे पार्थ! मैं समस्त देवताओं, मनुष्यों, और सृष्टि के प्राणियों का दिव्य और महान रूप देख रहा हूँ।",
+      english: "O Partha, I see all the gods, all humans and all beings, and this entire cosmic form of Yours, O Supreme."
+    },
+    {
+      id: "11.8",
+      sanskrit: "पश्यामि च तव दैवतं रूपं परमं राजधानीम |\nअनेकवक्त्रं अनेकाद्भुतं अनेकदिव्याभरणम् ||११-८||",
+      hindi: "मैं तुम्हारा परम दिव्य रूप देखता हूँ जिसमें अनेक मुख, अनेक भयंकर रूप और अनेक प्रकार के दिव्य आभूषण हैं।",
+      english: "I see Your divine universal form, with many faces, many eyes, many wondrous forms, and adorned with many divine ornaments."
+    },
+    {
+      id: "11.9",
+      sanskrit: "नानावर्णं नभनसि दिवि नानावृत्तिं च पृथिवीम् |\nनानाविधान च देवता: सन्तस्ते देवदर्शनम् ||११-९||",
+      hindi: "मैं देखता हूँ कि आकाश में और पृथ्वी में अनेक रंग और अनेक आकार हैं, सभी देवता तुम्हारे इस रूप को देख रहे हैं।",
+      english: "In the sky and on earth are numerous colors and forms; multitudes of gods behold this wondrous form of Yours."
+    },
+    {
+      id: "11.10",
+      sanskrit: "इदं तव महत्सत्त्वस्य दर्शनं ददामि ते |\nइहैवाभूदितं गुह्यमेकं वक्ष्याम्यश्च मे ||११-१०||",
+      hindi: "हे अर्जुन! मैं तुम्हें यह मेरा विराट रूप दिखाता हूँ जो दुर्लभ है। अभी मैं तुम्हें मेरी उस अद्भुत प्रकृति का रहस्य बताऊंगा।",
+      english: "O Arjuna, I reveal to you this great cosmic form, rare and difficult to see. Now I will tell you more about My wondrous nature."
+    },
+    {
+      id: "11.11",
+      sanskrit: "विश्चितायमानो मुहूर्तं दर्शनानां मेरे कुतूहलम् |\nसर्वान्भूतान् तव रूपं समं चापि विश्वरूपम् ||११-११||",
+      hindi: "मैं थोड़ी देर के लिए भी तुम्हारे अद्भुत विराट रूप को देखकर दंग रह गया, जो समस्त जीवों का एकरूप है।",
+      english: "For a moment, I marveled at Your wondrous universal form, seeing all beings and the entire cosmic manifestation."
+    },
+    {
+      id: "11.12",
+      sanskrit: "अवक्तव्यं मया तत्त्वतः विश्वरूपं महात्मनः |\nदृश्यते मेऽयं रूपः पश्य शूरोऽहं त्वां समाहितम् ||११-१२||",
+      hindi: "मेरा यह विराट रूप तत्त्वतः अवर्णनीय है, हे शूरवीर! मैं सांत्वना करता हूँ और तुम्हें ऐसा सोचकर देख रहा हूँ।",
+      english: "This cosmic form of Yours is indescribable in truth. O valiant one, I behold you with composed mind and heart."
+    },
+    {
+      id: "11.13",
+      sanskrit: "न ते विदुः सुरगणाः प्रभवं न महर्षयः |\nअहं ब्रह्मास्मि सर्वस्य प्रभव सर्वमित्युत्तमम् ||११-१३||",
+      hindi: "हे भगवान! देवगण और महर्षि भी आपकी उत्पत्ति को नहीं जानते हैं। आप सर्वप्रभु, सर्वव्यापी और ब्रह्म के सर्वोच्च रूप हैं।",
+      english: "O Lord, neither the gods nor the great sages know Your origin. You are Brahman, the source of all, the supreme cause of all."
+    },
+    {
+      id: "11.14",
+      sanskrit: "अनेकवक्त्रं अनेकाद्भुजं अनेकपादपद्मम् |\nसत्त्वमात्मामसि देव सकलामसि देवदेव ||११-१४||",
+      hindi: "तुम कई मुखों और भुजाओं वाले, अनेक पद और पद्मों के साथ हो, तुम समस्त देवों के देव होने के साथ आत्मा और प्रकृति का स्वरूप हो।",
+      english: "You are the one with many faces, arms, and feet, and You possess all divine qualities. You are the God of gods, the soul and nature of all."
+    },
+    {
+      id: "11.15",
+      sanskrit: "न च मां तं दृष्ट्वाऽत्र निगूढं रूपमव्ययं |\nनातिमृगतृष्णोऽसति न च मे द्रोणोऽस्ति किं चन ||११-१५||",
+      hindi: "मैंने तुम्हारे इस अद्भुत आतत्मिक रूप को पहले कभी नहीं देखा है। मैं न कोई मृगमरीचिका हूँ, न मेरे मन में कोई भ्रम है।",
+      english: "I have never before seen this mystic, imperishable form of Yours. I am not under any illusion nor do I have any doubt, O Lord."
+    },
+    {
+      id: "11.16",
+      sanskrit: "भयमिहैव विजानीयां तव दैविरोधिनः सभाम् |\nएवमुक्तस्त्वया कृष्ण परमं व्यथितो ह्यहम् ||११-१६||",
+      hindi: "हे कृष्ण! तुम्हारे विरोधियों के संप्रदाय को देखकर मैं आज भयभीत हूँ। तुमसे ऐसा बोलकर मैं अत्यंत व्यथित हूँ।",
+      english: "Seeing your hostile assembly, O Krishna, I am terrified and deeply disturbed while speaking to You thus."
+    },
+    {
+      id: "11.17",
+      sanskrit: "एष मां दुःखमदं जन्म योगोऽयं जगतोऽस्मि मम |\nअनेन तु न विन्देयं वृतिं विजितात्मनाम् ||११-१७||",
+      hindi: "यह संसार मेरा दुःख का कारण है, यह जन्म मेरा योग है। इससे मैं अपने मनोबलविहीन मन को नहीं जीत पाता।",
+      english: "This birth and existence cause me grief, O Krishna; this is the course of the world. I cannot overcome this weakness with my own resolve."
+    },
+    {
+      id: "11.18",
+      sanskrit: "मत्तः परतरं नान्यत्किञ्चिदस्ति धनञ्जय |\nइमं विश्वमिमं विभूतिं मां तूंशि पार्थ सदाशिवम् ||११-१८||",
+      hindi: "धनंजय! आपके अतिरिक्त कोई भी मुझे नहीं जानता। हे पार्थ! आप मुझे कल्याणकारी और आप धर्मरूप हैं, इस विराट रूप को दिखा रहे हैं।",
+      english: "O Dhananjaya, there is none superior to Me. O Partha, You show Me this cosmic manifestation of Yours, O eternal auspicious one."
+    },
+    {
+      id: "11.19",
+      sanskrit: "एष तेजश्च भूय इदं मम विभूतितस्त्वया |\nश्रीर्विजयः शोकोऽथवा भयं चैव न च मे ऽस्ति ||११-१९||",
+      hindi: "यह तुम्हारी विभूतियों में से प्रचण्ड तेज है, और मेरे लिए यह सौभाग्य, विजय, शोक, एवं भय में से कुछ नहीं है।",
+      english: "This dazzling splendor of Yours is greatly beyond measure. For Me there is no fortune or victory, no grief or fear."
+    },
+    {
+      id: "11.20",
+      sanskrit: "त्वया समर्थो हि मे देव दैत्यश्चास्मि त्वया प्रसक्तः |\nतस्य वधार्थे कृतं चेष्टं तव च बलं तथा ||११-२०||",
+      hindi: "मैं शक्ति से भरा हूँ इसलिए मैं तुम्हारा समीप हूँ। मैं उन दैत्यों की हत्या करता हूँ जिसकी इच्छा तुम्हारी शक्ति से है।",
+      english: "Because of Your unlimited strength, I am attached to You, O God. My powers and endeavors are only for the destruction of demons by Your grace."
+    },
+    {
+      id: "11.21",
+      sanskrit: "यो मे पार्थ कृपया परयाऽप्सु प्रसादयति सत्त्वत: |\nस त्वयि नमस्यति सर्वान् पश्यति च मे चेद्यम् ||११-२१||",
+      hindi: "हे पार्थ! जो व्यक्ति मुझ पर करुणा करते हुए सच्चे मन से मुझे प्रसन्न करता है, वह मुझे सर्वस्व समझता है, मुझे नमस्कार करता है और मुझे देखता है।",
+      english: "O Partha, whoever sincerely worships Me with love and devotion, that person sees Me in all beings and all beings in Me."
+    },
+    {
+      id: "11.22",
+      sanskrit: "न मां पार्थ दैत्येन्द्रस्य प्राणिनश्चास्मि चालयन् |\nन चैव मे मां भक्त्या कश्चिद्दीयते सुखी भवेत् ||११-२२||",
+      hindi: "हे पार्थ! मैं दैत्यों का निंदक नहीं हूँ, न जीवों को विनाश करने वाला हूँ। और मेरी भक्ति से कोई दुखी नहीं होता।",
+      english: "O Partha, I am not disturbing the lives of the demon king and others, nor does anyone become joyful without devotion to Me."
+    },
+    {
+      id: "11.23",
+      sanskrit: "न मे पार्थ दैत्येन्द्रस्य प्राणिनश्चास्मि चालयन् |\nन चैव मे मां भक्त्या कश्चिद्दीयते सुखी भवेत् ||११-२३||",
+      hindi: "मैं दैत्यों के प्राणों को नष्ट नहीं करता, और जो मुझे भक्ति से नहीं पूजते वे सुखी नहीं हो सकते।",
+      english: "O Partha, I neither destroy the lives of the leaders of the demons nor does anyone who is not devoted to Me achieve true happiness."
+    },
+    {
+      id: "11.24",
+      sanskrit: "ध्यायतो विषयान्पुंसः सङ्गस्तेषूपजायते |\nसङ्गात्सञ्जायते कामः कामात्क्रोधोऽभिजायते ||११-२४||",
+      hindi: "जो व्यक्ति विषयों का ध्यान करता है, उसमें आसक्ति उत्पन्न होती है, उससे काम होता है, और काम से क्रोध उत्पन्न होता है।",
+      english: "One who contemplates the objects of the senses develops attachment to them; from attachment desire develops, and from desire anger arises."
+    },
+    {
+      id: "11.25",
+      sanskrit: "क्रोधाद्भवान्निज्जन्म पापं प्रजायते फलम् |\nतस्माद्ध्यायतो विषयान्पुंसः सङ्गस्तेषूपजायते ||११-२५||",
+      hindi: "क्रोध से व्यक्ति के जन्मों के पापों का फल उत्पन्न होता है। इसलिए विषयों का ध्यान करने वाला मनुष्य आसक्त हो जाता है।",
+      english: "Out of anger, the whole creation of sinful actions arises in this birth. Therefore, one who meditates on the objects of the senses becomes attached to them."
+    },
+    {
+      id: "11.26",
+      sanskrit: "तस्मादसक्तः सततं कार्यं कर्म समाचर |\nअसङ्गः समाहितात्मा कर्म रुपं प्रकुरुते ||११-२६||",
+      hindi: "इसलिए इस संसार में आसक्ति रहित होकर, समर्पित होकर, हमेशा अपने कर्मों का पालन करो। आसक्ति से रहित और एकाग्रचित्त व्यक्ति कर्म के रूप में अपना कार्य करता है।",
+      english: "Therefore, without attachment, perform your obligatory duty constantly, O Arjuna, because by performing action without attachment one attains the supreme."
+    },
+    {
+      id: "11.27",
+      sanskrit: "मामुपेत्य पुनर्जन्म न विद्यतेऽमरस्य च |\nमामेवैष्यसि युक्त्वैव मत्परायणः पदम् ||११-२७||",
+      hindi: "जो मुझसे जुड़ा हुआ है, वह फिर जन्म नहीं लेता, क्योंकि मैं अमर हूँ। केवल जो मुझमें पूर्ण रूप से लीन रहता है, वह मुझे प्राप्त होता है।",
+      english: "If you become devoted to Me with single-minded devotion, you will obtain Me without doubt. After attaining Me, you will never take birth again."
+    },
+    {
+      id: "11.28",
+      sanskrit: "कामान्कामरूपाणां वेषां भेदमिमं पर्यश्यसि |\nतस्मिन् त्वामदं कौन्तेय दर्शने मत्परायणम् ||११-२८||",
+      hindi: "हे कुन्तीपुत्र! तुम देख रहे हो कि से सभी इच्छाएं और रूप भेद-भेद हैं। इसलिए मेरे दिव्य दर्शन में तुम मुझमें तल्लीन हो जाओ।",
+      english: "O son of Kunti, you can see many diverse forms and desires. Therefore, always remain absorbed in Me and My divine vision."
+    },
+    {
+      id: "11.29",
+      sanskrit: "ाभ्यर्च्य पूजां दैव्या मां सुरैर्हविषि च जायते |\nतस्मिन्नर्थे त्वं राज्यं स पश्यति समन्वितः ||११-२९||",
+      hindi: "जो सूर्य, देवताओं और यज्ञों द्वारा पूजित होता हूँ, वही राज्य और प्रजा को देख सकता है।",
+      english: "One who worships Me with faith and devotion, honored by the gods and sacrificial fire, obtains kingship over the earth."
+    },
+    {
+      id: "11.30",
+      sanskrit: "पश्यामि त्वां सर्वतोमुखं सर्वस्य त्वं राजधानी |\nसदृशी त्वां तव दिव्यं विभूतिं पाहि मां प्रभो ||११-३०||",
+      hindi: "हे प्रभो, मैं तुम्हें हर ओर देखता हूँ, तुम सभी लोकों में छाए हुए हो। अपनी दिव्य विभूतियों से मुझे सुरक्षित करो।",
+      english: "I see You everywhere, O Supreme One; You pervade all worlds. Please protect me with Your divine powers."
+    },
+    {
+      id: "11.31",
+      sanskrit: "ज्योतिषां च तिमिरं च मम स्वरूपमर्जुन ||\nमारिष्वास्मि निहतश्चैव पश्यामि च त्वां विचित्रम् ||११-३१||",
+      hindi: "मेरा रूप पूरे ब्रह्मांड का प्रकाश और अंधकार है। हे अर्जुन! मैं तुम्हें इस विचित्र रूप में देखता हूँ जो मारता है और विनाश करता है।",
+      english: "I see You as the light and darkness of all things. O Arjuna, I see You in this wondrous form that destroys and annihilates all."
+    },
+    {
+      id: "11.32",
+      sanskrit: "कालोऽस्मि लोकक्षयकृत्प्रवृद्धो लोकान्समाहर्तुमिह प्रवृत्तः |\nऋतेऽपि त्वां न भविष्यन्ति सर्वे येऽवस्थिताः प्रत्यनीकेषु योधेषु ||११-३२||",
+      hindi: "मैं काल हूँ, समय का देवता, जो लोकों का विनाश करने के लिए आया हूँ। युद्धभूमि में जिते हुए शत्रु मुझसे बच नहीं पाएंगे।",
+      english: "I am Time, the great destroyer of worlds, and I have come here to annihilate all people. Even without you, all the warriors arrayed in battle will be slain."
+    },
+    {
+      id: "11.33",
+      sanskrit: "तस्मादेवं विदित्वा योगं विज्ञानसहितम् |\nयुध्यस्व भारत सर्वात्मानं बलान्मे मत्स्व स्थितान् ||११-३३||",
+      hindi: "इस प्रकार योग और विज्ञान से सुस्पष्ट रूप से जानकर, हे भारत! तुम युद्ध करो, अपने बल और संकल्प से मुझमें स्थित होकर।",
+      english: "Therefore, arise and gain glory! Vanquish your enemies by knowing and understanding this Yoga with wisdom, standing firm in Me and your own strength."
+    },
+    {
+      id: "11.34",
+      sanskrit: "यच्चास्ति कर्तुं तथा भूयः सर्वमिदानीं तव गतम् |\nददामि त्वां द्विविधां शक्तिं शक्त्या योगसंज्ञया ||११-३४||",
+      hindi: "अब तक तेरा जो कार्य शेष है, मैं तुम्हें दो प्रकार की शक्ति देता हूँ—योग से प्राप्त और यथार्थ जागरूकता द्वारा।",
+      english: "Now all that remains to be done by you, I give you two types of power: the strength acquired through Yoga and the strength of determination."
+    },
+    {
+      id: "11.35",
+      sanskrit: "सर्वान्भूतान्तरात्मा मां सर्वभूताधिभूतलः |\nअहं सर्वस्य प्रभवो मत्तः सर्वं प्रवर्तते ||११-३५||",
+      hindi: "मैं सभी प्राणियों के भीतरी और बाहरी स्वयं हूँ। मैं सब का उत्पत्ति करने वाला हूँ और सब कुछ मुझसे चलता है।",
+      english: "I am the inner self within all beings; the ultimate controller of all beings. I am the source of all; from Me everything proceeds."
+    },
+    {
+      id: "11.36",
+      sanskrit: "ननु त्वमद्य जगतः पिता पिता तवा गतिश्च |\nसर्वस्यार्जुन तवाशिर्वादस्तेऽस्तु महीधर ||११-३६||",
+      hindi: "हे अर्जुन! तुम आज इस जगत के पिता हो। हे पृथ्वी के रखवाले! तुम्हारा आशीर्वाद हमारे लिए बना रहे।",
+      english: "O Arjuna, today You are the supreme father of this world. O Lord of the earth, may Your blessings and protection always remain."
+    },
+    {
+      id: "11.37",
+      sanskrit: "पश्य मे पार्थ रूपाणि शतशोऽथ सहस्रशः |\nनानाविधानि दिव्यानि नानावर्णाकृतीनि च ||११-३७||",
+      hindi: "हे पार्थ! मैं देखता हूँ तुम्हारे सौ से भी अधिक और हजार से भी अधिक दिव्य रूपों को, विभिन्न वर्णों और आकृतियों में।",
+      english: "O Partha, I see Your hundreds and thousands of divine forms in many different colors and shapes."
+    },
+    {
+      id: "11.38",
+      sanskrit: "एवं दिदृक्षः शौर्यं तेजः शोभां च भास्करः |\nसर्वेर्मुनिभिः संयुता देवाः स्तुवन्ति मामकम् ||११-३८||",
+      hindi: "हे भास्कर! आपने जो पराक्रम, तेज और शोभा के स्वरूप देखें, वह सभी मुनियों और देवताओं द्वारा स्तुति के योग्य है।",
+      english: "O Sun, the glory of Your heroic deeds and radiance is praised by the assembly of great sages and celestial gods."
+    },
+    {
+      id: "11.39",
+      sanskrit: "तेषामङ्गानि च सर्वाणि पश्यामि विभूतितः परः |\nनष्टानिच्छामि विमुह्येत्तानि पश्चात्त्वयि ते ||११-३९||",
+      hindi: "हे क्षेत्रेश्वर! सभी वे भाग मैं तुम्हारे विराट रूप में देखता हूँ। हे मेरे स्वामी! उनके नाश की कामना करता हूँ और भ्रम से बचाओ।",
+      english: "O Lord of the field, I perceive all their limbs and parts in Your cosmic form. O master of mine, I desire their destruction and protect me from bewilderment."
+    },
+    {
+      id: "11.40",
+      sanskrit: "इमे सन्तः पुरुषा दिव्यान्स्वर्गादपि तिष्ठन्ति |\nत्वां वेदाहमेतान्यथा वेद सर्वमिदं विचक्षते ||११-४०||",
+      hindi: "ये ज्ञानी पुरुष स्वर्ग भी ऊपर रहते हैं, तुम इन सबको जानते हो जैसे सारी सृष्टि जानती है।",
+      english: "These divine beings dwell higher than the heavenly planets. You know them all as the entire universe is known."
+    },
+    {
+      id: "11.41",
+      sanskrit: "नाहं त्वां लोकयात्रे विद्धि न च मे शोचसि ॥११-४१॥",
+      hindi: "हे अर्जुन! तू अपना लोक भ्रमण का अधिकारी नहीं है, और तू मुझ पर शोक नहीं करना चाहिए।",
+      english: "O Arjuna, you are not permitted to behold Me in the universal form, nor should you lament."
+    },
+    {
+      id: "11.42",
+      sanskrit: "एतानिदं विभूतिं पुरुषं चराचरं पश्य ||११-४२||",
+      hindi: "हे अर्जुन! इन सभी विराट स्वरूपों को, जीव एवं अजैव, मुझ में देखो।",
+      english: "Behold, O Arjuna, this cosmic manifestation, both moving and unmoving beings."
+    },
+    {
+      id: "11.43",
+      sanskrit: "एतानिदं विभूतिं पुरुषं चराचरं पश्य ||११-४३||",
+      hindi: "हे अर्जुन! इसे सर्वत्र और सर्वत्र देखो। मुझमें अनेकों रूप हैं जो अचूक और अनादि हैं।",
+      english: "See these manifestations of Mine, O Arjuna, moving and unmoving."
+    },
+    {
+      id: "11.44",
+      sanskrit: "अहमेव सर्वस्य प्रभवो मत्तः सर्वं प्रवर्तते |\nइति मत्वा भजन्ते मां बुद्ध्या योगेन चापरे ||११-४४||",
+      hindi: "सबकी उत्पत्ति मैं ही हूँ। जो मुझे जानते हैं, वे मुझे बुद्धि और योग शक्ति से पूजते हैं।",
+      english: "I am the origin of all creation; everything proceeds from Me. Knowing this, the wise worship Me with devotion and yoga."
+    },
+    {
+      id: "11.45",
+      sanskrit: "सर्वे तेऽप्यगृणन्तु माँ तु सर्वे मे मत्पराः |\nअदर्शनादथवं गुप्तं तवान्तरमृषयः ||११-४५||",
+      hindi: "योगियों से भी जो मुझसे भिन्न हो, वे मुझपर भक्ति से अटूट बने रहें। वे अज्ञान के कारण मेरे अदृश्य रूप को नहीं पहचाने।",
+      english: "Let all be Yours, yet all devoted to Me. The sages recognize Your supreme being, even if concealed to those unwise."
+    },
+    {
+      id: "11.46",
+      sanskrit: "एवं मम विभूतयो दर्शितारं त्वया परम् |\nभगवनात्मानमात्मानं मे त्वद्व्यक्तमव्ययम् ||११-४६||",
+      hindi: "हे भगवान! आप द्वारा दिखाए गए इस दिव्य रूप के लिए मैं तेरी अभिव्यक्ति को बुझता हूँ।",
+      english: "O Lord, I behold Your divine manifestations. You are the Supreme Being, both manifest and unmanifest."
+    },
+    {
+      id: "11.47",
+      sanskrit: "तस्मादसक्तः सततं कार्यं कर्म समाचर |\nअसङ्गः समाहितात्मा कर्म रूपं कुरुतेऽर्जुन ||११-४७||",
+      hindi: "हे अर्जुन! इसलिए बिना आसक्ति के, कर्तव्य कर्म करो।",
+      english: "Therefore, without attachment, perform your duty constantly, O Arjuna."
+    },
+    {
+      id: "11.48",
+      sanskrit: "यै मध्ये मैलो न संशयोऽस्ति मघ्नते च सत्त्वतः |\nता मम पादाम्बोजौ सर्वचराचरेषु मूर्तिषु ||११-४८||",
+      hindi: "जो मनुष्य निःस्पृह होकर तुम्हारे चरणों में आश्रय लेता है, वह संदेह रहित होकर निश्चित है कि उसे रक्षा मिलती है।",
+      english: "Those who, without doubt, completely surrender to My lotus feet among all living entities are protected and freed from delusion."
+    },
+    {
+      id: "11.49",
+      sanskrit: "एचोऽपि भूयोऽपि विद्यार्थी तं कर्म समाचरेत् |\nनान्यथा नैव सीदति हि तस्य कर्मसु कार्ये ||११-४९||",
+      hindi: "हे विद्याधर! अधिकाधिक ज्ञान के लिए कर्म का सम्यक् पालन करें।",
+      english: "O learned one, perform your duties in accord with the wisdom you have. There is no other way to success in your religious duties."
+    },
+    {
+      id: "11.50",
+      sanskrit: "एतेषां त्वन्ते निष्यन्दन्ति शवस्थितयः समा: |\nतच्छंसुः परिवर्त्येति धीरास्ते रामः सदा ||११-५०||",
+      hindi: "धीर पुरुष प्राणों का संहार नहीं करते हैं, वे समझदारी से युद्ध करते हैं।",
+      english: "At the end, those who are wise do not lament the destruction of their bodies but remain steadfast in their duty."
+    },
+    {
+      id: "11.51",
+      sanskrit: "तस्मात्सर्वेषु कालेषु मामनुस्मर युध्य च |\nमय्यर्पितमनोबुद्धिर्यमेया ततः निश्चिततमः ||११-५१||",
+      hindi: "इसलिए सभी समयों पर मुझको स्मरण करो और युद्ध करो। जो मुझमें संलग्न मन और बुद्धि रखता है, वह सर्वश्रेष्ठ है।",
+      english: "Therefore, at all times remember Me and fight with your mind and intellect dedicated to Me. This is the most assured way."
+    },
+    {
+      id: "11.52",
+      sanskrit: "अर्जुन उवाच |\nएष विश्वरूप एवम् दृश्यते मम देहे महीपते |\nदिव्यं रूपम् अद्भुतं चैव तव दैवीयमेव च ||११-५२||",
+      hindi: "अर्जुन बोले: हे प्रभु! तुम्हारा यह विराट रूप मेरे शरीर में इस प्रकार दिखता है। यह रूप दिव्य, अद्भुत और केवल तुम ही का है।",
+      english: "Arjuna said: O Lord, in my body I see Your Universal Form, which is divine, wondrous, and truly Your godly form."
+    },
+    {
+      id: "11.53",
+      sanskrit: "ममैवैष्टान्वष्ठानं\nमच्चित्तोऽन्ये च तिष्ठन्ति\nमच्चित्ताः समस्तजा: सन्ति\nममात्मा मद्भावा सर्वदा ||११-५३||",
+      hindi: "मेरे अन्दर सब कुछ स्थित है। मेरी इच्छा और मन में ही अन्य सभी का वास है। मुझमें स्थित सब जीव मेरे ही अंश हैं।",
+      english: "My soul is situated in all beings; all creatures live in My mind; I am present in all as the soul."
+    },
+    {
+      id: "11.54",
+      sanskrit: "इत्येवमुक्तो हरिः श्लोकं ददौ तदा मे |\nपरमं बलं करूनात्र कृत्वान्ददौ मत्परम् ||११-५४||",
+      hindi: "हे भगवान! जब तुमने मुझे यह श्लोक कहा तब तुमने मुझे अत्यंत बल दिया और मुझ पर करुणा दिखाई।",
+      english: "Having thus spoken, Lord Hari gave Me that supreme verse, granting me the greatest strength and compassion."
+    },
+    {
+      id: "11.55",
+      sanskrit: "तस्मान्नारायणपर्यायं दिव्यं पर्यालोकय |\nइति मां विद्धि पार्थं पञ्चमह भूतेश्वरम् ||११-५५||",
+      hindi: "हे पार्थ! मुझे जान लो उन पाँच प्रमुख रूपों से जो नारायण की विशेषता हैं।",
+      english: "Therefore, O Partha, know Me as the supreme divine being with five principal forms, the ultimate Supreme."
+    }
+  ]
+},
+{
+  chapter: 12,
+  title: "भक्तियोग",
+  english_title: "The Yoga of Devotion",
+  verses: [
+    {
+      id: "12.1",
+      sanskrit: "अर्जुन उवाच |\nएवं सततयुक्ता ये भक्तास्त्वां पर्युपासते |\nये चाप्यक्षरमव्यक्तं तेषां के योगवित्तमाः ||१२-१||",
+      hindi: "अर्जुन ने कहा - जो भक्तजन आपके साकार स्वरूप की निरंतर उपासना करते हैं और जो आपके अक्षर, अव्यक्त स्वरूप की भी उपासना करते हैं, उनमें से कौन श्रेष्ठ योगी है?",
+      english: "Arjuna said: Those devotees who, ever steadfast, worship You with devotion and those who worship the imperishable and unmanifest—who are better versed in yoga?"
+    },
+    {
+      id: "12.2",
+      sanskrit: "श्रीभगवानुवाच |\nमय्यावेश्य मनो ये मां नित्ययुक्ता उपासते |\nश्रद्धया परयोपेताः ते मे युक्ततमा मताः ||१२-२||",
+      hindi: "भगवान ने कहा - जो मन से मुझमें लीन रहते हैं, नित्यभक्त होकर और अत्यंत श्रद्धा से मेरी उपासना करते हैं, वे मेरे योग में श्रेष्ठ हैं।",
+      english: "The Blessed Lord said: Those who, fixing their minds on Me, constantly worship Me with steadfast faith, I consider them to be the best yogis."
+    },
+    {
+      id: "12.3",
+      sanskrit: "ये त्वक्षरमनिर्देश्यमव्यक्तं पर्युपासते |\nसर्वत्रगतं सततं मां तु सर्वभूताशयम् ||१२-३||",
+      hindi: "जो मेरे अक्षर, परंतु अनिर्देशित, अव्यक्त स्वरूप का उपासना करते हैं, जो सर्वत्र व्याप्त और समस्त जीवों के हृदय में निवास करते हैं।",
+      english: "Those who worship the imperishable, indefinable, unmanifested Reality, that universal Being which is everywhere, constant and unchanging, dwelling in the hearts of all beings."
+    },
+    {
+      id: "12.4",
+      sanskrit: "ये तु सर्वाणि कर्माणि मयि सङ्कल्पयन्तः अधिकाः |\nअध्यक्षानेश्वरभावं सर्वकर्मफलतां त्यजतः ||१२-४||",
+      hindi: "परन्तु जो मुझमें संकल्पित होकर सारे कर्म करते हैं, मेरे अधीन और ईश्वरभाव से और जो कर्मों के फलों से बेपरवाह रहते हैं।",
+      english: "But those who perform all actions for Me, who are devoted to Me as the supreme Lord and who renounce the fruits of their actions."
+    },
+    {
+      id: "12.5",
+      sanskrit: "जो मया পরিপ্ৰেয়ो भवन्ति मम सत्यनिष्ठाः |\nतान्मां भक्त्या मामुपैति तेषां च मे प्रियाः सदा ||१२-५||",
+      hindi: "जो मुझ पर अटूट भरोसा रखते हैं, वे मुझसे परम प्रिय हैं; वे सदैव मुझे भक्ति से प्राप्त होते हैं और मेरे प्रिय होते हैं।",
+      english: "Those who are devoted to Me with unwavering faith and for whom I am the ultimate refuge, these are dear to Me always."
+    },
+    {
+      id: "12.6",
+      sanskrit: "ये मां तत्त्वतत्त्वेन भक्त्या लभन्ते परं प्रभुम् |\nत्वं तेषु चात्मानं शुद्धं भक्त्या परयोपेतया ||१२-६||",
+      hindi: "जो लोग मुझ सच को सचेतनता के साथ भक्तिपूर्वक प्राप्त करते हैं, उन भक्तों का अहं शुद्ध आत्मा मानता हूँ।",
+      english: "Those who recognize Me with true knowledge and love and worship Me with supreme devotion, they are the purest of beings and dear to Me."
+    },
+    {
+      id: "12.7",
+      sanskrit: "यथैकनिष्ठा पर्युपासते कामसक्तास्तथा नराः |\nमनसांसि नियम्य नेतृत्वे नान्यथा कुर्वन्ति ते ||१२-७||",
+      hindi: "जैसे कोई मनुष्य अपने मन को एकाग्रचित्त होकर मुझमें लीन करता है, वैसे ही वे भी अपने मन को नियंत्रण करके अन्यथा नहीं करते।",
+      english: "As a man who is devoted to Me, with one-pointed mind, controls his sensory organs and subdues his mind, so these devotees constantly fix their minds on Me and do not deviate."
+    },
+    {
+      id: "12.8",
+      sanskrit: "अधिष्ठाय मनं हरि भक्त्या मामनुसंसते |\nसंप्राप्य योगसंस्ततां मद्भक्तः स मे प्रियः ||१२-८||",
+      hindi: "जो लोग मन को हरि (मुझ) पर स्थापित करते हैं, भक्तिपूर्वक मेरा स्मरण करते हैं, योग में लगे रहते हैं, वे मुझे अत्यंत प्रिय हैं।",
+      english: "Fixing the mind upon Me, constantly thinking of Me with devotion, these devotees are dear to Me."
+    },
+    {
+      id: "12.9",
+      sanskrit: "अर्जुन उवाच |\nएवंिँ ज्ञात्वा कृपया परयाऽप्सु प्रसादयति सत्त्वतः |\nस त्वयि नमस्यति सर्वान् पश्यति च मे चेद्यम् ||१२-९||",
+      hindi: "अर्जुन बोले: जिन्हे यह ज्यान प्राप्त होता है वे करुणा द्वारा प्रसन्न होकर भक्तिपूर्वक मुझको नमस्कार करते हैं और मुझे तथा सबको देखते हैं।",
+      english: "Arjuna said: Those who know Me as described herein, those possessed of great compassion, they worship Me. For them, I am visible in all, and they are dear to Me."
+    },
+    {
+      id: "12.10",
+      sanskrit: "ये तु मां परमं गत्यं मद्भक्तः संग वर्जितः |\nन मे तेषां न प्रियेषु न मे तेषां न प्रणश्यति ||१२-१०||",
+      hindi: "जो मुझमें पूर्ण चित होकर, आसक्ति रहित, मेरी अनन्य भक्ति करते हैं वे मेरे प्रिय हैं, न वे मुझसे कभी विछिन्न होते हैं।",
+      english: "But those who always worship Me, thinking of Me with exclusive devotion and without attachment, they are dear to Me, and I am dear to them."
+    },
+    {
+      id: "12.11",
+      sanskrit: "प्रीत्योपेतमनाः शान्तिं योगं विविक्तसेवितम् |\nअपाङ्मनो दृढभक्तिः मामेवैष्यति तत्त्वत: ||१२-११||",
+      hindi: "जो मनः प्रीतिपूर्वक शांत होता है, जो योग को वैराग्य से करता है, दृढ़ भक्ति के साथ मुझमें लीन रहता है, वह मुझे सिद्धतया प्राप्त होता है।",
+      english: "Anyone who offers Me devotion with a loving mind and is devoted to the practice of retreat and yoga, with firm heart, certainly attains Me."
+    },
+    {
+      id: "12.12",
+      sanskrit: "श्रीभगवानुवाच |\nअप्राप्य मम देवा भवन्ति पापमाख्याय मानुषे |\nमायया मामहमेकं क्रुद्धो भजन्ति मामव्ययम् ||१२-१२||",
+      hindi: "भगवान बोले - जो मनुष्य मुझसे प्रसन्न नहीं होकर माया में मूढ़ होकर मुझे नकारते हैं, वे नाश के भागी हैं।",
+      english: "The Blessed Lord said: Those men who do not worship Me but worship other gods with faith, they are misled by illusion and fall down."
+    },
+    {
+      id: "12.13",
+      sanskrit: "सत्त्वसमश्च भूतात्मा समत्वं योगउच्यते |\nएष तु योगः किस्साधनः सर्वकर्मफलत्यागः ||१२-१३||",
+      hindi: "सतत समभाव रखने वाला जीवात्मा योग कहलाता है, जो कर्मों के फलों का त्याग करता है।",
+      english: "Yoga is defined as equanimity of mind; this is the means for renunciation of the fruit of all actions."
+    },
+    {
+      id: "12.14",
+      sanskrit: "असंत्वरलक्षणं त्यागोऽयं योगः सुखमुत्तमम् |\nअसंशयं ततो भवति चित्तस्य प्रशांतिवृति: ||१२-१४||",
+      hindi: "यह योग है जिसका कोई रूप या लक्षण नहीं, जो त्याग है और अतींद्रिय सुख है; इससे निश्चय ही मन को शान्ति प्राप्त होती है।",
+      english: "This yoga is the supreme and painless renunciation, which is without sign and free from doubt; it leads to peace of mind."
+    },
+    {
+      id: "12.15",
+      sanskrit: "यो न हृष्यति न द्वेष्टि न शोचति न काङ्क्षति |\nशुभाशुभपरित्यागी भक्तिमान्यः स मे प्रियः ||१२-१५||",
+      hindi: "जो न तो खुशी से अत्यंत होता है, न द्वेष करता है, न शोक करता है, न इच्छाएँ रखता है, शुभ-अशुभ का त्याग करता है, वही मेरे प्रिय भक्त हैं।",
+      english: "One who neither rejoices nor hates, neither grieves nor desires; who renounces both good and evil; is full of devotion and is dear to Me."
+    },
+    {
+      id: "12.16",
+      sanskrit: "यस्मान्नोद्विजते लोको लोकान्नोद्विजते च योगी |\nहर्षामर्षभयोद्वेगैर्मुक्तो यturned में तदा ||१२-१६||",
+      hindi: "जो संसार में न उत्पन्न होता है और ना संसार को उत्पन्न करता है, जो प्रसन्नता, क्रोध, भय और बेचैनी से मुक्त होता है, वह योगी तत्क्षण मुझको प्राप्त होता है।",
+      english: "He who is undisturbed in the world, and who does not disturb the world, who is free from joy, envy, fear, and anxiety—he is dear to Me."
+    },
+    {
+      id: "12.17",
+      sanskrit: "यस्मान्न च काङ्क्षति लोको न द्वेष्टि न कौल्क्षति |\nशुभाशुभपरित्यागी भक्तिमान्यः स मे प्रियः ||१२-१७||",
+      hindi: "जो संसार में न इच्छा करता है, न द्वेष करता है, न लालच करता है, शुभ-अशुभ का त्याग करता है, जो मेरे प्रति भक्त है, वह मेरे प्रिय हैं।",
+      english: "He who does not desire the world, who hates nothing and frees himself from desire; who neither rejoices nor grieves; is dear to Me."
+    },
+    {
+      id: "12.18",
+      sanskrit: "यस्मान्नोद्विजते लोको लोकान्नोद्विजते च योगी |\nहर्षामर्षभयोद्वेगैर्मुक्तो यturned में तदा ||१२-१८||",
+      hindi: "जो जगत में अनिच्छा-प्रकट करता है, जो जगत को अप्रभावित करता है, जो सुख-दुख, भय, द्वेष से मुक्त होता है, वह योगी मुझे प्रिय होता है।",
+      english: "He who is unmoved by the world and does not produce disturbance in it; who is free from joy, envy, fear, and anxiety—is beloved by Me."
+    },
+    {
+      id: "12.19",
+      sanskrit: "यस्मिन्सर्वाणि भूतानि आत्मैवातीव चिन्तयन्ति |\nव्यथितात्मानं कालयान्तं सङ्गमत्यात्मवान् ||१२-१९||",
+      hindi: "जो मनुष्य सभी प्राणियों को अपने ही रूप में देखता है, जिसके मन में भय और व्यथाएं नहीं होती, जो आत्मा के समान रहता है, वह मेरे प्रिय है।",
+      english: "He who sees all beings in the Self, the Self in all beings; who sees the same everywhere, he is dear to Me."
+    },
+    {
+      id: "12.20",
+      sanskrit: "यत्र योगेश्वरः कृष्णो यत्र पार्थो धनुर्धरः |\nतत्र श्रीर्विजयो भूतिर्ध्रुवा नीतिर्मतिर्मम ||१२-२०||",
+      hindi: "जहाँ योगेश्वर कृष्ण और जहां धनुर्धर पार्थ (अर्जुन) हैं, वहाँ निश्चित ही श्री, विजय, संपदा, स्थायी नीति और मेरी बुद्धि है।",
+      english: "Wherever there is Krishna, the lord of yoga, and wherever there is Arjuna, the supreme archer, there also are fortune, victory, prosperity, and sound morality."
+    }
+  ]
+},
+
+  // When you create Chapter 13, you will add its data object here.
+  // { chapter: 13, title: "...", verses: [...] },
 ];
