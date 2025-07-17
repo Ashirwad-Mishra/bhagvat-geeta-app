@@ -9,6 +9,10 @@ import Chapter1 from './Components/Chapters/Chapter1';
 import Chapter2 from './Components/Chapters/Chapter2';
 import Chapter3 from './Components/Chapters/Chapter3';
 import Chapter4 from './Components/Chapters/Chapter4';
+import Chapter5 from './Components/Chapters/Chapter5';
+import Chapter6 from './Components/Chapters/Chapter6';
+import Chapter7 from './Components/Chapters/Chapter7';
+import Chapter8 from './Components/Chapters/Chapter8'; 
 // Import the centralized data
 import { allChaptersData } from './gita-data';
 
@@ -18,6 +22,10 @@ const chapterComponents = {
   2: Chapter2,
   3: Chapter3,
   4: Chapter4,
+  5: Chapter5,
+  6: Chapter6,
+  7: Chapter7,
+  8: Chapter8,
 };
 
 function App() {

@@ -1202,6 +1202,796 @@ export const allChaptersData = [
     }
   ]
 },
-  // When you create Chapter 5, you will add its data object here.
-  // { chapter: 5, title: "...", verses: [...] },
+{
+  chapter: 5,
+  title: "Karma Sanyāsa Yoga",
+  english_title: "The Yoga of Renunciation",
+  verses: [
+    {
+      id: "5.1",
+      sanskrit: "अर्जुन उवाच |\nसन्न्यासं कर्मणां कृष्ण पुनर्योगं च शंससि |\nयच्छ्रेय एतयोरेकं तन्मे ब्रूहि सुनिश्चितम् ||५-१||",
+      hindi: "अर्जुन ने कहा - हे कृष्ण! पहले आप मुझसे कर्म त्यागने के लिए कहते हैं और फिर भक्तिपूर्वक कर्म करने का आदेश देते हैं। क्या आप कृपा करके निश्चित रूप से मुझे बताएँगे कि इन दोनों में से कौन अधिक श्रेयस्कर है?",
+      english: "Arjuna said: O Krishna, first of all You ask me to renounce work, and then again You recommend work with devotion. Now will You kindly tell me definitely which of the two is more beneficial?"
+    },
+    {
+      id: "5.2",
+      sanskrit: "श्रीभगवानुवाच |\nसन्न्यासः कर्मयोगश्च निःश्रेयसकरावुभौ |\nतयोस्तु कर्मसन्न्यासात्कर्मयोगो विशिष्यते ||५-२||",
+      hindi: "श्री भगवान ने उत्तर दिया - मुक्ति के लिए तो कर्म का परित्याग तथा भक्तिमय कर्म (कर्मयोग) दोनों ही उत्तम हैं। किन्तु इन दोनों में से कर्म के परित्याग से भक्तियुक्त कर्म श्रेष्ठ है।",
+      english: "The Personality of Godhead replied: The renunciation of work and work in devotion are both good for liberation. But, of the two, work in devotional service is better than renunciation of work."
+    },
+    {
+      id: "5.3",
+      sanskrit: "ज्ञेयः स नित्यसन्न्यासी यो न द्वेष्टि न काङ्क्षति |\nनिर्द्वन्द्वो हि महाबाहो सुखं बन्धात्प्रमुच्यते ||५-३||",
+      hindi: "जो पुरुष न तो कर्मफलों से घृणा करता है और न कर्मफल की इच्छा करता है, वह नित्य संन्यासी जाना जाता है। हे महाबाहु! ऐसा मनुष्य समस्त द्वन्द्वों से रहित होकर भवबन्धन को पार कर पूर्णतया मुक्त हो जाता है।",
+      english: "One who neither hates nor desires the fruits of his activities is known to be always renounced. Such a person, free from all dualities, easily overcomes material bondage and is completely liberated, O mighty-armed Arjuna."
+    },
+    {
+      id: "5.4",
+      sanskrit: "साङ्ख्ययोगौ पृथग्बालाः प्रवदन्ति न पण्डिताः |\nएकमप्यास्थितः सम्यगुभयोर्विन्दते फलम् ||५-४||",
+      hindi: "अज्ञानी ही भक्ति (कर्मयोग) को भौतिक जगत के वैश्लेषिक अध्ययन (सांख्य) से भिन्न कहते हैं। जो वस्तुतः ज्ञानी हैं, वे कहते हैं कि जो इनमें से किसी एक मार्ग का भी भलीभाँति अनुसरण करता है, उसे दोनों के फल प्राप्त होते हैं।",
+      english: "Only the ignorant speak of devotional service [karma-yoga] as being different from the analytical study of the material world [sankhya]. Those who are actually learned say that he who applies himself well to one of these paths achieves the results of both."
+    },
+    {
+      id: "5.5",
+      sanskrit: "यत्साङ्ख्यैः प्राप्यते स्थानं तद्योगैरपि गम्यते |\nएकं साङ्ख्यं च योगं च यः पश्यति स पश्यति ||५-५||",
+      hindi: "जो यह जानता है कि वैश्लेषिक अध्ययन (सांख्य) द्वारा प्राप्य स्थान भक्ति द्वारा भी प्राप्त किया जा सकता है, और इस तरह जो सांख्ययोग तथा भक्तियोग को एक समान देखता है, वही वस्तुओं को यथारूप में देखता है।",
+      english: "One who knows that the position reached by means of analytical study can also be attained by devotional service, and who therefore sees analytical study and devotional service to be on the same level, sees things as they are."
+    },
+    {
+      id: "5.6",
+      sanskrit: "सन्न्यासस्तु महाबाहो दुःखमाप्तुमयोगतः |\nयोगयुक्तो मुनिर्ब्रह्म नचिरेणाधिगच्छति ||५-६||",
+      hindi: "भक्ति में लगे बिना केवल समस्त कर्मों का परित्याग करने से कोई सुखी नहीं बन सकता। परन्तु भक्ति में लगा हुआ विचारवान व्यक्ति शीघ्र ही परब्रह्म को प्राप्त कर लेता है।",
+      english: "Merely renouncing all activities yet not engaging in the devotional service of the Lord cannot make one happy. But a thoughtful person engaged in devotional service can achieve the Supreme without delay."
+    },
+    {
+      id: "5.7",
+      sanskrit: "योगयुक्तो विशुद्धात्मा विजितात्मा जितेन्द्रियः |\nसर्वभूतात्मभूतात्मा कुर्वन्नपि न लिप्यते ||५-७||",
+      hindi: "जो भक्तिभाव से कर्म करता है, जो विशुद्ध आत्मा है और अपने मन तथा इन्द्रियों को वश में रखता है, वह सबों को प्रिय होता है और सभी लोग उसे प्रिय होते हैं। ऐसा व्यक्ति कर्म करता हुआ भी कभी नहीं बँधता।",
+      english: "One who works in devotion, who is a pure soul, and who controls his mind and senses is dear to everyone, and everyone is dear to him. Though always working, such a man is never entangled."
+    },
+    {
+      id: "5.8-9",
+      sanskrit: "नैव किञ्चित्करोमीति युक्तो मन्येत तत्त्ववित् |\nपश्यञ्शृण्वन्स्पृशञ्जिघ्रन्नश्नन्गच्छन्स्वपञ्श्वसन् ||\nप्रलपन्विसृजन्गृह्णन्नुन्मिषन्निमिषन्नपि |\nइन्द्रियाणीन्द्रियार्थेषु वर्तन्त इति धारयन् ||",
+      hindi: "दिव्य भावनामृत से युक्त पुरुष देखता, सुनता, स्पर्श करता, सूँघता, खाता, चलता-फिरता, सोता तथा श्वास लेता हुआ भी अपने अन्तर में सदैव यही जानता रहता है कि वास्तव में वह कुछ भी नहीं करता। बोलते, त्यागते, ग्रहण करते या आँखें खोलते-बन्द करते हुए भी वह यह जानता रहता है कि भौतिक इन्द्रियाँ अपने-अपने विषयों में प्रवृत्त हैं, किन्तु वह इन सबसे पृथक् है।",
+      english: "A person in the divine consciousness, although engaged in seeing, hearing, touching, smelling, eating, moving about, sleeping and breathing, always knows within himself that he actually does nothing at all. Because while speaking, evacuating, receiving, or opening or closing his eyes, he always knows that only the material senses are engaged with their objects and that he is aloof from them."
+    },
+    {
+      id: "5.10",
+      sanskrit: "ब्रह्मण्याधाय कर्माणि सङ्गं त्यक्त्वा करोति यः |\nलिप्यते न स पापेन पद्मपत्रमिवाम्भसा ||५-१०||",
+      hindi: "जो व्यक्ति कर्मफलों को परमेश्वर को समर्पित करके आसक्तिरहित होकर अपना कर्म करता है, वह पाप कर्मों से उसी प्रकार अप्रभावित रहता है, जिस प्रकार कमलपत्र जल से अस्पृश्य रहता है।",
+      english: "One who performs his duty without attachment, surrendering the results unto the Supreme Lord, is unaffected by sinful action, as the lotus leaf is untouched by water."
+    },
+    {
+      id: "5.11",
+      sanskrit: "कायेन मनसा बुद्ध्या केवलैरिन्द्रियैरपि |\nयोगिनः कर्म कुर्वन्ति सङ्गं त्यक्त्वात्मशुद्धये ||५-११||",
+      hindi: "योगी आसक्तिरहित होकर शरीर, मन, बुद्धि तथा इन्द्रियों के द्वारा भी केवल शुद्धि के लिए कर्म करते हैं।",
+      english: "The yogis, abandoning attachment, act with body, mind, intelligence and even with the senses, only for the purpose of purification."
+    },
+    {
+      id: "5.12",
+      sanskrit: "युक्तः कर्मफलं त्यक्त्वा शान्तिमाप्नोति नैष्ठिकीम् |\nअयुक्तः कामकारेण फले सक्तो निबध्यते ||५-१२||",
+      hindi: "निश्चल भक्त शुद्ध शान्ति प्राप्त करता है क्योंकि वह समस्त कर्मफल मुझे अर्पित कर देता है, किन्तु जो व्यक्ति भगवान् से युक्त नहीं है और जो अपने श्रम का फलकामी है, वह बँध जाता है।",
+      english: "The steadily devoted soul attains unadulterated peace because he offers the result of all activities to Me; whereas a person who is not in union with the Divine, who is greedy for the fruits of his labor, becomes entangled."
+    },
+    {
+      id: "5.13",
+      sanskrit: "सर्वकर्माणि मनसा सन्न्यस्यास्ते सुखं वशी |\nनवद्वारे पुरे देही नैव कुर्वन्न कारयन् ||५-१३||",
+      hindi: "जब देहधारी जीव अपनी प्रकृति को वश में कर लेता है और मन से समस्त कर्मों का परित्याग कर देता है, तब वह नौ द्वारों वाले नगर (भौतिक शरीर) में बिना कुछ किये या कराये सुखपूर्वक रहता है।",
+      english: "When the embodied living being controls his nature and mentally renounces all actions, he resides happily in the city of nine gates [the material body], neither working nor causing work to be done."
+    },
+    {
+      id: "5.14",
+      sanskrit: "न कर्तृत्वं न कर्माणि लोकस्य सृजति प्रभुः |\nन कर्मफलसंयोगं स्वभावस्तु प्रवर्तते ||५-१४||",
+      hindi: "शरीर रूपी नगर का स्वामी देहधारी जीवात्मा न तो कर्म का सृजन करता है, न लोगों को कर्म करने के लिए प्रेरित करता है, न ही कर्मफल की रचना करता है। यह सब तो भौतिक प्रकृति के गुणों द्वारा ही किया जाता है।",
+      english: "The embodied spirit, master of the city of his body, does not create activities, nor does he induce people to act, nor does he create the fruits of action. All this is enacted by the modes of material nature."
+    },
+    {
+      id: "5.15",
+      sanskrit: "नादत्ते कस्यचित्पापं न चैव सुकृतं विभुः |\nअज्ञानेनावृतं ज्ञानं तेन मुह्यन्ति जन्तवः ||५-१५||",
+      hindi: "परमेश्वर न तो किसी के पापों का ग्रहण करता है, न पुण्यों का। किन्तु सारे देहधारी जीव उस अज्ञान के कारण मोहग्रस्त रहते हैं, जो उनके वास्तविक ज्ञान को आच्छादित किये रहता है।",
+      english: "Nor does the Supreme Lord assume anyone's sinful or pious activities. Embodied beings, however, are bewildered because of the ignorance which covers their real knowledge."
+    },
+    {
+      id: "5.16",
+      sanskrit: "ज्ञानेन तु तदज्ञानं येषां नाशितमात्मनः |\nतेषामादित्यवज्ज्ञानं प्रकाशयति तत्परम् ||५-१६||",
+      hindi: "किन्तु जब कोई उस ज्ञान से प्रबुद्ध होता है जिससे अविद्या का विनाश होता है, तो उसके ज्ञान से सब कुछ वैसे ही प्रकट हो जाता है, जैसे दिन में सूर्य से सारी वस्तुएँ प्रकाशित हो जाती हैं।",
+      english: "When, however, one is enlightened with the knowledge by which nescience is destroyed, then his knowledge reveals everything, as the sun lights up everything in the daytime."
+    },
+    {
+      id: "5.17",
+      sanskrit: "तद्बुद्धयस्तदात्मानस्तन्निष्ठास्तत्परायणाः |\nगच्छन्त्यपुनरावृत्तिं ज्ञाननिर्धूतकल्मषाः ||५-१७||",
+      hindi: "जब मनुष्य की बुद्धि, मन, श्रद्धा तथा शरण सब कुछ भगवान् में स्थिर हो जाते हैं, तब वह पूर्णज्ञान द्वारा समस्त कल्मष से शुद्ध होता है और इस तरह मुक्ति के पथ पर अग्रसर होता है।",
+      english: "When one's intelligence, mind, faith and refuge are all fixed in the Supreme, then one becomes fully cleansed of misgivings through complete knowledge and thus proceeds straight on the path of liberation."
+    },
+    {
+      id: "5.18",
+      sanskrit: "विद्याविनयसम्पन्ने ब्राह्मणे गवि हस्तिनि |\nशुनि चैव श्वपाके च पण्डिताः समदर्शिनः ||५-१८||",
+      hindi: "विनीत साधु पुरुष अपने वास्तविक ज्ञान के कारण एक विद्वान तथा विनीत ब्राह्मण, गाय, हाथी, कुत्ते तथा चाण्डाल को समान दृष्टि (समभाव) से देखते हैं।",
+      english: "The humble sages, by virtue of true knowledge, see with equal vision a learned and gentle brahmana, a cow, an elephant, a dog and a dog-eater [outcaste]."
+    },
+    {
+      id: "5.19",
+      sanskrit: "इहैव तैर्जितः सर्गो येषां साम्ये स्थितं मनः |\nनिर्दोषं हि समं ब्रह्म तस्माद् ब्रह्मणि ते स्थिताः ||५-१९||",
+      hindi: "जिनके मन एकत्व तथा समता में स्थित हैं, उन्होंने जन्म तथा मृत्यु के बन्धनों को पहले ही जीत लिया है। वे ब्रह्म के समान निर्दोष हैं और सदा ब्रह्म में ही स्थित रहते हैं।",
+      english: "Those whose minds are established in sameness and equanimity have already conquered the conditions of birth and death. They are flawless like Brahman, and thus they are already situated in Brahman."
+    },
+    {
+      id: "5.20",
+      sanskrit: "न प्रहृष्येत्प्रियं प्राप्य नोद्विजेत्प्राप्य चाप्रियम् |\nस्थिरबुद्धिरसम्मूढो ब्रह्मविद् ब्रह्मणि स्थितः ||५-२०||",
+      hindi: "जो व्यक्ति प्रिय वस्तु को पाकर न तो हर्षित होता है और न अप्रिय वस्तु को पाकर विचलित होता है, जो स्थिरबुद्धि है, जो मोहरहित है और जो भगवद्विद्या को जानने वाला है, वह पहले से ही ब्रह्म में स्थित रहता है।",
+      english: "A person who neither rejoices upon achieving something pleasant nor laments upon obtaining something unpleasant, who is self-intelligent, who is unbewildered, and who knows the science of God, is already situated in transcendence."
+    },
+    {
+      id: "5.21",
+      sanskrit: "बाह्यस्पर्शेष्वसक्तात्मा विन्दत्यात्मनि यत्सुखम् |\nस ब्रह्मयोगयुक्तात्मा सुखमक्षयमश्नुते ||५-२१||",
+      hindi: "ऐसा मुक्त पुरुष भौतिक इन्द्रियसुख की ओर आकृष्ट नहीं होता, अपितु सदैव समाधि में रहकर अपने अन्तर में आनन्द का अनुभव करता है। इस प्रकार स्वरूपसिद्ध व्यक्ति परब्रह्म में एकाग्रचित्त होने के कारण असीम सुख भोगता है।",
+      english: "Such a liberated person is not attracted to material sense pleasure but is always in trance, enjoying the pleasure within. In this way the self-realized person enjoys unlimited happiness, for he concentrates on the Supreme."
+    },
+    {
+      id: "5.22",
+      sanskrit: "ये हि संस्पर्शजा भोगा दुःखयोनय एव ते |\nआद्यन्तवन्तः कौन्तेय न तेषु रमते बुधः ||५-२२||",
+      hindi: "विवेकी पुरुष दुख के कारणों में भाग नहीं लेता, जो कि भौतिक इन्द्रियों के संसर्ग से उत्पन्न होते हैं। हे कुन्तीपुत्र! ऐसे भोगों का आदि तथा अन्त होता है, अतः चतुर व्यक्ति उनमें आनन्द नहीं लेता।",
+      english: "An intelligent person does not take part in the sources of misery, which are due to contact with the material senses. O son of Kunti, such pleasures have a beginning and an end, and so the wise man does not delight in them."
+    },
+    {
+      id: "5.23",
+      sanskrit: "शक्नोतीहैव यः सोढुं प्राक्शरीरविमोक्षणात् |\nकामक्रोधोद्भवं वेगं स युक्तः स सुखी नरः ||५-२३||",
+      hindi: "यदि इस शरीर को त्यागने के पूर्व कोई मनुष्य इन्द्रियों के वेगों को सहन करने तथा इच्छा एवं क्रोध के वेग को रोकने में समर्थ होता है, तो वह इस संसार में सुखी रह सकता है।",
+      english: "Before giving up this present body, if one is able to tolerate the urges of the material senses and check the force of desire and anger, he is well situated and is happy in this world."
+    },
+    {
+      id: "5.24",
+      sanskrit: "योऽन्तःसुखोऽन्तरारामस् तथान्तर्ज्योतिरेव यः |\nस योगी ब्रह्मनिर्वाणं ब्रह्मभूतोऽधिगच्छति ||५-२४||",
+      hindi: "जो मनुष्य अपने में ही आनन्दित रहता है, जो अपने में ही रमण करता है और जो अपने में ही ज्ञान के प्रकाश से युक्त है, वह योगी वास्तव में पूर्णतः मुक्त है। वह परब्रह्म में अपनी पहचान के कारण अन्ततः परब्रह्म को प्राप्त होता है।",
+      english: "One whose happiness is within, who is active and rejoices within, and whose aim is inward is actually the perfect mystic. He is liberated in the Supreme, and ultimately he attains the Supreme."
+    },
+    {
+      id: "5.25",
+      sanskrit: "लभन्ते ब्रह्मनिर्वाणमृषयः क्षीणकल्मषाः |\nछिन्नद्वैधा यतात्मानः सर्वभूतहिते रताः ||५-२५||",
+      hindi: "जो लोग संशय से उत्पन्न होने वाले द्वन्द्वों से परे हैं, जिनके मन आत्म-साक्षात्कार में रत हैं, जो समस्त जीवों के कल्याण-कार्य करने में सदैव व्यस्त रहते हैं और जो समस्त पापों से रहित हैं, वे ब्रह्मनिर्वाण (मुक्ति) को प्राप्त होते हैं।",
+      english: "Those who are beyond the dualities that arise from doubts, whose minds are engaged within, who are always busy working for the welfare of all living beings, and who are free from all sins achieve liberation in the Supreme."
+    },
+    {
+      id: "5.26",
+      sanskrit: "कामक्रोधवियुक्तानां यतीनां यतचेतसाम् |\nअभितो ब्रह्मनिर्वाणं वर्तते विदितात्मनाम् ||५-२६||",
+      hindi: "जो क्रोध तथा समस्त भौतिक इच्छाओं से रहित हैं, जो स्वरूपसिद्ध, आत्मसंयमी हैं और संसिद्धि के लिए निरन्तर प्रयास करते हैं, उनकी मुक्ति निकट भविष्य में सुनिश्चित है।",
+      english: "Those who are free from anger and all material desires, who are self-realized, self-disciplined and constantly endeavoring for perfection, are assured of liberation in the Supreme in the very near future."
+    },
+    {
+      id: "5.27-28",
+      sanskrit: "स्पर्शान्कृत्वा बहिर्बाह्यांश्चक्षुश्चैवान्तरे भ्रुवोः |\nप्राणापानौ समौ कृत्वा नासाभ्यन्तरचारिणौ ||\nयतेन्द्रियमनोबुद्धिर् मुनिर्मोक्षपरायणः |\nविगतेच्छाभयक्रोधो यः सदा मुक्त एव सः ||",
+      hindi: "समस्त इन्द्रियविषयों को बाहर करके, दृष्टि को भौंहों के मध्य केन्द्रित करके, प्राण तथा अपान वायु को नथुनों के भीतर रोककर और इस तरह मन, इन्द्रियों तथा बुद्धि को वश में करके जो मोक्ष को लक्ष्य बनाता है, वह योगी इच्छा, भय तथा क्रोध से रहित हो जाता है। जो निरन्तर इस अवस्था में रहता है, वह अवश्य ही मुक्त है।",
+      english: "Shutting out all external sense objects, keeping the eyes and vision concentrated between the two eyebrows, suspending the inward and outward breaths within the nostrils, and thus controlling the mind, senses and intelligence, the transcendentalist aiming at liberation becomes free from desire, fear and anger. One who is always in this state is certainly liberated."
+    },
+    {
+      id: "5.29",
+      sanskrit: "भोक्तारं यज्ञतपसां सर्वलोकमहेश्वरम् |\nसुहृदं सर्वभूतानां ज्ञात्वा मां शान्तिमृच्छति ||५-२९||",
+      hindi: "मुझे समस्त यज्ञों तथा तपस्याओं का परम भोक्ता, समस्त लोकों तथा देवताओं का परमेश्वर तथा समस्त जीवों का उपकारी एवं हितैषी जानकर मेरे भावनामृत से पूर्ण पुरुष भौतिक दुखों से शान्ति लाभ करता है।",
+      english: "A person in full consciousness of Me, knowing Me to be the ultimate beneficiary of all sacrifices and austerities, the Supreme Lord of all planets and demigods, and the benefactor and well-wisher of all living entities, attains peace from the pangs of material miseries."
+    }
+  ]
+},
+{
+  chapter: 6,
+  title: "Dhyāna Yoga",
+  english_title: "The Yoga of Meditation",
+  verses: [
+    {
+      id: "6.1",
+      sanskrit: "श्रीभगवानुवाच |\nअनाश्रितः कर्मफलं कार्यं कर्म करोति यः |\nस सन्न्यासी च योगी च न निरग्निर्न चाक्रियः ||६-१||",
+      hindi: "श्री भगवान ने कहा - जो पुरुष अपने कर्मफल के प्रति अनासक्त है और जो अपने कर्तव्य का पालन करता है, वही संन्यासी और असली योगी है। वह नहीं, जो न तो अग्नि जलाता है और न कर्म करता है।",
+      english: "The Supreme Lord said: One who is unattached to the fruits of his work and who works as he is obligated is in the renounced order of life, and he is the true mystic, not he who lights no fire and performs no duty."
+    },
+    {
+      id: "6.2",
+      sanskrit: "यं सन्न्यासमिति प्राहुर्योगं तं विद्धि पाण्डव |\nन ह्यसन्न्यस्तसङ्कल्पो योगी भवति कश्चन ||६-२||",
+      hindi: "हे पाण्डुपुत्र! जिसे संन्यास कहते हैं, उसे ही तुम योग अर्थात् परब्रह्म से युक्त होना जानो, क्योंकि इन्द्रियतृप्ति के लिए इच्छा को त्यागे बिना कोई कभी योगी नहीं हो सकता।",
+      english: "What is called renunciation you should know to be the same as yoga, or linking oneself with the Supreme, O son of Pandu, for one can never become a yogi unless he renounces the desire for sense gratification."
+    },
+    {
+      id: "6.3",
+      sanskrit: "आरुरुक्षोर्मुनेर्योगं कर्म कारणमुच्यते |\nयोगारूढस्य तस्यैव शमः कारणमुच्यते ||६-३||",
+      hindi: "अष्टांगयोग के नव-अभ्यासी के लिए कर्म साधन कहलाता है और योगसिद्ध पुरुष के लिए समस्त भौतिक कार्यकलापों का परित्याग ही साधन कहा जाता है।",
+      english: "For one who is a neophyte in the eightfold yoga system, work is said to be the means; and for one who is already elevated in yoga, cessation of all material activities is said to be the means."
+    },
+    {
+      id: "6.4",
+      sanskrit: "यदा हि नेन्द्रियार्थेषु न कर्मस्वनुषज्जते |\nसर्वसङ्कल्पसन्न्यासी योगारूढस्तदोच्यते ||६-४||",
+      hindi: "जब कोई पुरुष समस्त भौतिक इच्छाओं का त्याग करके न तो इन्द्रियतृप्ति के लिए कार्य करता है और न सकाम कर्मों में प्रवृत्त होता है, तो वह योगारूढ़ कहलाता है।",
+      english: "A person is said to be elevated in yoga when, having renounced all material desires, he neither acts for sense gratification nor engages in fruitive activities."
+    },
+    {
+      id: "6.5",
+      sanskrit: "उद्धरेदात्मनात्मानं नात्मानमवसादयेत् |\nआत्मैव ह्यात्मनो बन्धुरात्मैव रिपुरात्मनः ||६-५||",
+      hindi: "मनुष्य को चाहिए कि अपने मन की सहायता से अपना उद्धार करे और अपने को नीचे न गिरने दे। यह मन बद्धजीव का मित्र भी है और शत्रु भी।",
+      english: "One must deliver himself with the help of his mind, and not degrade himself. The mind is the friend of the conditioned soul, and his enemy as well."
+    },
+    {
+      id: "6.6",
+      sanskrit: "बन्धुरात्मात्मनस्तस्य येनात्मैवात्मना जितः |\nअनात्मनस्तु शत्रुत्वे वर्तेतात्मैव शत्रुवत् ||६-६||",
+      hindi: "जिसने मन को जीत लिया है, उसके लिए मन सर्वश्रेष्ठ मित्र है, किन्तु जो ऐसा नहीं कर पाया, उसके लिए मन सबसे बड़ा शत्रु बना रहेगा।",
+      english: "For him who has conquered the mind, the mind is the best of friends; but for one who has failed to do so, his mind will remain the greatest enemy."
+    },
+    {
+      id: "6.7",
+      sanskrit: "जितात्मनः प्रशान्तस्य परमात्मा समाहितः |\nशीतोष्णसुखदुःखेषु तथा मानापमानयोः ||६-७||",
+      hindi: "जिसने मन को जीत लिया है, उसने पहले ही परमात्मा को प्राप्त कर लिया है, क्योंकि उसने शान्ति प्राप्त कर ली है। ऐसे पुरुष के लिए सुख-दुख, सर्दी-गर्मी एवं मान-अपमान एक से हैं।",
+      english: "For one who has conquered the mind, the Supersoul is already reached, for he has attained tranquility. To such a man happiness and distress, heat and cold, honor and dishonor are all the same."
+    },
+    {
+      id: "6.8",
+      sanskrit: "ज्ञानविज्ञानतृप्तात्मा कूटस्थो विजितेन्द्रियः |\nयुक्त इत्युच्यते योगी समलोष्टाश्मकाञ्चनः ||६-८||",
+      hindi: "वह व्यक्ति आत्म-साक्षात्कार को प्राप्त तथा योगी कहलाता है, जो अपने अर्जित ज्ञान तथा अनुभूति से पूर्णतया सन्तुष्ट रहता है। ऐसा व्यक्ति अध्यात्म को प्राप्त तथा जितेन्द्रिय कहलाता है। वह सभी वस्तुओं को - चाहे वे कंकड़ हों, पत्थर हों या कि सोना - एकसमान देखता है।",
+      english: "A person is said to be established in self-realization and is called a yogi [or mystic] when he is fully satisfied by virtue of acquired knowledge and realization. Such a person is situated in transcendence and is self-controlled. He sees everything—whether it be pebbles, stones or gold—as the same."
+    },
+    {
+      id: "6.9",
+      sanskrit: "सुहृन्मित्रार्युदासीनमध्यस्थद्वेष्यबन्धुषु |\nसाधुष्वपि च पापेषु समबुद्धिर्विशिष्यते ||६-९||",
+      hindi: "जब कोई निष्कपट हितैषियों, प्रिय मित्रों, तटस्थों, मध्यस्थों, ईर्ष्यालुओं, शत्रुओं तथा मित्रों, पुण्यात्माओं एवं पापियों को समान भाव से देखता है, तो वह और भी उन्नत माना जाता है।",
+      english: "A person is considered still more advanced when he regards honest well-wishers, affectionate benefactors, the neutral, mediators, the envious, friends and enemies, the pious and the sinners all with an equal mind."
+    },
+    {
+      id: "6.10",
+      sanskrit: "योगी युञ्जीत सततमात्मानं रहसि स्थितः |\nएकाकी यतचित्तात्मा निराशीरपरिग्रहः ||६-१०||",
+      hindi: "योगी को चाहिए कि वह सदैव अपने शरीर, मन तथा आत्मा को परमेश्वर में लगाए, एकान्त स्थान में रहे और बड़ी सावधानी के साथ अपने मन को वश में करे। उसे समस्त आकांक्षाओं तथा संग्रहभाव की इच्छाओं से मुक्त होना चाहिए।",
+      english: "A transcendentalist should always engage his body, mind and self in relationship with the Supreme; he should live alone in a secluded place and should always carefully control his mind. He should be free from desires and feelings of possessiveness."
+    },
+    {
+      id: "6.11-12",
+      sanskrit: "शुचौ देशे प्रतिष्ठाप्य स्थिरमासनमात्मनः |\nनात्युच्छ्रितं नातिनीचं चैलाजिनकुशोत्तरम् ||\nतत्रैकाग्रं मनः कृत्वा यतचित्तेन्द्रियक्रियः |\nउपविश्यासने युञ्ज्याद्योगमात्मविशुद्धये ||",
+      hindi: "योगाभ्यास के लिए योगी को एकान्त स्थान में जाकर भूमि पर कुशा बिछा देनी चाहिए और फिर उसे मृगछाला तथा मुलायम वस्त्र से ढक देना चाहिए। आसन न तो बहुत ऊँचा हो, न बहुत नीचा। यह पवित्र स्थान में स्थित हो। योगी को चाहिए कि इस पर दृढ़तापूर्वक बैठे और मन, इन्द्रियों तथा कर्मों को वश में करते हुए तथा मन को एक बिन्दु पर स्थिर करके हृदय को शुद्ध करने के लिए योगाभ्यास करे।",
+      english: "To practice yoga, one should go to a secluded place and should lay kusha grass on the ground and then cover it with a deerskin and a soft cloth. The seat should be neither too high nor too low and should be situated in a sacred place. The yogi should then sit on it very firmly and practice yoga to purify the heart by controlling his mind, senses and activities and fixing the mind on one point."
+    },
+    {
+      id: "6.13-14",
+      sanskrit: "समं कायशिरोग्रीवं धारयन्नचलं स्थिरः |\nसम्प्रेक्ष्य नासिकाग्रं स्वं दिशश्चानवलोकयन् ||\nप्रशान्तात्मा विगतभीर्ब्रह्मचारिव्रते स्थितः |\nमनः संयम्य मच्चित्तो युक्त आसीत मत्परः ||",
+      hindi: "योगाभ्यासी को चाहिए कि वह अपने शरीर, गर्दन तथा सिर को सीधा रखे और नासिका के अगले सिरे पर दृष्टि लगाए। इस प्रकार वह अविचलित तथा दमित मन से, भयरहित, विषयी-जीवन से पूर्णतया मुक्त होकर अपने हृदय में मेरा चिन्तन करे और मुझे ही अपना चरम लक्ष्य बनाए।",
+      english: "One should hold one's body, neck and head erect in a straight line and stare steadily at the tip of the nose. Thus, with an unagitated, subdued mind, devoid of fear, completely free from sex life, one should meditate upon Me within the heart and make Me the ultimate goal of life."
+    },
+    {
+      id: "6.15",
+      sanskrit: "युञ्जन्नेवं सदात्मानं योगी नियतमानसः |\nशान्तिं निर्वाणपरमां मत्संस्थामधिगच्छति ||६-१५||",
+      hindi: "इस प्रकार शरीर, मन तथा कर्म में निरन्तर संयम का अभ्यास करते हुए संयमित मन वाले योगी इस भौतिक अस्तित्व के समाप्त होने पर भगवद्धाम (निर्वाण) को प्राप्त करते हैं।",
+      english: "Thus practicing constant control of the body, mind and activities, the mystic transcendentalist, his mind regulated, attains to the kingdom of God [or the abode of Krishna] by cessation of material existence."
+    },
+    {
+      id: "6.16",
+      sanskrit: "नात्यश्नतस्तु योगोऽस्ति न चैकान्तमनश्नतः |\nन चातिस्वप्नशीलस्य जाग्रतो नैव चार्जुन ||६-१६||",
+      hindi: "हे अर्जुन! जो अधिक खाता है या बहुत कम खाता है, जो अधिक सोता है अथवा जो पर्याप्त नहीं सोता, उसके योगी बनने की कोई सम्भावना नहीं है।",
+      english: "There is no possibility of one's becoming a yogi, O Arjuna, if one eats too much or eats too little, sleeps too much or does not sleep enough."
+    },
+    {
+      id: "6.17",
+      sanskrit: "युक्ताहारविहारस्य युक्तचेष्टस्य कर्मसु |\nयुक्तस्वप्नावबोधस्य योगो भवति दुःखहा ||६-१७||",
+      hindi: "जो खाने, सोने, आमोद-प्रमोद तथा काम करने की आदतों में नियमित रहता है, वह योगाभ्यास द्वारा समस्त भौतिक क्लेशों को नष्ट कर सकता है।",
+      english: "He who is regulated in his habits of eating, sleeping, recreation and work can mitigate all material pains by practicing the yoga system."
+    },
+    {
+      id: "6.18",
+      sanskrit: "यदा विनियतं चित्तमात्मन्येवावतिष्ठते |\nनिःस्पृहः सर्वकामेभ्यो युक्त इत्युच्यते तदा ||६-१८||",
+      hindi: "जब योगी योगाभ्यास द्वारा अपने मानसिक कार्यकलापों को वश में कर लेता है और अध्यात्म में स्थित हो जाता है अर्थात् समस्त भौतिक इच्छाओं से रहित हो जाता है, तब वह योग में सुस्थिर कहा जाता है।",
+      english: "When the yogi, by practice of yoga, disciplines his mental activities and becomes situated in transcendence—devoid of all material desires—he is said to be well established in yoga."
+    },
+    {
+      id: "6.19",
+      sanskrit: "यथा दीपो निवातस्थो नेङ्गते सोपमा स्मृता |\nयोगिनो यतचित्तस्य युञ्जतो योगमात्मनः ||६-१९||",
+      hindi: "जिस प्रकार वायुरहित स्थान में दीपक हिलता-डुलता नहीं, उसी तरह जिस योगी का मन वश में होता है, वह आत्म-तत्त्व के ध्यान में सदैव स्थिर रहता है।",
+      english: "As a lamp in a windless place does not waver, so the transcendentalist, whose mind is controlled, remains always steady in his meditation on the transcendent self."
+    },
+    {
+      id: "6.20-23",
+      sanskrit: "यत्रोपरमते चित्तं निरुद्धं योगसेवया |\nयत्र चैवात्मनात्मानं पश्यन्नात्मनि तुष्यति ||\nसुखमात्यन्तिकं यत्तद्बुद्धिग्राह्यमतीन्द्रियम् |\nवेत्ति यत्र न चैवायं स्थितश्चलति तत्त्वतः ||\nयं लब्ध्वा चापरं लाभं मन्यते नाधिकं ततः |\nयस्मिन्स्थितो न दुःखेन गुरुणापि विचाल्यते ||\nतं विद्याद्दुःखसंयोगवियोगं योगसंज्ञितम् ||",
+      hindi: "सिद्धि की अवस्था में, जिसे समाधि कहते हैं, मनुष्य का मन योगाभ्यास के द्वारा भौतिक मानसिक क्रियाओं से पूर्णतया संयमित हो जाता है। इस सिद्धि की विशेषता यह है कि मनुष्य शुद्ध मन से अपने को देख सकता है और अपने में आनन्द उठा सकता है। उस आनन्दमयी स्थिति में वह दिव्य इन्द्रियों द्वारा असीम दिव्यसुख में स्थित रहता है। इस तरह स्थापित मनुष्य कभी सत्य से विचलित नहीं होता और इस सुख की प्राप्ति हो जाने पर वह इससे बड़ा कोई दूसरा लाभ नहीं मानता। ऐसी स्थिति को पाकर मनुष्य बड़ी से बड़ी कठिनाइयों में भी विचलित नहीं होता। यह निस्सन्देह भौतिक संसर्ग से उत्पन्न होने वाले समस्त दुखों से वास्तविक मुक्ति है।",
+      english: "In the stage of perfection called trance, or samadhi, one's mind is completely restrained from material mental activities by practice of yoga. This perfection is characterized by one's ability to see the self by the pure mind and to relish and rejoice in the self. In that joyous state, one is situated in boundless transcendental happiness, realized through transcendental senses. Established thus, one never departs from the truth, and upon gaining this he thinks there is no greater gain. Being situated in such a position, one is never shaken, even in the midst of greatest difficulty. This indeed is actual freedom from all miseries arising from material contact."
+    },
+    {
+      id: "6.24",
+      sanskrit: "स निश्चयेन योक्तव्यो योगोऽनिर्विण्णचेतसा |\nसङ्कल्पप्रभवान्कामांस्त्यक्त्वा सर्वानशेषतः |\nमनसैवेन्द्रियग्रामं विनियम्य समन्ततः ||६-२४||",
+      hindi: "मनुष्य को चाहिए कि संकल्प तथा श्रद्धा के साथ योगाभ्यास में लगे और पथ से विचलित न हो। उसे चाहिए कि मनोधर्म से उत्पन्न समस्त इच्छाओं को निरपवाद रूप से त्याग दे और इस प्रकार मन के द्वारा सभी ओर से इन्द्रियों को वश में करे।",
+      english: "One should engage oneself in the practice of yoga with determination and faith and not be deviated from the path. One should abandon, without exception, all material desires born of mental speculation and thus control all the senses on all sides by the mind."
+    },
+    {
+      id: "6.25",
+      sanskrit: "शनैः शनैरुपरमेद् बुद्ध्या धृतिगृहीतया |\nआत्मसंस्थं मनः कृत्वा न किञ्चिदपि चिन्तयेत् ||६-२५||",
+      hindi: "धीरे-धीरे, क्रमशः, पूर्ण विश्वास पूर्वक बुद्धि के द्वारा समाधि में स्थित होना चाहिए और इस प्रकार मन को आत्मा में ही स्थित करना चाहिए तथा अन्य कुछ भी नहीं सोचना चाहिए।",
+      english: "Gradually, step by step, one should become situated in trance by means of intelligence sustained by full conviction, and thus the mind should be fixed on the self alone and should think of nothing else."
+    },
+    {
+      id: "6.26",
+      sanskrit: "यतो यतो निश्चरति मनश्चञ्चलमस्थिरम् |\nततस्ततो नियम्यैतदात्मन्येव वशं नयेत् ||६-२६||",
+      hindi: "मन अपनी चंचलता तथा अस्थिरता के कारण जहाँ कहीं भी विचरण करे, मनुष्य को चाहिए कि उसे वहाँ से खींचे और अपने वश में लाये।",
+      english: "From wherever the mind wanders due to its flickering and unsteady nature, one must certainly withdraw it and bring it back under the control of the self."
+    },
+    {
+      id: "6.27",
+      sanskrit: "प्रशान्तमनसं ह्येनं योगिनं सुखमुत्तमम् |\nउपैति शान्तरजसं ब्रह्मभूतमकल्मषम् ||६-२७||",
+      hindi: "जिस योगी का मन मुझमें स्थिर रहता है, वह निश्चय ही परम सुख प्राप्त करता है। वह रजोगुण से परे हो जाता है, वह परमात्मा के साथ अपनी गुणात्मक एकता को समझता है और इस प्रकार अपने समस्त विगत कर्मों के फल से निवृत्त हो जाता है।",
+      english: "The yogi whose mind is fixed on Me verily attains the highest perfection of transcendental happiness. He is beyond the mode of passion, he realizes his qualitative identity with the Supreme, and thus he is freed from all reactions to past deeds."
+    },
+    {
+      id: "6.28",
+      sanskrit: "युञ्जन्नेवं सदात्मानं योगी विगतकल्मषः |\nसुखेन ब्रह्मसंस्पर्शमत्यन्तं सुखमश्नुते ||६-२८||",
+      hindi: "इस प्रकार आत्मसंयमी योगी समस्त भौतिक कल्मष से मुक्त होकर भगवान् की दिव्य प्रेमाभक्ति में परमानन्द प्राप्त करता है।",
+      english: "Thus the self-controlled yogi, constantly engaged in yoga practice, becomes free from all material contamination and achieves the highest stage of perfect happiness in transcendental loving service to the Lord."
+    },
+    {
+      id: "6.29",
+      sanskrit: "सर्वभूतस्थमात्मानं सर्वभूतानि चात्मनि |\nईक्षते योगयुक्तात्मा सर्वत्र समदर्शनः ||६-२९||",
+      hindi: "वास्तविक योगी अपने हृदय में समस्त जीवों में मुझको तथा मुझमें समस्त जीवों को देखता है। निस्सन्देह स्वरूपसिद्ध व्यक्ति मुझ परमेश्वर को सर्वत्र देखता है।",
+      english: "A true yogi observes Me in all beings and also sees every being in Me. Indeed, the self-realized person sees Me, the same Supreme Lord, everywhere."
+    },
+    {
+      id: "6.30",
+      sanskrit: "यो मां पश्यति सर्वत्र सर्वं च मयि पश्यति |\nतस्याहं न प्रणश्यामि स च मे न प्रणश्यति ||६-३०||",
+      hindi: "जो मुझे सर्वत्र देखता है और सब कुछ मुझमें देखता है, उसके लिए न तो मैं कभी अदृश्य होता हूँ और न वह मेरे लिए अदृश्य होता है।",
+      english: "For one who sees Me everywhere and sees everything in Me, I am never lost, nor is he ever lost to Me."
+    },
+    {
+      id: "6.31",
+      sanskrit: "सर्वभूतस्थितं यो मां भजत्येकत्वमास्थितः |\nसर्वथा वर्तमानोऽपि स योगी मयि वर्तते ||६-३१||",
+      hindi: "जो योगी परमात्मा के रूप में प्रत्येक जीव के हृदय में स्थित मुझको जानकर मेरी भक्ति करता है, वह प्रत्येक अवस्था में मुझमें ही स्थित रहता है।",
+      english: "Such a yogi, who engages in the worshipful service of the Supersoul, knowing that I and the Supersoul are one, remains always in Me in all circumstances."
+    },
+    {
+      id: "6.32",
+      sanskrit: "आत्मौपम्येन सर्वत्र समं पश्यति योऽर्जुन |\nसुखं वा यदि वा दुःखं स योगी परमो मतः ||६-३२||",
+      hindi: "हे अर्जुन! वह पूर्ण योगी है, जो अपनी तुलना से समस्त प्राणियों को उनके सुखों तथा दुखों में वास्तविक समानता का दर्शन करता है।",
+      english: "He is a perfect yogi who, by comparison to his own self, sees the true equality of all beings, in both their happiness and their distress, O Arjuna!"
+    },
+    {
+      id: "6.33",
+      sanskrit: "अर्जुन उवाच |\nयोऽयं योगस्त्वया प्रोक्तः साम्येन मधुसूदन |\nएतस्याहं न पश्यामि चञ्चलत्वात्स्थितिं स्थिराम् ||६-३३||",
+      hindi: "अर्जुन ने कहा - हे मधुसूदन! आपने जिस योगपद्धति का संक्षेप में वर्णन किया है, वह मेरे लिए अव्यावहारिक तथा असहनीय है, क्योंकि मन चंचल तथा अस्थिर है।",
+      english: "Arjuna said: O Madhusudana, the system of yoga which you have summarized appears impractical and unendurable to me, for the mind is restless and unsteady."
+    },
+    {
+      id: "6.34",
+      sanskrit: "चञ्चलं हि मनः कृष्ण प्रमाथि बलवद्दृढम् |\nतस्याहं निग्रहं मन्ये वायोरिव सुदुष्करम् ||६-३४||",
+      hindi: "हे कृष्ण! चूँकि मन चंचल, उच्छृंखल, हठीला तथा अत्यन्त बलवान है, अतः मुझे इसे वश में करना वायु को वश में करने से भी अधिक कठिन लगता है।",
+      english: "For the mind is restless, turbulent, obstinate and very strong, O Krishna, and to subdue it, I think, is more difficult than controlling the wind."
+    },
+    {
+      id: "6.35",
+      sanskrit: "श्रीभगवानुवाच |\nअसंशयं महाबाहो मनो दुर्निग्रहं चलम् |\nअभ्यासेन तु कौन्तेय वैराग्येण च गृह्यते ||६-३५||",
+      hindi: "श्री भगवान ने कहा - हे महाबाहु कुन्तीपुत्र! चंचल मन को वश में करना निस्सन्देह अत्यन्त कठिन है, किन्तु उपयुक्त अभ्यास द्वारा तथा विरक्ति द्वारा ऐसा सम्भव है।",
+      english: "Lord Sri Krishna said: O mighty-armed son of Kunti, it is undoubtedly very difficult to curb the restless mind, but it is possible by suitable practice and by detachment."
+    },
+    {
+      id: "6.36",
+      sanskrit: "असंयतात्मना योगो दुष्प्राप इति मे मतिः |\nवश्यात्मना तु यतता शक्योऽवाप्तुमुपायतः ||६-३६||",
+      hindi: "जिसका मन उच्छृंखल है, उसके लिए आत्म-साक्षात्कार कठिन कार्य होता है। किन्तु जिसका मन संयमित है और जो समुचित उपाय करता है, उसकी सफलता ध्रुव है। ऐसा मेरा मत है।",
+      english: "For one whose mind is unbridled, self-realization is difficult work. But he whose mind is controlled and who strives by appropriate means is assured of success. That is My opinion."
+    },
+    {
+      id: "6.37",
+      sanskrit: "अर्जुन उवाच |\nअयतिः श्रद्धयोपेतो योगाच्चलितमानसः |\nअप्राप्य योगसंसिद्धिं कां गतिं कृष्ण गच्छति ||६-३७||",
+      hindi: "अर्जुन ने कहा - हे कृष्ण! उस असफल योगी की गति क्या है, जो प्रारम्भ में श्रद्धापूर्वक आत्म-साक्षात्कार की विधि ग्रहण करता है, किन्तु बाद में भौतिकता के कारण उससे विचलित हो जाता है और योग-सिद्धि को प्राप्त नहीं कर पाता?",
+      english: "Arjuna said: O Krishna, what is the destination of the unsuccessful transcendentalist, who in the beginning takes to the process of self-realization with faith but who later desists due to worldly-mindedness and thus does not attain perfection in mysticism?"
+    },
+    {
+      id: "6.38",
+      sanskrit: "कच्चिन्नोभयविभ्रष्टश् छिन्नाभ्रमिव नश्यति |\nअप्रतिष्ठो महाबाहो विमूढो ब्रह्मणः पथि ||६-३८||",
+      hindi: "हे महाबाहु कृष्ण! क्या ब्रह्म-प्राप्ति के मार्ग से भ्रष्ट व्यक्ति आध्यात्मिक तथा भौतिक दोनों ही सफलताओं से च्युत नहीं होता और छिन्न-भिन्न बादल की भाँति विनष्ट नहीं हो जाता, जिसके ফলে उसके लिए किसी लोक में कोई स्थान नहीं रहता?",
+      english: "O mighty-armed Krishna, does not such a man, who is bewildered from the path of transcendence, fall away from both spiritual and material success and perish like a riven cloud, with no position in any sphere?"
+    },
+    {
+      id: "6.39",
+      sanskrit: "एतन्मे संशयं कृष्ण छेत्तुमर्हस्यशेषतः |\nत्वदन्यः संशयस्यास्य छेत्ता न ह्युपपद्यते ||६-३९||",
+      hindi: "हे कृष्ण! यही मेरा सन्देह है और मैं आपसे इसे पूर्णतया दूर करने की प्रार्थना कर रहा हूँ। आपके अतिरिक्त अन्य कोई ऐसा नहीं है, जो इस सन्देह को नष्ट कर सके।",
+      english: "This is my doubt, O Krishna, and I ask You to dispel it completely. But for You, no one is to be found who can destroy this doubt."
+    },
+    {
+      id: "6.40",
+      sanskrit: "श्रीभगवानुवाच |\nपार्थ नैवेह नामुत्र विनाशस्तस्य विद्यते |\nन हि कल्याणकृत्कश्चिद् दुर्गतिं तात गच्छति ||६-४०||",
+      hindi: "श्री भगवान ने कहा - हे पृथापुत्र! कल्याण-कार्यों में निरत योगी का न तो इस लोक में और न परलोक में ही विनाश होता है। हे मित्र! भलाई करने वाला कोई भी व्यक्ति बुराई से पराजित नहीं होता।",
+      english: "The Supreme Personality of Godhead said: Son of Pritha, a transcendentalist engaged in auspicious activities does not meet with destruction either in this world or in the spiritual world; one who does good, My friend, is never overcome by evil."
+    },
+    {
+      id: "6.41",
+      sanskrit: "प्राप्य पुण्यकृतां लोकानुषित्वा शाश्वतीः समाः |\nशुचीनां श्रीमतां गेहे योगभ्रष्टोऽभिजायते ||६-४१||",
+      hindi: "असफल योगी पवित्र आत्माओं के लोकों में अनेकानेक वर्षों तक भोग करने के बाद या तो सदाचारी पुरुषों के परिवार में या धनवानों के कुल में जन्म लेता है।",
+      english: "The unsuccessful yogi, after many, many years of enjoyment on the planets of the pious living entities, is born into a family of righteous people, or into a family of rich aristocracy."
+    },
+    {
+      id: "6.42",
+      sanskrit: "अथवा योगिनामेव कुले भवति धीमताम् |\nएतद्धि दुर्लभतरं लोके जन्म यदीदृशम् ||६-४२||",
+      hindi: "अथवा (यदि दीर्घकाल तक योग करने के बाद असफल रहे तो) वह ऐसे योगियों के कुल में जन्म लेता है, जो परम बुद्धिमान हैं। निस्सन्देह इस संसार में ऐसा जन्म दुर्लभ है।",
+      english: "Or [if unsuccessful after long practice of yoga] he takes his birth in a family of transcendentalists who are surely great in wisdom. Certainly, such a birth is rare in this world."
+    },
+    {
+      id: "6.43",
+      sanskrit: "तत्र तं बुद्धिसंयोगं लभते पौर्वदेहिकम् |\nयतते च ततो भूयः संसिद्धौ कुरुनन्दन ||६-४३||",
+      hindi: "हे कुरुनन्दन! ऐसा जन्म पाकर वह अपने पूर्वजन्म की दैवी चेतना को पुनः प्राप्त करता है और पूर्ण सफलता प्राप्त करने के उद्देश्य से वह आगे उन्नति करने का प्रयास करता है।",
+      english: "On taking such a birth, he revives the divine consciousness of his previous life, and he again tries to make further progress in order to achieve complete success, O son of Kuru."
+    },
+    {
+      id: "6.44",
+      sanskrit: "पूर्वाभ्यासेन तेनैव ह्रियते ह्यवशोऽपि सः |\nजिज्ञासुरपि योगस्य शब्दब्रह्मातिवर्तते ||६-४४||",
+      hindi: "अपने पूर्वजन्म की दैवी चेतना के प्रभाव से वह स्वतः ही योग के नियमों की ओर आकर्षित हो जाता है। ऐसा जिज्ञासु योगी शास्त्रों के अनुष्ठानों से परे स्थित होता है।",
+      english: "By virtue of the divine consciousness of his previous life, he automatically becomes attracted to the yogic principles—even without seeking them. Such an inquisitive transcendentalist stands always above the ritualistic principles of the scriptures."
+    },
+    {
+      id: "6.45",
+      sanskrit: "प्रयत्नाद्यतमानस्तु योगी संशुद्धकिल्बिषः |\nअनेकजन्मसंसिद्धस् ततो याति परां गतिम् ||६-४५||",
+      hindi: "और जब योगी समस्त कल्मष से शुद्ध होकर सच्ची निष्ठा से आगे उन्नति करने का प्रयास करता है, तो अन्ततोगत्वा अनेकानेक जन्मों के अभ्यास के पश्चात् सिद्धि लाभ करके वह परम गन्तव्य को प्राप्त करता है।",
+      english: "And when the yogi engages himself with sincere endeavor in making further progress, being washed of all contaminations, then ultimately, achieving perfection after many, many births of practice, he attains the supreme goal."
+    },
+    {
+      id: "6.46",
+      sanskrit: "तपस्विभ्योऽधिको योगी ज्ञानिभ्योऽपि मतोऽधिकः |\nकर्मिभ्यश्चाधिको योगी तस्माद्योगी भवार्जुन ||६-४६||",
+      hindi: "योगी तपस्वी से, ज्ञानी से तथा सकाम कर्मी से बढ़कर होता है। अतः हे अर्जुन! तुम सभी प्रकार से योगी बनो।",
+      english: "A yogi is greater than the ascetic, greater than the empiricist and greater than the fruitive worker. Therefore, O Arjuna, in all circumstances, be a yogi."
+    },
+    {
+      id: "6.47",
+      sanskrit: "योगिनामपि सर्वेषां मद्गतेनान्तरात्मना |\nश्रद्धावान्भजते यो मां स मे युक्ततमो मतः ||६-४७||",
+      hindi: "और समस्त योगियों में से जो योगी अत्यन्त श्रद्धापूर्वक मेरे परायण होकर अपने अन्तःकरण में मेरे विषय में सोचता है और मेरी दिव्य प्रेमाभक्ति करता है, वह योग में मुझसे परम अन्तरंग रूप में युक्त रहता है और सबों में श्रेष्ठ है। यही मेरा मत है।",
+      english: "And of all yogis, the one with great faith who always abides in Me, thinks of Me within himself, and renders transcendental loving service to Me—he is the most intimately united with Me in yoga and is the highest of all. That is My opinion."
+    }
+  ]
+},
+ {
+  chapter: 7,
+  title: "Jñāna Vijñāna Yoga",
+  english_title: "The Yoga of Knowledge and Realization",
+  verses: [
+    {
+      id: "7.1",
+      sanskrit: "श्रीभगवानुवाच |\nमय्यासक्तमनाः पार्थ योगं युञ्जन्मदाश्रयः |\nअसंशयं समग्रं मां यथा ज्ञास्यसि तच्छृणु ||७-१||",
+      hindi: "श्री भगवान ने कहा - हे पृथापुत्र! अब सुनो कि तुम किस तरह मेरी भावना से पूर्ण होकर और मन को मुझमें आसक्त करके योगाभ्यास करते हुए मुझे पूर्णतया संशयरहित जान सकते हो।",
+      english: "The Supreme Personality of Godhead said: Now hear, O son of Pritha, how by practicing yoga in full consciousness of Me, with mind attached to Me, you can know Me in full, free from doubt."
+    },
+    {
+      id: "7.2",
+      sanskrit: "ज्ञानं तेऽहं सविज्ञानमिदं वक्ष्याम्यशेषतः |\nयज्ज्ञात्वा नेह भूयोऽन्यज्ज्ञातव्यमवशिष्यते ||७-२||",
+      hindi: "अब मैं तुमसे पूर्ण रूप से व्यावहारिक तथा दिव्य ज्ञान कहूँगा। इसे जान लेने पर तुम्हें जानने के लिए और कुछ भी शेष नहीं रहेगा।",
+      english: "I shall now declare unto you in full this knowledge, both phenomenal and numinous. This being known, nothing further shall remain for you to know."
+    },
+    {
+      id: "7.3",
+      sanskrit: "मनुष्याणां सहस्रेषु कश्चिद्यतति सिद्धये |\nयततामपि सिद्धानां कश्चिन्मां वेत्ति तत्त्वतः ||७-३||",
+      hindi: "हजारों मनुष्यों में से कोई एक सिद्धि के लिए प्रयत्नशील होता है और इस तरह सिद्धि प्राप्त करने वालों में से विरला ही कोई मुझे वास्तव में जान पाता है।",
+      english: "Out of many thousands among men, one may endeavor for perfection, and of those who have achieved perfection, hardly one knows Me in truth."
+    },
+    {
+      id: "7.4",
+      sanskrit: "भूमिरापोऽनलो वायुः खं मनो बुद्धिरेव च |\nअहङ्कार इतीयं मे भिन्ना प्रकृतिरष्टधा ||७-४||",
+      hindi: "पृथ्वी, जल, अग्नि, वायु, आकाश, मन, बुद्धि तथा अहंकार - ये आठ प्रकार से विभक्त मेरी भिन्ना (अपरा) प्रकृतियाँ हैं।",
+      english: "Earth, water, fire, air, ether, mind, intelligence and false ego—all together these eight constitute My separated material energies."
+    },
+    {
+      id: "7.5",
+      sanskrit: "अपरेयमितस्त्वन्यां प्रकृतिं विद्धि मे पराम् |\nजीवभूतां महाबाहो ययेदं धार्यते जगत् ||७-५||",
+      hindi: "हे महाबाहु! इनके अतिरिक्त मेरी एक अन्य परा शक्ति है जो उन जीवों से युक्त है, जो इस भौतिक अपरा प्रकृति के साधनों का विदोहन कर रहे हैं।",
+      english: "Besides these, O mighty-armed Arjuna, there is another, superior energy of Mine, which comprises the living entities who are exploiting the resources of this material, inferior nature."
+    },
+    {
+      id: "7.6",
+      sanskrit: "एतद्योनीनि भूतानि सर्वाणीत्युपधारय |\nअहं कृत्स्नस्य जगतः प्रभवः प्रलयस्तथा ||७-६||",
+      hindi: "सारे प्राणी इन दोनों शक्तियों के संयोग से उत्पन्न होते हैं। और यह जान लो कि इस जगत् में जो भी भौतिक तथा आध्यात्मिक है, उसकी उत्पत्ति तथा प्रलय मैं ही हूँ।",
+      english: "All created beings have their source in these two natures. Of all that is material and all that is spiritual in this world, know for certain that I am both the origin and the dissolution."
+    },
+    {
+      id: "7.7",
+      sanskrit: "मत्तः परतरं नान्यत्किञ्चिदस्ति धनञ्जय |\nमयि सर्वमिदं प्रोतं सूत्रे मणिगणा इव ||७-७||",
+      hindi: "हे धनञ्जय! मुझसे श्रेष्ठ कोई सत्य नहीं है। जिस प्रकार मोती धागे में गुँथे रहते हैं, उसी प्रकार सब कुछ मुझ पर ही आश्रित है।",
+      english: "O conqueror of wealth, there is no truth superior to Me. Everything rests upon Me, as pearls are strung on a thread."
+    },
+    {
+      id: "7.8",
+      sanskrit: "रसोऽहमप्सु कौन्तेय प्रभास्मि शशिसूर्ययोः |\nप्रणवः सर्ववेदेषु शब्दः खे पौरुषं नृषु ||७-८||",
+      hindi: "हे कुन्तीपुत्र! मैं जल का स्वाद हूँ, सूर्य तथा चन्द्रमा का प्रकाश हूँ, वैदिक मन्त्रों में ओंकार हूँ, आकाश में ध्वनि हूँ तथा मनुष्य में सामर्थ्य हूँ।",
+      english: "O son of Kunti, I am the taste of water, the light of the sun and the moon, the syllable om in the Vedic mantras; I am the sound in ether and ability in man."
+    },
+    {
+      id: "7.9",
+      sanskrit: "पुण्यो गन्धः पृथिव्यां च तेजश्चास्मि विभावसौ |\nजीवनं सर्वभूतेषु तपश्चास्मि तपस्विषु ||७-९||",
+      hindi: "मैं पृथ्वी की असली सुगन्ध हूँ और अग्नि की ऊष्मा हूँ। मैं समस्त जीवों का जीवन तथा तपस्वियों का तप हूँ।",
+      english: "I am the original fragrance of the earth, and I am the heat in fire. I am the life of all that lives, and I am the penances of all ascetics."
+    },
+    {
+      id: "7.10",
+      sanskrit: "बीजं मां सर्वभूतानां विद्धि पार्थ सनातनम् |\nबुद्धिर्बुद्धिमतामस्मि तेजस्तेजस्विनामहम् ||७-१०||",
+      hindi: "हे पार्थ! यह जान लो कि मैं ही समस्त जीवों का आदि बीज हूँ, मैं बुद्धिमानों की बुद्धि तथा समस्त तेजस्वी पुरुषों का तेज हूँ।",
+      english: "O son of Pritha, know that I am the original seed of all existences, the intelligence of the intelligent, and the prowess of all powerful men."
+    },
+    {
+      id: "7.11",
+      sanskrit: "बलं बलवतां चाहं कामरागविवर्जितम् |\nधर्माविरुद्धो भूतेषु कामोऽस्मि भरतर्षभ ||७-११||",
+      hindi: "हे भरतश्रेष्ठ! मैं बलवानों का कामनाओं तथा इच्छा से रहित बल हूँ। मैं वह काम हूँ जो धर्म के विरुद्ध नहीं है।",
+      english: "I am the strength of the strong, devoid of passion and desire. I am sex life which is not contrary to religious principles, O lord of the Bharatas [Arjuna]."
+    },
+    {
+      id: "7.12",
+      sanskrit: "ये चैव सात्त्विका भावा राजसास्तामसाश्च ये |\nमत्त एवेति तान्विद्धि न त्वहं तेषु ते मयि ||७-१२||",
+      hindi: "तुम जान लो कि मेरी शक्ति द्वारा सारे गुण प्रकट होते हैं, चाहे वे सत्त्वगुण हों, रजोगुण हों या तमोगुण। एक प्रकार से मैं सब कुछ हूँ, किन्तु हूँ स्वतन्त्र। मैं प्रकृति के गुणों के अधीन नहीं हूँ, अपितु वे मेरे अधीन हैं।",
+      english: "Know that all states of being—be they of goodness, passion or ignorance—are manifested by My energy. I am, in one sense, everything, but I am independent. I am not under the modes of material nature, for they, on the contrary, are within Me."
+    },
+    {
+      id: "7.13",
+      sanskrit: "त्रिभिर्गुणमयैर्भावैरेभिः सर्वमिदं जगत् |\nमोहितं नाभिजानाति मामेभ्यः परमव्ययम् ||७-१३||",
+      hindi: "तीन गुणों (सत्त्व, रज तथा तम) के द्वारा मोहग्रस्त यह सारा संसार मुझ गुणातीत तथा अविनाशी को नहीं जानता।",
+      english: "Deluded by the three modes [goodness, passion and ignorance], the whole world does not know Me, who am above the modes and inexhaustible."
+    },
+    {
+      id: "7.14",
+      sanskrit: "दैवी ह्येषा गुणमयी मम माया दुरत्यया |\nमामेव ये प्रपद्यन्ते मायामेतां तरन्ति ते ||७-१४||",
+      hindi: "प्रकृति के तीन गुणों वाली मेरी इस दैवी शक्ति को पार कर पाना कठिन है। किन्तु जो मेरे शरणागत हो जाते हैं, वे सरलता से इसे पार कर जाते हैं।",
+      english: "This divine energy of Mine, consisting of the three modes of material nature, is difficult to overcome. But those who have surrendered unto Me can easily cross beyond it."
+    },
+    {
+      id: "7.15",
+      sanskrit: "न मां दुष्कृतिनो मूढाः प्रपद्यन्ते नराधमाः |\nमाययापहृतज्ञाना आसुरं भावमाश्रिताः ||७-१५||",
+      hindi: "जो निपट मूर्ख हैं, जो मनुष्यों में अधम हैं, जिनका ज्ञान माया द्वारा हर लिया गया है तथा जो असुरों की नास्तिक प्रकृति को धारण करने वाले हैं, ऐसे दुष्ट मेरी शरण ग्रहण नहीं करते।",
+      english: "Those miscreants who are grossly foolish, who are lowest among mankind, whose knowledge is stolen by illusion, and who partake of the atheistic nature of demons do not surrender unto Me."
+    },
+    {
+      id: "7.16",
+      sanskrit: "चतुर्विधा भजन्ते मां जनाः सुकृतिनोऽर्जुन |\nआर्तो जिज्ञासुरर्थार्थी ज्ञानी च भरतर्षभ ||७-१६||",
+      hindi: "हे भरतश्रेष्ठ! चार प्रकार के पुण्य आत्मा मेरी भक्ति करते हैं - आर्त, जिज्ञासु, अर्थार्थी तथा ज्ञानी।",
+      english: "O best among the Bharatas, four kinds of pious men begin to render devotional service unto Me—the distressed, the desirer of wealth, the inquisitive, and he who is searching for knowledge of the Absolute."
+    },
+    {
+      id: "7.17",
+      sanskrit: "तेषां ज्ञानी नित्ययुक्त एकभक्तिर्विशिष्यते |\nप्रियो हि ज्ञानिनोऽत्यर्थमहं स च मम प्रियः ||७-१७||",
+      hindi: "इनमें से जो परमज्ञानी है और शुद्धभक्ति में लगा रहता है, वह सर्वश्रेष्ठ है, क्योंकि मैं उसे अत्यन्त प्रिय हूँ और वह मुझे प्रिय है।",
+      english: "Of these, the one who is in full knowledge and who is always engaged in pure devotional service is the best. For I am very dear to him, and he is dear to Me."
+    },
+    {
+      id: "7.18",
+      sanskrit: "उदाराः सर्व एवैते ज्ञानी त्वात्मैव मे मतम् |\nआस्थितः स हि युक्तात्मा मामेवानुत्तमां गतिम् ||७-१८||",
+      hindi: "निस्सन्देह ये सब उदारचेता व्यक्ति हैं, किन्तु जो मेरे ज्ञान को प्राप्त है, उसे मैं अपने ही समान मानता हूँ। वह मेरी दिव्य सेवा में तत्पर रहकर मुझ सर्वोच्च लक्ष्य को निश्चित रूप से प्राप्त करता है।",
+      english: "All these devotees are undoubtedly magnanimous souls, but he who is situated in knowledge of Me I consider to be just like My own self. Being engaged in My transcendental service, he is sure to attain Me, the highest and most perfect goal."
+    },
+    {
+      id: "7.19",
+      sanskrit: "बहूनां जन्मनामन्ते ज्ञानवान्मां प्रपद्यते |\nवासुदेवः सर्वमिति स महात्मा सुदुर्लभः ||७-१९||",
+      hindi: "अनेक जन्म-जन्मान्तर के बाद जिसे सचमुच ज्ञान होता है, वह मुझको समस्त कारणों का कारण जानकर मेरी शरण में आता है। ऐसा महात्मा अत्यन्त दुर्लभ होता है।",
+      english: "After many births and deaths, he who is actually in knowledge surrenders unto Me, knowing Me to be the cause of all causes and all that is. Such a great soul is very rare."
+    },
+    {
+      id: "7.20",
+      sanskrit: "कामैस्तैस्तैर्हृतज्ञानाः प्रपद्यन्तेऽन्यदेवताः |\nतं तं नियममास्थाय प्रकृत्या नियताः स्वया ||७-२०||",
+      hindi: "जिनकी बुद्धि भौतिक इच्छाओं द्वारा मारी गई है, वे देवताओं की शरण में जाते हैं और वे अपने-अपने स्वभाव के अनुसार पूजा के विशेष विधि-विधानों का पालन करते हैं।",
+      english: "Those whose intelligence has been stolen by material desires surrender unto demigods and follow the particular rules and regulations of worship according to their own natures."
+    },
+    {
+      id: "7.21",
+      sanskrit: "यो यो यां यां तनुं भक्तः श्रद्धयार्चितुमिच्छति |\nतस्य तस्याचलां श्रद्धां तामेव विदधाम्यहम् ||७-२१||",
+      hindi: "मैं प्रत्येक जीव के हृदय में परमात्मा स्वरूप स्थित हूँ। जैसे ही कोई किसी देवता की पूजा करने की इच्छा करता है, मैं उसकी श्रद्धा को उसी विशेष देवता के प्रति स्थिर करता हूँ।",
+      english: "I am in everyone's heart as the Supersoul. As soon as one desires to worship some demigod, I make his faith steady so that he can devote himself to that particular deity."
+    },
+    {
+      id: "7.22",
+      sanskrit: "स तया श्रद्धया युक्तस्तस्याराधनमीहते |\nलभते च ततः कामान्मयैव विहितान्हि तान् ||७-२२||",
+      hindi: "ऐसी श्रद्धा से समन्वित वह देवता विशेष की पूजा करने का यत्न करता है और अपनी इच्छा की पूर्ति करता है। किन्तु वास्तविकता तो यह है कि ये सारे लाभ केवल मेरे द्वारा ही प्रदत्त हैं।",
+      english: "Endowed with such a faith, he endeavors to worship a particular demigod and obtains his desires. But in actuality these benefits are bestowed by Me alone."
+    },
+    {
+      id: "7.23",
+      sanskrit: "अन्तवत्तु फलं तेषां तद्भवत्यल्पमेधसाम् |\nदेवान्देवयजो यान्ति मद्भक्ता यान्ति मामपि ||७-२३||",
+      hindi: "अल्पबुद्धि वाले व्यक्ति देवताओं की पूजा करते हैं और उन्हें प्राप्त होने वाले फल सीमित तथा क्षणिक होते हैं। देवताओं की पूजा करने वाले देवलोक को जाते हैं, किन्तु मेरे भक्त अन्ततः मेरे परमधाम को प्राप्त होते हैं।",
+      english: "Men of small intelligence worship the demigods, and their fruits are limited and temporary. Those who worship the demigods go to the planets of the demigods, but My devotees ultimately reach My supreme planet."
+    },
+    {
+      id: "7.24",
+      sanskrit: "अव्यक्तं व्यक्तिमापन्नं मन्यन्ते मामबुद्धयः |\nपरं भावमजानन्तो ममाव्ययमनुत्तमम् ||७-२४||",
+      hindi: "बुद्धिहीन मनुष्य मुझको ठीक से न जानने के कारण सोचते हैं कि मैं (भगवान् कृष्ण) पहले निराकार था और अब मैंने इस स्वरूप को धारण किया है। वे अपने अल्पज्ञान के कारण मेरी अविनाशी तथा सर्वोच्च प्रकृति को नहीं जान पाते।",
+      english: "Unintelligent men, who do not know Me perfectly, think that I, the Supreme Personality of Godhead, Krishna, was impersonal before and have now assumed this personality. Due to their small knowledge, they do not know My higher nature, which is imperishable and supreme."
+    },
+    {
+      id: "7.25",
+      sanskrit: "नाहं प्रकाशः सर्वस्य योगमायासमावृतः |\nमूढोऽयं नाभिजानाति लोको मामजमव्ययम् ||७-२५||",
+      hindi: "मैं मूर्खों तथा अल्पज्ञों के लिए कभी भी प्रकट नहीं हूँ। उनके लिए तो मैं अपनी अन्तरंगा शक्ति (योगमाया) द्वारा आच्छादित रहता हूँ, अतः वे यह नहीं जान पाते कि मैं अजन्मा तथा अविनाशी हूँ।",
+      english: "I am never manifest to the foolish and unintelligent. For them I am covered by My internal potency, and therefore they do not know that I am unborn and infallible."
+    },
+    {
+      id: "7.26",
+      sanskrit: "वेदाहं समतीतानि वर्तमानानि चार्जुन |\nभविष्याणि च भूतानि मां तु वेद न कश्चन ||७-२६||",
+      hindi: "हे अर्जुन! श्री भगवान होने के नाते मैं जो कुछ भूतकाल में घटित हो चुका है, जो वर्तमान में घटित हो रहा है और जो भविष्य में होने वाला है, वह सब कुछ जानता हूँ। मैं समस्त जीवों को भी जानता हूँ, किन्तु मुझे कोई नहीं जानता।",
+      english: "O Arjuna, as the Supreme Personality of Godhead, I know everything that has happened in the past, all that is happening in the present, and all things that are yet to come. I also know all living entities; but Me no one knows."
+    },
+    {
+      id: "7.27",
+      sanskrit: "इच्छाद्वेषसमुत्थेन द्वन्द्वमोहेन भारत |\nसर्वभूतानि सम्मोहं सर्गे यान्ति परन्तप ||७-२७||",
+      hindi: "हे भरतवंशी! हे शत्रुविजेता! समस्त जीव जन्म से ही इच्छा तथा घृणा से उत्पन्न द्वन्द्वों से मोहग्रस्त होकर मोह को प्राप्त होते हैं।",
+      english: "O scion of Bharata, O conqueror of the foe, all living entities are born into delusion, bewildered by the dualities arising from desire and hate."
+    },
+    {
+      id: "7.28",
+      sanskrit: "येषां त्वन्तगतं पापं जनानां पुण्यकर्मणाम् |\nते द्वन्द्वमोहनिर्मुक्ता भजन्ते मां दृढव्रताः ||७-२८||",
+      hindi: "जिन मनुष्यों ने पूर्वजन्मों में तथा इस जन्म में पुण्यकर्म किये हैं और जिनके पापकर्मों का पूर्णतया उच्छेदन हो चुका होता है, वे मोह के द्वन्द्वों से मुक्त हो जाते हैं और संकल्पपूर्वक मेरी सेवा में तत्पर होते हैं।",
+      english: "Persons who have acted piously in previous lives and in this life and whose sinful actions are completely eradicated are freed from the dualities of delusion, and they engage themselves in My service with determination."
+    },
+    {
+      id: "7.29",
+      sanskrit: "जरामरणमोक्षाय मामाश्रित्य यतन्ति ये |\nते ब्रह्म तद्विदुः कृत्स्नमध्यात्मं कर्म चाखिलम् ||७-२९||",
+      hindi: "जो बुद्धिमान व्यक्ति वृद्धावस्था तथा मृत्यु से मुक्ति पाने का प्रयत्न करते हैं, वे भक्तिपूर्वक मेरी शरण ग्रहण करते हैं। वे वास्तव में ब्रह्म हैं क्योंकि वे दिव्य कर्मों के विषय में पूरी तरह से जानते हैं।",
+      english: "Intelligent persons who are endeavoring for liberation from old age and death take refuge in Me in devotional service. They are actually Brahman because they entirely know everything about transcendental activities."
+    },
+    {
+      id: "7.30",
+      sanskrit: "साधिभूताधिदैवं मां साधियज्ञं च ये विदुः |\nप्रयाणकालेऽपि च मां ते विदुर्युक्तचेतसः ||७-३०||",
+      hindi: "जो मुझ परमेश्वर को मेरी पूर्ण चेतना में रहकर मुझे जगत का, देवताओं का तथा समस्त यज्ञविधियों का नियामक जानते हैं, वे अपनी मृत्यु के समय भी मुझ भगवान् को जान और समझ सकते हैं।",
+      english: "Those in full consciousness of Me, who know Me, the Supreme Lord, to be the governing principle of the material manifestation, of the demigods, and of all methods of sacrifice, can understand and know Me, the Supreme Personality of Godhead, even at the time of death."
+    }
+  ]
+},
+{
+  chapter: 8,
+  title: "Akṣara Brahma Yoga",
+  english_title: "The Yoga of the Imperishable Brahman",
+  verses: [
+    {
+      id: "8.1",
+      sanskrit: "अर्जुन उवाच |\nकिं तद्ब्रह्म किमध्यात्मं किं कर्म पुरुषोत्तम |\nअधिभूतं च किं प्रोक्तमधिदैवं किमुच्यते ||८-१||",
+      hindi: "अर्जुन ने पूछा - हे पुरुषोत्तम! ब्रह्म क्या है? आत्मा क्या है? सकाम कर्म क्या है? यह भौतिक जगत क्या है? तथा देवता क्या हैं? कृपा करके यह सब बताइए।",
+      english: "Arjuna inquired: O my Lord, O Supreme Person, what is Brahman? What is the self? What are fruitive activities? What is this material manifestation? And what are the demigods? Please explain this to me."
+    },
+    {
+      id: "8.2",
+      sanskrit: "अधियज्ञः कथं कोऽत्र देहेऽस्मिन्मधुसूदन |\nप्रयाणकाले च कथं ज्ञेयोऽसि नियतात्मभिः ||८-२||",
+      hindi: "हे मधुसूदन! यज्ञ का स्वामी कौन है और वह शरीर में कैसे रहता है? और मृत्यु के समय भक्ति में लगे रहने वाले आपको कैसे जान पाते हैं?",
+      english: "Who is the Lord of sacrifice, and how does He live in the body, O Madhusudana? And how can those engaged in devotional service know You at the time of death?"
+    },
+    {
+      id: "8.3",
+      sanskrit: "श्रीभगवानुवाच |\nअक्षरं ब्रह्म परमं स्वभावोऽध्यात्ममुच्यते |\nभूतभावोद्भवकरो विसर्गः कर्मसंज्ञितः ||८-३||",
+      hindi: "श्री भगवान ने कहा - अविनाशी और दिव्य जीव ब्रह्म कहलाता है और उसका नित्य स्वभाव अध्यात्म (आत्म) कहलाता है। जीवों के भौतिक शरीर से सम्बन्धित गतिविधि कर्म या सकाम कर्म कहलाती है।",
+      english: "The Supreme Personality of Godhead said: The indestructible, transcendental living entity is called Brahman, and his eternal nature is called adhyatma, the self. Action pertaining to the development of the material bodies of the living entities is called karma, or fruitive activities."
+    },
+    {
+      id: "8.4",
+      sanskrit: "अधिभूतं क्षरो भावः पुरुषश्चाधिदैवतम् |\nअधियज्ञोऽहमेवात्र देहे देहभृतां वर ||८-४||",
+      hindi: "हे देहधारियों में श्रेष्ठ! निरन्तर परिवर्तनशील यह भौतिक प्रकृति अधिभूत कहलाती है। भगवान् का विराट रूप, जिसमें सूर्य तथा चन्द्र जैसे समस्त देवता सम्मिलित हैं, अधिदैव कहलाता है। तथा प्रत्येक देहधारी के हृदय में परमात्मा स्वरूप स्थित मैं (श्रीकृष्ण) अधियज्ञ (यज्ञ का स्वामी) कहलाता हूँ।",
+      english: "O best of the embodied beings, the physical nature, which is constantly changing, is called adhibhuta [the material manifestation]. The universal form of the Lord, which includes all the demigods, like the sun and moon, is called adhidaiva. And I, the Supreme Lord, represented as the Supersoul in the heart of every embodied being, am called adhiyajna [the Lord of sacrifice]."
+    },
+    {
+      id: "8.5",
+      sanskrit: "अन्तकाले च मामेव स्मरन्मुक्त्वा कलेवरम् |\nयः प्रयाति स मद्भावं याति नास्त्यत्र संशयः ||८-५||",
+      hindi: "और जीवन के अन्त में जो केवल मेरा स्मरण करते हुए शरीर का त्याग करता है, वह तुरन्त मेरे स्वभाव को प्राप्त करता है। इसमें रंचमात्र भी सन्देह नहीं है।",
+      english: "And whoever, at the end of his life, quits his body, remembering Me alone, at once attains My nature. Of this there is no doubt."
+    },
+    {
+      id: "8.6",
+      sanskrit: "यं यं वापि स्मरन्भावं त्यजत्यन्ते कलेवरम् |\nतं तमेवैति कौन्तेय सदा तद्भावभावितः ||८-६||",
+      hindi: "हे कुन्तीपुत्र! शरीर त्यागते समय मनुष्य जिस-जिस भाव का स्मरण करता है, वह उस भाव को निश्चित रूप से प्राप्त होता है।",
+      english: "Whatever state of being one remembers when he quits his body, O son of Kunti, that state he will attain without fail."
+    },
+    {
+      id: "8.7",
+      sanskrit: "तस्मात्सर्वेषु कालेषु मामनुस्मर युध्य च |\nमय्यर्पितमनोबुद्धिर् मामेवैष्यस्यसंशयम् ||८-७||",
+      hindi: "अतः हे अर्जुन! तुम्हें सदैव कृष्ण रूप में मेरा चिन्तन करना चाहिए और साथ ही युद्ध करने के कर्तव्य को भी पूरा करना चाहिए। अपने कर्मों को मुझे समर्पित करके तथा अपने मन एवं बुद्धि को मुझमें स्थिर करके तुम निश्चित रूप से मुझे प्राप्त कर सकोगे।",
+      english: "Therefore, Arjuna, you should always think of Me in the form of Krishna and at the same time carry out your prescribed duty of fighting. With your activities dedicated to Me and your mind and intelligence fixed on Me, you will attain Me without doubt."
+    },
+    {
+      id: "8.8",
+      sanskrit: "अभ्यासयोगयुक्तेन चेतसा नान्यगामिना |\nपरमं पुरुषं दिव्यं याति पार्थानुचिन्तयन् ||८-८||",
+      hindi: "हे पार्थ! जो व्यक्ति मुझ परमेश्वर का ध्यान करने में अपना मन निरन्तर लगाये रखकर अविचलित भाव से मेरा स्मरण करता है, वह मुझको अवश्य प्राप्त होता है।",
+      english: "He who meditates on Me as the Supreme Personality of Godhead, his mind constantly engaged in remembering Me, undeviated from the path, he, O Partha, is sure to reach Me."
+    },
+    {
+      id: "8.9",
+      sanskrit: "कविं पुराणमनुशासितारम् अणोरणीयांसमनुस्मरेद्यः |\nसर्वस्य धातारमचिन्त्यरूपम् आदित्यवर्णं तमसः परस्तात् ||८-९||",
+      hindi: "मनुष्य को चाहिए कि परमपुरुष का ध्यान सर्वज्ञ, पुरातन, नियन्ता, लघुतम से भी लघुतर, प्रत्येक के पालनकर्ता, समस्त भौतिकबुद्धि से परे, अचिन्त्य तथा नित्य पुरुष के रूप में करे। वे सूर्य की भाँति तेजस्वी हैं और इस भौतिक प्रकृति से परे, दिव्य हैं।",
+      english: "One should meditate upon the Supreme Person as the one who knows everything, as He who is the oldest, who is the controller, who is smaller than the smallest, who is the maintainer of everything, who is beyond all material conception, who is inconceivable, and who is always a person. He is luminous like the sun, and He is transcendental, beyond this material nature."
+    },
+    {
+      id: "8.10",
+      sanskrit: "प्रयाणकाले मनसाचलेन भक्त्या युक्तो योगबलेन चैव |\nभ्रुवोर्मध्ये प्राणमावेश्य सम्यक् स तं परं पुरुषमुपैति दिव्यम् ||८-१०||",
+      hindi: "मृत्यु के समय जो व्यक्ति अपने प्राण को भौंहों के मध्य स्थिर कर लेता है और योगशक्ति के द्वारा अविचलित मन से पूर्णभक्ति के साथ परमेश्वर के स्मरण में अपने को लगाता है, वह निश्चित रूप से भगवान् को प्राप्त होता है।",
+      english: "One who, at the time of death, fixes his life air between the eyebrows and, by the strength of yoga, engages himself in remembering the Supreme Lord with full devotion, will certainly attain to the Supreme Personality of Godhead."
+    },
+    {
+      id: "8.11",
+      sanskrit: "यदक्षरं वेदविदो वदन्ति विशन्ति यद्यतयो वीतरागाः |\nयदिच्छन्तो ब्रह्मचर्यं चरन्ति तत्ते पदं सङ्ग्रहेण प्रवक्ष्ये ||८-११||",
+      hindi: "जो वेदों के ज्ञाता हैं, जो ओंकार का उच्चारण करते हैं और जो संन्यास आश्रम के बड़े-बड़े मुनि हैं, वे ब्रह्म में प्रवेश करते हैं। ऐसी सिद्धि की इच्छा करने वाले ब्रह्मचर्य व्रत का अभ्यास करते हैं। अब मैं तुम्हें यह विधि बताऊँगा, जिससे कोई भी व्यक्ति मुक्ति-लाभ कर सकता है।",
+      english: "Persons who are learned in the Vedas, who utter omkara and who are great sages in the renounced order enter into Brahman. Desiring such perfection, one practices celibacy. I shall now briefly explain to you this process by which one may attain salvation."
+    },
+    {
+      id: "8.12",
+      sanskrit: "सर्वद्वाराणि संयम्य मनो हृदि निरुध्य च |\nमूर्ध्न्याधायात्मनः प्राणमास्थितो योगधारणाम् ||८-१२||",
+      hindi: "समस्त ऐन्द्रिय क्रियाओं से विरक्ति को योग की स्थिति (योग-धारणा) कहा जाता है। इन्द्रियों के समस्त द्वारों को बन्द करके तथा मन को हृदय में और प्राणवायु को सिर पर केन्द्रित करके मनुष्य अपने को योग में स्थापित करता है।",
+      english: "The yogic situation is that of detachment from all sensual engagements. Closing all the doors of the senses and fixing the mind on the heart and the life air at the top of the head, one establishes himself in yoga."
+    },
+    {
+      id: "8.13",
+      sanskrit: "ओमित्येकाक्षरं ब्रह्म व्याहरन्मामनुस्मरन् |\nयः प्रयाति त्यजन्देहं स याति परमां गतिम् ||८-१३||",
+      hindi: "इस योगाभ्यास में स्थित होकर तथा अक्षरों के परम संयोग (ओंकार) का उच्चारण करते हुए यदि कोई भगवान् का चिन्तन करता हुआ शरीर त्यागता है, तो वह निश्चित रूप से आध्यात्मिक लोकों को जाता है।",
+      english: "After being situated in this yoga practice and vibrating the sacred syllable om, the supreme combination of letters, if one thinks of the Supreme Personality of Godhead and quits his body, he will certainly reach the spiritual planets."
+    },
+    {
+      id: "8.14",
+      sanskrit: "अनन्यचेताः सततं यो मां स्मरति नित्यशः |\nतस्याहं सुलभः पार्थ नित्ययुक्तस्य योगिनः ||८-१४||",
+      hindi: "हे अर्जुन! जो अनन्य भाव से निरन्तर मेरा स्मरण करता है, उसके लिए मैं सुलभ हूँ, क्योंकि वह मेरी भक्ति में प्रवृत्त रहता है।",
+      english: "For one who always remembers Me without deviation, I am easy to obtain, O son of Pritha, because of his constant engagement in devotional service."
+    },
+    {
+      id: "8.15",
+      sanskrit: "मामुपेत्य पुनर्जन्म दुःखालयमशाश्वतम् |\nनाप्नुवन्ति महात्मानः संसिद्धिं परमां गताः ||८-१५||",
+      hindi: "मुझे प्राप्त करके महापुरुष, जो भक्तियोगी हैं, कभी भी दुखों से पूर्ण इस अनित्य जगत् में नहीं लौटते, क्योंकि उन्हें परम सिद्धि प्राप्त हो चुकी होती है।",
+      english: "After attaining Me, the great souls, who are yogis in devotion, never return to this temporary world, which is full of miseries, because they have attained the highest perfection."
+    },
+    {
+      id: "8.16",
+      sanskrit: "आब्रह्मभुवनाल्लोकाः पुनरावर्तिनोऽर्जुन |\nमामुपेत्य तु कौन्तेय पुनर्जन्म न विद्यते ||८-१६||",
+      hindi: "इस भौतिक जगत् में सर्वोच्च लोक से लेकर निम्नतम सारे लोक दुखों के घर हैं, जहाँ जन्म तथा मरण का चक्कर लगा रहता है। किन्तु हे कुन्तीपुत्र! जो मेरे धाम को प्राप्त कर लेता है, वह फिर कभी जन्म नहीं लेता।",
+      english: "From the highest planet in the material world down to the lowest, all are places of misery wherein repeated birth and death take place. But one who attains to My abode, O son of Kunti, never takes birth again."
+    },
+    {
+      id: "8.17",
+      sanskrit: "सहस्रयुगपर्यन्तमहर्यद्ब्रह्मणो विदुः |\nरात्रिं युगसहस्रान्तां तेऽहोरात्रविदो जनाः ||८-१७||",
+      hindi: "मानवीय गणना के अनुसार एक हजार युग मिलकर ब्रह्मा का एक दिन बनता है। और इतनी ही बड़ी ब्रह्मा की रात्रि भी होती है।",
+      english: "By human calculation, a thousand ages taken together form the duration of Brahma's one day. And such also is the duration of his night."
+    },
+    {
+      id: "8.18",
+      sanskrit: "अव्यक्ताद्व्यक्तयः सर्वाः प्रभवन्त्यहरागमे |\nरात्र्यागमे प्रलीयन्ते तत्रैवाव्यक्तसंज्ञके ||८-१८||",
+      hindi: "ब्रह्मा के दिन के प्रारम्भ में सारे जीव अव्यक्त अवस्था से व्यक्त होते हैं और फिर जब रात्रि आती है तो वे पुनः अव्यक्त में विलीन हो जाते हैं।",
+      english: "At the beginning of Brahma's day, all living entities become manifest from the unmanifest state, and thereafter, when the night falls, they are merged into the unmanifest again."
+    },
+    {
+      id: "8.19",
+      sanskrit: "भूतग्रामः स एवायं भूत्वा भूत्वा प्रलीयते |\nरात्र्यागमेऽवशः पार्थ प्रभवत्यहरागमे ||८-१९||",
+      hindi: "हे पार्थ! जब-जब ब्रह्मा का दिन आता है तो सारे जीव प्रकट होते हैं और ब्रह्मा की रात्रि होते ही वे असहाय होकर विलीन हो जाते हैं।",
+      english: "Again and again, when Brahma's day arrives, all living entities come into being, and with the arrival of Brahma's night they are helplessly annihilated."
+    },
+    {
+      id: "8.20",
+      sanskrit: "परस्तस्मात्तु भावोऽन्योऽव्यक्तोऽव्यक्तात्सनातनः |\nयः स सर्वेषु भूतेषु नश्यत्सु न विनश्यति ||८-२०||",
+      hindi: "इसके अतिरिक्त एक अन्य अव्यक्त प्रकृति है, जो शाश्वत है और इस व्यक्त तथा अव्यक्त पदार्थ से परे है। यह परा (श्रेष्ठ) और कभी न नाश होने वाली है। जब इस संसार का सब कुछ लय हो जाता है, तब भी उसका नाश नहीं होता।",
+      english: "Yet there is another unmanifest nature, which is eternal and is transcendental to this manifested and unmanifested matter. It is supreme and is never annihilated. When all in this world is annihilated, that part remains as it is."
+    },
+    {
+      id: "8.21",
+      sanskrit: "अव्यक्तोऽक्षर इत्युक्तस्तमाहुः परमां गतिम् |\nयं प्राप्य न निवर्तन्ते तद्धाम परमं मम ||८-२१||",
+      hindi: "जिसे वेदान्ती अप्राप्य तथा अव्यक्त बताते हैं, जो जीवों की परं गति है, जिसे प्राप्त कर लेने पर कोई इस संसार में वापस नहीं आता, वही मेरा परमधाम है।",
+      english: "That which the Vedantists describe as unmanifest and infallible, that which is known as the supreme destination, that place from which, having attained it, one never returns—that is My supreme abode."
+    },
+    {
+      id: "8.22",
+      sanskrit: "पुरुषः स परः पार्थ भक्त्या लभ्यस्त्वनन्यया |\nयस्यान्तःस्थानि भूतानि येन सर्वमिदं ततम् ||८-२२||",
+      hindi: "भगवान्, जो सबसे महान हैं, अनन्य भक्ति द्वारा ही प्राप्त किये जा सकते हैं। यद्यपि वे अपने धाम में विराजमान हैं, तो भी वे सर्वव्यापी हैं और सब कुछ उन्हीं में स्थित है।",
+      english: "The Supreme Personality of Godhead, who is greater than all, is attainable by unalloyed devotion. Although He is present in His abode, He is all-pervading, and everything is situated within Him."
+    },
+    {
+      id: "8.23",
+      sanskrit: "यत्र काले त्वनावृत्तिमावृत्तिं चैव योगिनः |\nप्रयाता यान्ति तं कालं वक्ष्यामि भरतर्षभ ||८-२३||",
+      hindi: "हे भरतश्रेष्ठ! अब मैं तुम्हें उन विभिन्न कालों के विषय में बताऊँगा, जिनमें इस संसार से प्रयाण करने के बाद योगी पुनः आता है अथवा नहीं आता।",
+      english: "O best of the Bharatas, I shall now explain to you the different times at which, passing away from this world, the yogi does or does not come back."
+    },
+    {
+      id: "8.24",
+      sanskrit: "अग्निर्ज्योतिरहः शुक्लः षण्मासा उत्तरायणम् |\nतत्र प्रयाता गच्छन्ति ब्रह्म ब्रह्मविदो जनाः ||८-२४||",
+      hindi: "जो परब्रह्म के ज्ञाता हैं, वे अग्नि, प्रकाश, दिन के शुभ मुहूर्त में, शुक्लपक्ष में अथवा जब सूर्य उत्तरायण में रहता है, उन छह मासों में इस संसार से शरीर त्याग करने पर उस परब्रह्म को प्राप्त करते हैं।",
+      english: "Those who know the Supreme Brahman attain that Supreme by passing away from the world during the influence of the fiery god, in the light, at an auspicious moment of the day, during the fortnight of the waxing moon, or during the six months when the sun travels in the north."
+    },
+    {
+      id: "8.25",
+      sanskrit: "धूमो रात्रिस्तथा कृष्णः षण्मासा दक्षिणायनम् |\nतत्र चान्द्रमसं ज्योतिर्योगी प्राप्य निवर्तते ||८-२५||",
+      hindi: "जो योगी धुएँ, रात्रि, कृष्णपक्ष में या जब सूर्य दक्षिणायन रहता है, उन छह मासों में दिवंगत होता है, वह चन्द्रलोक को जाता है, किन्तु वहाँ से पुनः (पृथ्वी पर) चला आता है।",
+      english: "The mystic who passes away from this world during the smoke, the night, the fortnight of the waning moon, or the six months when the sun passes to the south reaches the moon planet but again comes back."
+    },
+    {
+      id: "8.26",
+      sanskrit: "शुक्लकृष्णे गती ह्येते जगतः शाश्वते मते |\nएकया यात्यनावृत्तिमन्ययावर्तते पुनः ||८-२६||",
+      hindi: "वैदिक मतानुसार इस संसार से प्रयाण करने के दो मार्ग हैं - एक प्रकाश का और दूसरा अंधकार का। जब कोई प्रकाशमार्ग से जाता है तो वापस नहीं आता, किन्तु अंधकार के मार्ग से जाने वाला पुनः लौटकर आता है।",
+      english: "According to Vedic opinion, there are two ways of passing from this world—one in light and one in darkness. When one passes in light, he does not come back; but when one passes in darkness, he returns."
+    },
+    {
+      id: "8.27",
+      sanskrit: "नैते सृती पार्थ जानन्योगी मुह्यति कश्चन |\nतस्मात्सर्वेषु कालेषु योगयुक्तो भवार्जुन ||८-२७||",
+      hindi: "हे अर्जुन! यद्यपि भक्तगण इन दोनों मार्गों को जानते हैं, किन्तु वे मोहग्रस्त नहीं होते। अतः तुम भक्ति में सदैव स्थिर रहो।",
+      english: "Although the devotees know these two paths, O Arjuna, they are never bewildered. Therefore be always fixed in devotion."
+    },
+    {
+      id: "8.28",
+      sanskrit: "वेदेषु यज्ञेषु तपःसु चैव दानेषु यत्पुण्यफलं प्रदिष्टम् |\nअत्येति तत्सर्वमिदं विदित्वा योगी परं स्थानमुपैति चाद्यम् ||८-२८||",
+      hindi: "जो व्यक्ति भक्तिमार्ग स्वीकार करता है, वह वेद-अध्ययन, तपस्या, दान, दार्शनिक तथा सकाम कर्म करने से प्राप्त होने वाले फलों से वंचित नहीं होता। वह मात्र भक्ति सम्पन्न करके इन समस्त फलों को प्राप्त करता है और अन्त में परम नित्यधाम को प्राप्त होता है।",
+      english: "A person who accepts the path of devotional service is not bereft of the results derived from studying the Vedas, performing austere sacrifices, giving charity or pursuing philosophical and fruitive activities. Simply by performing devotional service, he attains all these, and at the end he reaches the supreme eternal abode."
+    }
+  ]
+}
+  // When you create Chapter 9, you will add its data object here.
+  // { chapter: 9, title: "...", verses: [...] },
 ];
