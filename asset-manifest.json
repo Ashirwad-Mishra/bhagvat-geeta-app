@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/bhagvat-geeta-app/static/css/main.69cf099f.css",
-    "main.js": "/bhagvat-geeta-app/static/js/main.f0f02064.js",
+    "main.css": "/bhagvat-geeta-app/static/css/main.09b3a48d.css",
+    "main.js": "/bhagvat-geeta-app/static/js/main.97f78784.js",
     "static/js/453.c4cb85a8.chunk.js": "/bhagvat-geeta-app/static/js/453.c4cb85a8.chunk.js",
     "index.html": "/bhagvat-geeta-app/index.html",
-    "main.69cf099f.css.map": "/bhagvat-geeta-app/static/css/main.69cf099f.css.map",
-    "main.f0f02064.js.map": "/bhagvat-geeta-app/static/js/main.f0f02064.js.map",
+    "main.09b3a48d.css.map": "/bhagvat-geeta-app/static/css/main.09b3a48d.css.map",
+    "main.97f78784.js.map": "/bhagvat-geeta-app/static/js/main.97f78784.js.map",
     "453.c4cb85a8.chunk.js.map": "/bhagvat-geeta-app/static/js/453.c4cb85a8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.69cf099f.css",
-    "static/js/main.f0f02064.js"
+    "static/css/main.09b3a48d.css",
+    "static/js/main.97f78784.js"
   ]
 }
