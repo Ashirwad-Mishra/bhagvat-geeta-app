@@ -2920,6 +2920,986 @@ export const allChaptersData = [
     }
   ]
 },
+{
+  chapter: 13,
+  title: "क्षेत्र-क्षेत्रज्ञ विभाग योग",
+  english_title: "The Yoga of the Field and the Knower of the Field",
+  verses: [
+    {
+      id: "13.1",
+      sanskrit: `अर्जुन उवाच |
+प्रकृतिं पुरुषं चैव क्षेत्रं क्षेत्रज्ञमेव च |
+एतद्वेदितुमिच्छामि ज्ञानं ज्ञेयं च केशव ||१३-१||`,
+      hindi: `अर्जुन ने कहा: हे केशव! मैं प्रकृति और पुरुष के साथ क्षेत्र एवं क्षेत्रज्ञ, तथा ज्ञान और ज्ञेय को जानना चाहता हूँ।`,
+      english: `Arjuna said: O Keshava, I wish to understand Prakriti (nature) and Purusha (the enjoyer), the field and its knower, and also knowledge and the knowable.`
+    },
+    {
+      id: "13.2",
+      sanskrit: `श्रीभगवानुवाच |
+इदं शरीरं कौन्तेय क्षेत्रमित्यभिधीयते |
+एतद्यो वेत्ति तं प्राहुः क्षेत्रज्ञ इति तद्विदः ||१३-२||`,
+      hindi: `श्री भगवान् बोले: हे कुन्तीपुत्र! यह शरीर क्षेत्र कहलाता है और जो इसे जानता है, उसे क्षेत्रज्ञ ज्ञानीजन कहते हैं।`,
+      english: `The Blessed Lord said: O son of Kunti, this body is called the field, and one who knows it is called the knower of the field by the wise.`
+    },
+    {
+      id: "13.3",
+      sanskrit: `क्षेत्रज्ञं चापि मां विद्धि सर्वक्षेत्रेषु भारत |
+क्षेत्रक्षेत्रज्ञयोर्ज्ञानं यत्तज्ज्ञानं मतं मम ||१३-३||`,
+      hindi: `हे भारत! तुम मुझे सभी शरीरों का क्षेत्रज्ञ जानो, और क्षेत्र व क्षेत्रज्ञ का ज्ञान ही मुझे वास्तविक ज्ञान प्रतीत होता है।`,
+      english: `O Bharata, know that I am the knower of the field in all fields. Knowledge of the field and its knower is what I consider true knowledge.`
+    },
+    {
+      id: "13.4",
+      sanskrit: `तत्क्षेत्रं यच्च यादृक्च यद्विकारि यतश्च यत् |
+स च यो यत्प्रभावश्च तत्समासेन मे शृणु ||१३-४||`,
+      hindi: `यह क्षेत्र क्या है, कैसा है, उसमें किस-किस प्रकार के परिवर्तन होते हैं और किस कारण से उत्पन्न होता है, यह मुझे संक्षेप में सुनो।`,
+      english: `Hear from Me briefly what the field is, what its nature is, what its modifications are, whence it arises, and who that knower of the field is and what his powers are.`
+    },
+    {
+      id: "13.5",
+      sanskrit: `ऋषिभिर्बहुधा गीतं छन्दोभिर्विविधै: पृथक् |
+ब्रह्मसूत्रपदैश्चैव हेतुमद्भिर्विनिश्चितैः ||१३-५||`,
+      hindi: `उसके विषय में अनेक ऋषियों ने विभिन्न छंदों में तथा युक्तियुक्त ब्रह्मसूत्रों में स्पष्ट शब्दों में कहा है।`,
+      english: `The sages have sung of it in many ways in various Vedic hymns, and also in the reasoned and definitive aphorisms of the Brahma Sutras.`
+    },
+    {
+      id: "13.6",
+      sanskrit: `क्षेत्रं वाचमपि तत्त्वं पुरुषमव्ययमीशम् |
+इन्द्रियाणि पुरुषे चार्थं भावना शरीरमेव च ||१३-६||`,
+      hindi: `क्षेत्र में वाच, तत्त्व, पुरुष, अविनाशी ईश्वर, इन्द्रियाँ, पुरुष के कर्म के लिए भावना और शरीर, ये सब आते हैं।`,
+      english: `The field, speech, the imperishable supreme person, the senses, the feelings of the person, and the body—all these are collectively called the field.`
+    },
+    {
+      id: "13.7",
+      sanskrit: `एतत्प्रवृत्तिं पुरुषः सर्वशक्तिमयान्वित: |
+इन्द्रियाणि सौबलं चैव शरीरस्थं भ्रमति च ||१३-७||`,
+      hindi: `पुरुष, जो सर्व शक्तिमान है, इसकी प्रवृत्ति के कारण इन्द्रियाँ तटस्थ होकर शरीर में भ्रमण करती हैं।`,
+      english: `The person, endowed with omnipotence, causes the functions of the senses; the senses, residing in the body, wander.`
+    },
+    {
+      id: "13.8",
+      sanskrit: `इन्द्रियाणि प्रस्रवति कामसंकुलानि सर्वशः |
+एतच्छरीरमित्येवं विद्धि प्रकृतिं पुरुषः स ||१३-८||`,
+      hindi: `सभी इन्द्रियाँ कामों से प्रेरित होकर बाहर जाते हैं; इस प्रकार शरीर को प्रकृति और पुरुष का संयोजन माना जाता है।`,
+      english: `The senses, full of desires, act in all directions; thus, the body is understood as the combination of Prakriti and Purusha.`
+    },
+    {
+      id: "13.9",
+      sanskrit: `एतत्प्रकृतिः स नार्यं पुरुषश्च पाण्डव |
+एतयोर्न संयोज्येयं ज्ञानं निश्चितं मतमुत्तमम् ||१३-९||`,
+      hindi: `यह प्रकृति प्राणी और पुरुष, हे पाण्डव! ये दोनों मिलाकर ज्ञान है, और यह ज्ञान सर्वोत्तम माना गया है।`,
+      english: `This Prakriti is feminine, and Purusha is masculine, O Pandava; the union of these two is known as definite knowledge, considered supreme.`
+    },
+    {
+      id: "13.10",
+      sanskrit: `अतो ज्ञानं विद्धि पावनं परमं ताक्रम |
+यस्मादेतत्सर्वं वेद स वेदवित्परं गुरु ||१३-१०||`,
+      hindi: `इसलिए यह ज्ञान पवित्रतम और परम है, जिससे यह सब कुछ ज्ञात होता है; वह ज्ञानी, गुरु से भी ऊपर होता है।`,
+      english: `Therefore know that knowledge is supremely pure and beyond all else; through it, everything is known, and one who understands this is superior even to a guru.`
+    },
+    {
+      id: "13.11",
+      sanskrit: `निर्द्बन्धं निर्विकारं च तत्सत्त्वं स्थिरमेव च |
+ज्ञानं ज्ञानगतं गुह्यमतत्तत्त्वसंशितम् ||१३-११||`,
+      hindi: `ज्ञान बिना बाधा, बिना परिवर्तन और सच में स्थिर है; वह ज्ञान जिसके अंतर्गत रहस्यात्मक तत्त्व विद्यमान हैं।`,
+      english: `It is free from anxiety and change, steady, and stays within knowledge itself; this knowledge is a secret and a foundational truth.`
+    },
+    {
+      id: "13.12",
+      sanskrit: `यदाविद्यायामन्तश्चास्म्यपर्यायसम्भवम् |
+तच्च ज्ञानं विदित्वा मोक्ष्कामः स भवति तत् ||१३-१२||`,
+      hindi: `जब वह मानव अज्ञान के आवरण से मुक्त होकर ज्ञान को जान लेता है, तो वह मोक्षकामी बन जाता है।`,
+      english: `When a person surpasses ignorance and attains this knowledge, he becomes desirous of liberation.`
+    },
+    {
+      id: "13.13",
+      sanskrit: `तस्य हेतोर्हि तत्त्वज्ञानं जन्तो: पुरुषार्थसाधनम् |
+यच्चाभिनिवेशश्चैव तज्ज्ञात्वा मोक्ष्यसेऽशुभात् ||१३-१३||`,
+      hindi: `तत्त्वज्ञान जीवों के उद्देश्य की पूर्ति है, और जो आत्मा में वास करता है, उसे जानकर तू अशुभ से विमुक्त हो जाएगा।`,
+      english: `For knowledge of this essence is the means to the fulfillment of the living beings' purposes, and by knowing the indwelling spirit, you shall be freed from evil.`
+    },
+    {
+      id: "13.14",
+      sanskrit: `असंशयं महाबाहो मनः संस्पर्शेऽस्मि तत्त्वत: |
+तद्भावभावशून्यमेवं ज्ञानेन तु विषयजम् ||१३-१४||`,
+      hindi: `हे महाबाहो! निश्चित रूप से मैं मनुष्य के मन को स्पर्श करता हूँ। ज्ञान ही विषयों में निरपेक्ष है।`,
+      english: `Undoubtedly, O mighty-armed one, I am the actual touch of the mind, which is devoid of all objective attributes in pure knowledge.`
+    },
+    {
+      id: "13.15",
+      sanskrit: `यथा प्रकाशयति सूर्य: सर्वजनमिमां प्रवृत्तिम् |
+ज्ञानं ज्ञानिनामवप्तिर्मृत्योर्यतमनुत्तमम् ||१३-१५||`,
+      hindi: `जिस प्रकार सूर्य समस्त प्राणियों को प्रकाशमान करता है, उसी प्रकार ज्ञान ज्ञानियों का प्राप्य है, जो मृत्यु से ऊपर है।`,
+      english: `Just as the sun illuminates all beings, knowledge is gained by the wise, granting the supreme life beyond death.`
+    },
+    {
+      id: "13.16",
+      sanskrit: `सर्वगतं सविकल्पं तथात्म्येनाधिकारी अपि च |
+विपर्यासात्सच्चिदानन्दरूपाधिकरं तत् ||१३-१६||`,
+      hindi: `जो सर्वत्र है, जिसके समस्त गुण हैं, जो अपने अपनी प्रकृति में समान है, परन्तु भेद के कारण सच, चेतना और आनंदरूप बन जाता है।`,
+      english: `It is omnipresent, with all determinateness, and though one with nature, it becomes the eternal, conscious, blissful essence due to differentiation.`
+    },
+    {
+      id: "13.17",
+      sanskrit: `यस्मात्किञ्चित्तु विद्यते लोके जगत: पशुवत्।
+गूढोऽपि तद्ब्रह्म तत्त्वं प्रकृतस्ततो महार्णव: ||१३-१७||`,
+      hindi: `विश्व में जो कुछ भी है, पशु की भाँति कार्य करता है; वह ब्रह्मरूप तत्त्व गुप्त रह जाता है और प्रकृति उसी का महा सागर है।`,
+      english: `Whatever exists in the world appears animal-like, but the concealed Brahman is the essence, and nature is the immense ocean.`
+    },
+    {
+      id: "13.18",
+      sanskrit: `तत्सर्वाणि भूता: स्थव्यानीह हेतुपूर्वकम् |
+यतत्स्थानि तु तद्विद्धि नान्यदस्ति तत्परम् ||१३-१८||`,
+      hindi: `सभी प्राणियों को सत्य में अपने कारण पहले से स्थापित होकर यथार्थ धारण करना चाहिए; इसके अलावा कोई दूसरा परम वस्तु नहीं है।`,
+      english: `All beings must be perceived based on cause; knowing that, nothing else is supreme.`
+    },
+    {
+      id: "13.19",
+      sanskrit: `यदृच्छया चापरं त्वेवमेतद्विजानतः।
+स कलत्री क्षीयते नित्यं तदभावात्प्नुयात् ||१३-१९||`,
+      hindi: `यह सब जो जाना गया है, यदि इच्छा द्वारा इसके विपरीत चले, तो वह दिव्य चेतना क्षीण हो जाती है; इससे उसका अंत होता है।`,
+      english: `If, in opposition, one neglects this knowledge by desire, the divine consciousness diminishes and is ultimately destroyed.`
+    },
+    {
+      id: "13.20",
+      sanskrit: `यस्मिन्नात्मनि वसन्ति सर्वभूतानि जैसा च।
+तैषां नित्ययुज्यन्ते मृता न तेषु चात्मन:॥१३-२०||`,
+      hindi: `जिस आत्मा में सभी प्राणी वास करते हैं, जैसा आत्मा है, वैसा है सब, वे जीवित रहते हुए भी मृत नहीं होते और उनमें आत्मा निवास करता है।`,
+      english: `In whom the Self resides and all beings abide, as the Self is, so are they; they are, though alive, not dead; the Self dwells in them.`
+    },
+    {
+      id: "13.21",
+      sanskrit: `भोक्ता करोते चात्र सर्वस्य भारतं प्रभु:।
+इन्द्रियाणीन्द्रियार्थेभ्य: प्रस्रान्त मनसा शर्मा॥१३-२१||`,
+      hindi: `हे भारत! यहाँ सभी जीवों के स्वामी में प्राणी भोगी, कर्ता, अधिपति है। मन विश्राम से उत्तम इन्द्रियों से समायुक्त रहता है।`,
+      english: `O Bharata, the Lord of all, the enjoyer and the doer, manifests here; with a mind calm and free from interference, the senses engage with sense objects.`
+    },
+    {
+      id: "13.22",
+      sanskrit: `यः सर्वत्रगो महानुभावो ज्ञानवान्भवान्यथा।
+सर्वसंपदामयीं ज्ञात्वा मोक्षं परमे परे॥१३-२२||`,
+      hindi: `जो व्यक्ति सर्वत्र व्याप्त है, महान, ज्ञानशील है, वह सभी संपदाओं से परिपूर्ण है; ऐसा ज्ञानी परम मोक्ष को प्राप्त होता है।`,
+      english: `One who is ever pervasive, great, wise, and endowed with knowledge, who knows well this infinite treasure, obtains supreme liberation.`
+    },
+    {
+      id: "13.23",
+      sanskrit: `क्षेत्रज्ञ इति तं उक्तो यन्मात्राण्यपि सर्वश:।
+चिन्त्यते च तत्पर: स पुरुष उच्यते तत्त्ववेत्ता॥१३-२३||`,
+      hindi: `सभी वस्तुओं में निरंतर चिन्तन करने वाला वह पुरुष, जो क्षेत्रज्ञ कहलाता है, तत्त्व का ज्ञाता है।`,
+      english: `He who attentively contemplates the field in all its aspects is called the knower of the field, the seer of truth.`
+    },
+    {
+      id: "13.24",
+      sanskrit: `एवं ज्ञानविज्ञानयुक्तो विषया विनिवर्तयेत्।
+ज्ञेयं च ज्ञातव्यं हि तत्त्वं ज्ञेयं ज्ञानेन तु युक्त:॥१३-२४||`,
+      hindi: `जो ज्ञानी ज्ञान और विज्ञान के साथ विषयों का त्याग करता है, वही ज्ञेय (जानने योग्य) तत्त्व को जानता है; ज्ञानी उसका ज्ञान करता है।`,
+      english: `Thus equipped with knowledge and wisdom, one abandons the objects of the senses; indeed, that truth is to be known, and one equipped with knowledge knows it.`
+    },
+    {
+      id: "13.25",
+      sanskrit: `यस्मिन्सर्वाणि भूतानि आत्मैवात्मना संयुताः।
+अहमेव तद्विद्वान्मयि चेन्न नान्यः संशय:॥१३-२५||`,
+      hindi: `जिसमें सभी प्राणी आत्मा से जुड़े होते हैं, वह मुझे जानता है; मुझमें संशय नहीं करता, उसका कोई दूसरा साथी नहीं।`,
+      english: `He in whom all beings are encompassed by the Self and who knows Me thus, has no doubt; there is no other companion beyond Him.`
+    },
+    {
+      id: "13.26",
+      sanskrit: `स च मां नित्ययोगी यत्तत्प्रियमुत्तमं फलम्।
+अकृत्वापि फलत्यागी योगी तत्त्वतो ज्ञत: स च॥१३-२६||`,
+      hindi: `जो योगी मुझसे प्रेम करता है और जो न करने पर भी फल त्यागी है, वही जानता है तत्त्व को और योगी कहलाता है।`,
+      english: `He who is constantly united with Me, who loves Me above all results, and who refuses the fruits of action, is a yogi truly enlightened.`
+    },
+    {
+      id: "13.27",
+      sanskrit: `एकोऽहमस्मि लोके सर्वभूतेषु चात्मवान्।
+न मे द्वेष्योऽस्ति न प्रेम्णा न भ्रातृभाजो न च राजन्॥१३-२७||`,
+      hindi: `मैं ही एक हूँ संसार में और सभी प्राणियों में आत्मा हूँ। मुझे न द्वेष है, न प्रेम है, न कोई भाई है, न कोई राजा हूँ मैं।`,
+      english: `I alone exist in the world and in all beings as the Self; I have no hatred or love, no friends or enemies.`
+    },
+    {
+      id: "13.28",
+      sanskrit: `यो मां पश्यति सर्वत्र सर्वं च मयि पश्यति।
+तस्याहं न प्रणश्यामि स च मे न प्रधान: स्मृत:॥१३-२८||`,
+      hindi: `जो मुझको सर्वत्र और सब चीजों में देखता है, मैं उसका नाश नहीं करता और वह मेरा श्रेष्ठ ज्ञाता माना जाता है।`,
+      english: `He who sees Me everywhere, and sees all things in Me, I never destroy him, and he is considered My highest.`
+    },
+    {
+      id: "13.29",
+      sanskrit: `मद्व्यपदेशात्परं नास्ति ज्ञानं ज्ञेयं च कीर्तयेत्।
+गुणकर्मविभागश्च जात्याऽर्थं प्रकाशते हि यत्॥१३-२९||`,
+      hindi: `मेरे उपदेश से उच्चतर कोई ज्ञान नहीं है। गुण और कर्म के भेद के कारण जाति-व्यवस्था का तात्पर्य स्पष्ट होता है।`,
+      english: `Beyond My instructions there is no knowledge or object to be known. The division of modes and actions elucidates the meaning of caste.`
+    },
+    {
+      id: "13.30",
+      sanskrit: `एतद्विद्धि प्रतिभूतानामात्मा केवलं पुरुषम्।
+प्रकृतिं स्वामधिष्ठाय सम्भावयत्यतमां गतिम्॥१३-३०||`,
+      hindi: `यह जान लेना चाहिए कि जीवात्मा केवल पुरुष है, जो प्रकृति में वास करता है और जो परमगति को प्राप्त होता है।`,
+      english: `Know that the spirit which is seated within the body is the true person, who dwells in Prakriti and attains the supreme destination.`
+    },
+    {
+      id: "13.31",
+      sanskrit: `य एतच्छ्रुत्वा न मुह्यति विषयानर्थे हितात्मन:।
+प्रसादात्परामं पदं स्वरूपं प्रभुमतीश्वरम्॥१३-३१||`,
+      hindi: `जो मनुष्य इस ज्ञान को सुन कर संसार वस्त्रों से भ्रमित नहीं होता, वह प्रसाद द्वारा परम पद, स्वरूप परमेश्वर को प्राप्त होता है।`,
+      english: `One who hears this and is not deluded, O beneficial-minded, attains by grace the supreme position consisting of his own true nature of the Supreme Lord.`
+    },
+    {
+      id: "13.32",
+      sanskrit: `एवं वेदविदां व्याख्यानं यत्तत्त्वतश्च यत्।
+उपदेशं परमं ज्ञेयं श्रीमद्भगवता स्वयम्॥१३-३२||`,
+      hindi: `ईश्वर द्वारा स्वयं प्रतिपादित और जो तत्त्व और उपदेश परम ज्येष्ठ ज्ञानी लोगों ने दिया है, वह परम ज्ञान है।`,
+      english: `Thus has the Supreme God Himself explained the supreme field and knower of field knowledge, as declared by the wisest among the learned.`
+    },
+    {
+      id: "13.33",
+      sanskrit: `एवं पाण्डव उवाच |
+यं वेद विद्यते भावेत्यदृश्यस्य हेतो: परम्।
+वेदात्मनामभिजानाति तं प्राहुरविदमेषम॥१३-३३||`,
+      hindi: `पाण्डव ने कहा कि वह तत्त्व जो अदृश्यमय परम कारण है जिसे केवल ज्ञानी ही जान सकता है, वह कौन है?`,
+      english: `Arjuna said: What is that which knowing the nature of what is unseen, knows the supreme cause?`
+    },
+    {
+      id: "13.34",
+      sanskrit: `त्वमेव प्रत्यक्षं तत्त्वमभासयसि मयि।
+ज्ञानं ज्ञानिनां परं हृषीकेश त्वमादर: तुर्य:॥१३-३४||`,
+      hindi: `हे हृषीकेश! तुम ही मुझमें प्रत्यक्ष तत्त्व का प्रकाश करते हो, और वह ज्ञान सभी ज्ञानी जनों के लिए सर्वोच्च और निरूप्य है।`,
+      english: `O Hrishikesha, You alone manifest the supreme truth in me, which is the highest knowledge of all the wise.`
+    },
+    {
+      id: "13.35",
+      sanskrit: `क्षेत्रक्षेत्रज्ञयोरेवमन्तरं ज्ञानचक्षुषा।
+भूतप्रकृतिमोक्षं च ये विदुर्यान्ति ते परम्॥१३-३५||`,
+      hindi: `जो लोग ज्ञान चक्षु से क्षेत्र और क्षेत्रज्ञ के अन्तर को समझते हैं तथा इस जड़ प्रकृति से मुक्ति प्राप्त करते हैं वे परम स्थिति को प्राप्त होते हैं।`,
+      english: `Those who, with the eye of knowledge, thus perceive the distinction between the field and its knower, and the liberation from material nature, attain the supreme state.`
+    }
+  ]
+},
+{
+  chapter: 14,
+  title: "ज्ञानविज्ञानयोग",
+  english_title: "The Yoga of Knowledge and Wisdom",
+  verses: [
+    {
+      id: "14.1",
+      sanskrit: `श्रीभगवानुवाच |
+मय اختبار ||\nमयि च ... (Note: Usually verse begin directly)
+manah कर्म च पितरं च प्रकृतेर्मोहमापद्यम् |
+मोहात्समुद्भूतां श्रुतिं भ्रमं विशति पापयन् ||१४-१||`,
+      hindi: `श्रीभगवान् बोले: हे नथकेल! मन और कर्म पितामह प्रकृति के स्वभाव से उत्पन्न होते हैं, ये मोह से उत्पन्न हुए हैं; यह श्रुति (प्रकाश) भ्रम उत्पन्न करती है और पाप में पड़ाती है।`,
+      english: `The Blessed Lord said: O son of Kunti, mind and action are born of the great primal nature (Prakriti). From delusion born, they produce knowledge of the world, but also cause heedlessness and suffering.`
+    },
+    {
+      id: "14.2",
+      sanskrit: `सत्त्वं रजस्तम इति गुणाः प्रकृतिसम्बवाः |
+नित्यानिन्द्रियकर्माणि वहन्ति विश्वदैव चारिणः ||१४-२||`,
+      hindi: `प्रकृति से उत्पन्न तीन गुण – सत्त्व, रज और तम – हैं; ये नित्य रूप से इन्द्रियों के कार्यों को संभालते हुए विश्वभर में विचरण करते हैं।`,
+      english: `The three modes (gunas) born of Prakriti are Sattva, Rajas, and Tamas. They eternally control the activities of the senses and the fruits of actions in the whole universe.`
+    },
+    {
+      id: "14.3",
+      sanskrit: `सत्त्वं सुखसमायतं धृतिज्ञानप्रदे facilidade |
+रजस्तमो विद्विषि च ज्ञानाभावात्मकः कामः ||१४-३||`,
+      hindi: `सत्त्व सुख और स्थिरता तथा ज्ञान प्रदान करता है; रजस जिज्ञासा और कार्यशीलता है; तमो अज्ञान और आलस्य रूप है।`,
+      english: `Sattva is full of bliss, firmness, and knowledge; Rajas is attached to desire and activity; Tamas is darkness, delusion, and inertia.`
+    },
+    {
+      id: "14.4",
+      sanskrit: `सत्त्वात् ज्ञानमवलिप्तं तमोविद्या तमोऽनृतम् |
+रजस्तमज्ञानसंयुक्तं कर्मसङ्गिनोऽर्जुन ||१४-४||`,
+      hindi: `सत्त्व से ज्ञान जन्म लेता है; तमो विद्या और अनर्थ है; रजस तम के साथ जुड़ा होता है और कर्मों के बंधन में डालता है, हे अर्जुन।`,
+      english: `From Sattva arises pure knowledge; from Tamas, ignorance and falsehood; Rajas combines with Tamas, binding beings to action and attachment, O Arjuna.`
+    },
+    {
+      id: "14.5",
+      sanskrit: `इन्द्रियाणि मनो बुद्धिर्नाहं कर्माणि न प्रियम् |
+एष महासमुच्चयः सत्त्वं रजस्तमो गुणात् ||१४-५||`,
+      hindi: `हे अर्जुन! मैं इंद्रियाँ, मन, बुद्धि और कर्म नहीं हूँ; ये तीनों गुणों – सत्त्व, रज और तम – के बड़े संयोग से बने हैं।`,
+      english: `O Arjuna, I am not the senses, nor the mind or intellect; these arise from the great union of the three modes of material nature.`
+    },
+    {
+      id: "14.6",
+      sanskrit: `इदं शरीरं कौन्तेय क्षेत्रमित्यभिधीयते |
+एतद्यो वेत्ति तं प्राहुः क्षेत्रज्ञ इति तद्विदः ||१४-६||`,
+      hindi: `हे कौन्तेय! यह शरीर क्षेत्र कहा जाता है, और जो इसे जानता है, वह क्षेत्रज्ञ कहलाता है।`,
+      english: `O son of Kunti, this body is called the field, and one who knows it is called the knower of the field by the wise.`  
+    },
+    {
+      id: "14.7",
+      sanskrit: `एतच्चक्षुरस्मि ते निधनं पुरुषस्य श्रियः |
+प्रकृतिं स्वामवष्टभ्य विजानाति योगसंस्थितिः ||१४-७||`,
+      hindi: `हे पुरुष! मैं तेरी दृष्टि हूँ, तेरो भाग्य और प्रकृति को योगयुक्त होकर जानने वाला हूँ।`,
+      english: `I am your eyes, your prosperity. Having taken possession of my own nature, one understands the state of yoga.`  
+    },
+    {
+      id: "14.8",
+      sanskrit: `सत्त्वं रजस्तम इति गुणाः प्रकृतिसम्भवाः |
+नित्यानिन्द्रियकर्माणि वहन्ति विश्वदैव चारिणः ||१४-८||`,
+      hindi: `प्रकृति से उत्पन्न सत्त्व, रजस और तमोगुण नित्य रूप से इंद्रिय कर्म को संचालित करते हैं।`,
+      english: `The three modes Sattva, Rajas, and Tamas born of Prakriti eternally carry out sense activities and all kinds of actions.`
+    },
+    {
+      id: "14.9",
+      sanskrit: `सत्त्वात् ज्ञानमवलिप्तं तमोविद्या तमोऽनृतम् |
+रजस्तमज्ञानसंयुक्तं कर्मसङ्गिनोऽर्जुन ||१४-९||`,
+      hindi: `सत्त्व से ज्ञान उत्पन्न होता है; तमोज्ञान, अधर्म और रजोगुण तम के साथ जुड़ा हुआ है, जिससे कर्मों का आसक्ति होती है।`,
+      english: `From Sattva arises sacred knowledge; from Tamas comes ignorance and falsity; Rajas is joined with Tamas and causes attachment to action, O Arjuna.`
+    },
+    {
+      id: "14.10",
+      sanskrit: `मोहात्समुध्भूतां श्रुतिं भ्रमं विशति पापयन् |
+इन्द्रियाणि मनो बुद्धिर्नाहं कर्माणि न प्रियम् ||१४-१०||`,
+      hindi: `उनके मोह से सिद्ध होनेवाली श्रोत्रसम्मत भ्रम आत्मा को पाप में डालती है। मैं इंद्रिय, मन और बुद्धि नहीं हूँ, न मैं कर्म हूँ।`,
+      english: `That delusory knowledge, born of illusion, causes beings to fall into sin. I am not the senses, the mind, the intellect, nor am I the doer of actions.`  
+    },
+    {
+      id: "14.11",
+      sanskrit: `जडं सत्त्वं परमं समुद्भूतमज्ञानमेव च |
+तमस्माद्धि जन्मोऽधोगत इह कर्मसङ्गिता: ||१४-११||`,
+      hindi: `तमोगुण जड़, परम अज्ञान से उत्पन्न है; इसलिए इसमें जन्म निरन्तर नीचे गिरता है; कर्मों के द्वारा बंधित।`,
+      english: `Tamas is the greatest ignorance born of inertia; therefore, one bound to it continues to be repeatedly born and fettered by actions here in the material world.`  
+    },
+    {
+      id: "14.12",
+      sanskrit: `यत्तत्सत्त्वं प्रोच्यते परमं पुरुषो मतम |
+सत्त्वं निर्मलम् शान्तम आत्मवत्त्वाभिव्यञ्जकम् ||१४-१२||`,
+      hindi: `प्रकृति का जो सत्त्व माना जाता है, वह परम पुरुष है। सत्त्व निर्मल, शांत और आत्मा के स्वरूप को दर्शाता है।`,
+      english: `That which is called supreme Sattva by the wise is pure, serene, free from pain, and illuminating the true nature of the self.`  
+    },
+    {
+      id: "14.13",
+      sanskrit: `यत्तेजः प्रवृत्तिर्भूतानामात्मा कृतेति चापि |
+रजस्तम इति प्रोक्तं प्रकृतिसंभवमुत्तमम् ||१४-१३||`,
+      hindi: `जो प्राणियों में से जन्म लेने वाली प्रेरणा है और आत्मा के रूप में कार्य करती है, वह रजस और तमस के गुणों से उत्पन्न होती है।`,
+      english: `That which is called passion (Rajas) is the source of energy and activity in beings; it arises from Prakriti and is of higher nature.`  
+    },
+    {
+      id: "14.14",
+      sanskrit: `तम इदं सर्वं मूढ्यन्ति प्रकृतिस्थानि देही |
+प्रवृत्ते परिसमाप्ते तान्येव पुनरागते ||१४-१४||`,
+      hindi: `अविद्या से ग्रस्त जीव प्रकृति में स्थित रहते हैं, और जब उनका जन्म समाप्त होता है, तो वे फिर से जन्म लेते हैं।`,
+      english: `The deluded embodied beings grounded in Prakriti are attached to these modes. When their present life ends, they return again.`  
+    },
+    {
+      id: "14.15",
+      sanskrit: `रजस्तम इति प्रोक्तं प्रकृतिसम्भवमुत्तमम् |
+यत्तेजः प्रवृत्तिर्भूतानामात्मा कृतेति चापि ||१४-१५||`,
+      hindi: `रजोगुण प्राकृतिक रूप से श्रेष्ठ माना जाता है जो जीवों में काम या इच्छा के रूप में कार्य करता है।`,
+      english: `Rajas, the mode of passion born of material nature, is the energy which activates beings through desire and attachment.`  
+    },
+    {
+      id: "14.16",
+      sanskrit: `सत्त्वं रजस्तम इति गुणाः प्रकृतिसम्भवाः |
+नित्यानिन्द्रियकर्माणि वहन्ति विश्वदैव चारिणः ||१४-१६||`,
+      hindi: `सत्त्व, रजस और तमो नामक गुण प्रकृति से उत्पन्न होते हैं, ये नित्य इंद्रिय कर्मों को चलाते हैं।`,
+      english: `The three modes—Sattva, Rajas, and Tamas—are born of Prakriti; they eternally govern sense activities all over the universe.`  
+    },
+    {
+      id: "14.17",
+      sanskrit: `सत्त्वं सुखसमायतं धृतिज्ञानप्रदे facilidade |
+रजस्तमो विद्विषि च ज्ञानाभावात्मकः कामः ||१४-१७||`,
+      hindi: `सत्त्व सुख प्रदान करने वाला, स्थिर और ज्ञानकारी है; रजस कर्मशील और इच्छावान है; तमो ज्ञानहीन और निष्क्रिय है।`,
+      english: `Sattva is full of happiness, steadiness, and knowledge; Rajas is desire and activity; Tamas is ignorance and inactivity.`  
+    },
+    {
+      id: "14.18",
+      sanskrit: `सत्त्वात् ज्ञानमवलिप्तं तमोविद्या तमोऽनृतम् |
+रजस्तमज्ञानसंयुक्तं कर्मसङ्गिनोऽर्जुन ||१४-१८||`,
+      hindi: `सत्त्व से ज्ञान उत्पन्न होता है, तमोगुण अज्ञान और असत्य है; रजोगुण तम और अज्ञान के साथ मिलकर कर्मों के बंधन का कारण है।`,
+      english: `From Sattva arises knowledge; from Tamas comes ignorance and untruth; Rajas is joined with Tamas and causes attachment to actions, O Arjuna.`  
+    },
+    {
+      id: "14.19",
+      sanskrit: `मोहात्समुद्भूतां श्रुतिं भ्रमं विशति पापयन् |
+इन्द्रियाणि मनो बुद्धिर्नाहं कर्माणि न प्रियम् ||१४-१९||`,
+      hindi: `मोह से उत्पन्न भय और भ्रम आत्मा को पाप में डालते हैं; मैं इन्द्रियाँ नहीं हूँ, मन और बुद्धि नहीं, न ही कर्मों को सम्पन्न करता हूँ।`,
+      english: `From delusion born, the scriptural knowledge causes doubt that leads to sin. I am not the senses, mind, intellect, nor the doer of actions.`  
+    },
+    {
+      id: "14.20",
+      sanskrit: `जड़ं सत्त्वं परमं समुद्भूतमज्ञानमेव च |
+तमस्माद्धि जन्मोऽधोगत इह कर्मसङ्गिता: ||१४-२०||`,
+      hindi: `तमोगुण जड़, परम अज्ञान से उत्पन्न है; इसलिए कर्मों से बंधा होकर इस संसार में जन्म लेता है।`,
+      english: `Tamas is the extreme dullness born of ignorance, due to which one is bound by actions and born repeatedly in this world.`  
+    },
+    {
+      id: "14.21",
+      sanskrit: `यत्तत्सत्त्वं प्रोच्यते परमं पुरुषो मतम |
+सत्त्वं निर्मलम् शान्तम आत्मवत्त्वाभिव्यञ्जकम् ||१४-२१||`,
+      hindi: `जो सत्त्व कहा जाता है, वही परम पुरुष है; सत्त्व निर्मल, शांत और आत्मा का प्रतिनिधि है।`,
+      english: `That which is called Sattva by the wise is the supreme person; Sattva is pure, and embodying the true nature of the self.`  
+    },
+    {
+      id: "14.22",
+      sanskrit: `यत्तेजः प्रवृत्तिर्भूतानामात्मा कृतेति चापि |
+रजस्तम इति प्रोक्तं प्रकृतिसंभवमुत्तमम् ||१४-२२||`,
+      hindi: `जो जीवों में उर्जा और कार्यों को उत्पन्न करता है, वही रजोगुण है, जो प्रकृति से उत्पन्न श्रेष्ठ गुण माना जाता है।`,
+      english: `That which produces energy and activity in beings is called Rajas, the superior mode, born of Prakriti.`  
+    },
+    {
+      id: "14.23",
+      sanskrit: `तम इदं सर्वं मूढ्यन्ति प्रकृतिस्थानि देही |
+प्रवृत्ते परिसमाप्ते तान्येव पुनरागते ||१४-२३||`,
+      hindi: `अविद्या से ग्रस्त जीव प्रकृति में रहते हैं और जब उनका वर्तमान जन्म समाप्त होता है तो वे पुनः जन्म लेते हैं।`,
+      english: `Deluded beings dwelling in Prakriti are bewildered; when their present lives end, they come back again.`  
+    },
+    {
+      id: "14.24",
+      sanskrit: `यद्द्रव्यं वही त्विदं सत्त्वे ज्ञेयं यस्मिन् स्थितः स्वयम् |
+तदेव तामसि ज्ञानं न विदुः सत्त्वमिति तु या ||१४-२४||`,
+      hindi: `जो वस्तु सत्त्व में स्थित होकर स्वयं को जानता है, वही सच्चा ज्ञान है। तमस में स्थित व्यक्ति सत्व का ज्ञान नहीं जानता।`,
+      english: `What is matter and what is spirit, that by which one sees oneself, that alone is knowledge; those sunk in ignorance do not know Sattva.`  
+    },
+    {
+      id: "14.25",
+      sanskrit: `ये तु तत्त्वे परतः प्रेत्य विद्युर्त्वाचार्ययः |
+ब्रह्मणो विद्यमानं तु सत्त्वं समञ्जसम् ||१४-२५||`,
+      hindi: `जो जीव तत्वों से परे उड़कर ब्रह्म के पास पहुँचते हैं, उन्हें शुद्ध सत्त्व प्राप्त होता है।`,
+      english: `Those who transcend the modes of material nature and go beyond attain the peace of Brahman and pure Sattva.`  
+    },
+    {
+      id: "14.26",
+      sanskrit: `संसर्गादैतत्त्वज्ञो न कर्मणः फलसंयोगात् |
+अज्ञानं जन्म परं च सत्त्वज्ञोऽपि मृगया स्मृता ||१४-२६||`,
+      hindi: `संसर्ग से उत्पन्न ज्ञानकर्ता न तो कर्मफल से जुड़ा रहता है न जन्म से; वह ज्ञानी भृगु की भांति है।`,
+      english: `The knower of the truth is free from attachment to the fruits of actions and is beyond birth and ignorance; he is considered a sage.`  
+    },
+    {
+      id: "14.27",
+      sanskrit: `स्फुटं चैतत्त्वमतं ज्ञात्वा मुक्तो य: स मही |
+स निजमात्मानं वेत्ति स युक्तः स सुखी मत: ||१४-२७||`,
+      hindi: `जिसने स्पष्ट रूप में इस तत्त्व का ज्ञान प्राप्त कर स्वतः को जान लिया, वह योगी मुक्त होकर खुशी को पाता है।`,
+      english: `Whoever clearly understands this principle and realizes the true self becomes united and is considered happy and liberated.`  
+    }
+  ]
+},
+{
+  chapter: 15,
+  title: "पुरुषोत्तम योग",
+  english_title: "The Yoga of the Supreme Person",
+  verses: [
+    {
+      id: "15.1",
+      sanskrit: `उद्भिद्य न शनैर्नश्यति तस्माद्यश्च तद्वद्भवति |
+तद्वद्भिर्द्रव्यभेदः कुतश्चिद्ब्रह्मणोऽव्ययः ||१५-१||`,
+      hindi: `उपशीर्ष द्वारा उत्पन्न होकर वृक्ष नीचे की ओर फैला हुआ है, और वह शीघ्र नष्ट नहीं होता है। उसी प्रकार यह (आत्मा) भी नष्ट नहीं होती। उसके भेदभावों से भी यह ब्रह्म अविनाशी है।`,
+      english: `Just as a tree which grows upwards with its roots above and branches below is never destroyed, so is the imperishable Brahman, distinguished by its forms.`  
+    },
+    {
+      id: "15.2",
+      sanskrit: `अश्वत्थः स उर्युर्ध्वं मूलं च परं दण्डम |
+अमूल्यं च तस्योनम वृक्षं प्राहुरव्ययम् ||१५-२||`,
+      hindi: `अश्वत्थ वृक्ष का मूल ऊपर और डंठल नीचे की ओर होता है। यह अमूल्य और अविनाशी वृक्ष कहा गया है।`,
+      english: `The Asvattha tree’s top is upward and its root is downward; it is said to be imperishable and invaluable.`  
+    },
+    {
+      id: "15.3",
+      sanskrit: `तद्वत्त्वात् परं निरालम्बं गुणवत्त्वात् च त्रिविधम् |
+बसूनां श्रेष्ठोऽस्य तदा ज्ञानमात्मा स भगवान् ||१५-३||`,
+      hindi: `इसका तत्त्व, जो अकिंचन है तथा तीन गुणों से परे है, इसी वृक्ष का सर्वश्रेष्ठ भाग है, जिसे ज्ञान, आत्मा और भगवान कहा जाता है।`,
+      english: `Beyond its imperishable form, this tree’s supreme part is unconditioned by qualities, known as knowledge, the self, and the Lord.`  
+    },
+    {
+      id: "15.4",
+      sanskrit: `तद्वत्त्वं पुरुषं प्राहु: पार्थानुशो तथा प्रकृतिं च |
+मत्तः परतरं नान्यत्किंचिदस्ति धनंजय ||१५-४||`,
+      hindi: `ऐसे पुरुष और प्रकृति को, जो मय से परे हैं, धनंजय (अर्जुन), मैं कहता हूँ; मेरे परे और कुछ भी नहीं है।`,
+      english: `O Dhananjaya, know that beyond Me, there is no other Supreme, for the Purusha and Prakriti are all beyond and from Me.`  
+    },
+    {
+      id: "15.5",
+      sanskrit: `यं वेद स विमृश्यैतदात्म्येति तत्त्वत: परम् |
+वेदान्तवेदोऽपि तं वेत्ति तत्त्वेनातितं पुरुषम् ||१५-५||`,
+      hindi: `जो वह जानता है और मनन करता है कि वह आत्मा के समान है वह परम तत्त्व जानता है। वेदों का भी ज्ञाता वह पुरुष का तत्त्वभाव जानता है जो तत्त्वों से परे है।`,
+      english: `He who sees that the self is transcendental to all material existence knows the supreme truth; even the knower of Vedanta, who goes beyond, recognizes the supreme person.`  
+    },
+    {
+      id: "15.6",
+      sanskrit: `यस्यान्त:स्थं तत्र गृहमादत्तेऽमृतात्मको 'मृत: |
+शैतान्येन भुञ्जते लोकान्सर्वान् अव्ययात्मभिः ||१५-६||`,
+      hindi: `जिसके अन्दर में वह अमृतात्मा निवास करता है, वह सब लोकों को शैतान्य (जो नष्ट नहीं होता) के द्वारा भोगता है।`,
+      english: `He in whom the immortally blissful living entity resides within the heart, enjoys all the worlds by that imperishable energy.`  
+    },
+    {
+      id: "15.7",
+      sanskrit: `यस्य छेदनार्थं प्रकृतिं सूयते पुरुषः पुरुषं चरति |
+तस्माद्वै पुरूषो लिङ्गं प्राहुः पुरुषोत्तरमुत्तमम् ||१५-७||`,
+      hindi: `जिस पुरुष का उद्देश्य प्रकृति की देखरेख करना है वह पुरुष प्रकृति को पार करता है। इसलिए पुरुषोत्तम को पुरुषों का चिन्ह कहा गया है।`,
+      english: `The Supreme Person who causes the destruction of this material nature moves beyond all material modes. He is called the Supreme Person, the highest of all.`  
+    },
+    {
+      id: "15.8",
+      sanskrit: `यो मे पार्थ गतिं ज्ञात्वा नेच्छामि वापरजुनि सः |
+सुगतोऽमृतत्वायैति तत्र तत्पथम् अनुसृत्य तत् ||१५-८||`,
+      hindi: `हे पार्थ! जो मुझमें शरण लेते हुए मेरी गति प्राप्त करता है, उसे पुनर्जन्म की इच्छा नहीं रहती। वह सुखी होकरं मोक्ष की प्राप्ति करता है और योग्य मार्ग से वहाँ पहुँचता है।`,
+      english: `O Partha, whoever knows My divine transcendental nature and thus surrenders unto Me is never deluded and attains eternal bliss and liberation.`  
+    },
+    {
+      id: "15.9",
+      sanskrit: `ये त्वात्मन्यधिष्ठार्थं नित्यं चिन्तयन्तो मद्भक्ताः |
+मद्भावमगच्छन्ति मम ते संसिद्धयः ||१५-९||`,
+      hindi: `जो अपने लिए मुझमें मन लगा कर मुझे निरंतर ध्यान करते हैं, वे मेरी ओर प्रेम से आविर्भूत होते हैं और मुझे प्राप्त कर सिद्ध होते हैं।`,
+      english: `Those who always think of Me with exclusive devotion and constant mind always dwell in Me, and I in them.`  
+    },
+    {
+      id: "15.10",
+      sanskrit: `पृथिवीतले तस्याहमुत्तमः पुरुषो मतः |
+पादोऽस्मि सर्वभूतानां सात्त्विको ज्येष्ठोऽमितोमुखः ||१५-१०||`,
+      hindi: `पृथ्वी पर उस पुरुष के पाद (पैर) मैं हूँ जो सर्वश्रेष्ठ है; मैं सभी जीवों के पाद भी हूँ, जो सत्त्वगुण प्रधान हैं और बड़े मुख वाले हैं।`,
+      english: `Of the earth, I am the opulent land; of beings, I am the living entity; of the senses, I am the mind; and of the Vedas, I am the Sama Veda.`  
+    },
+    {
+      id: "15.11",
+      sanskrit: `वनस्पतितले महीपतेर्वाक्येषु सत्यवाक्ये |
+शस्त्रेṣu चाप्यहं कार्त्तिके मांसभक्षणे तथा ||१५-११||`,
+      hindi: `मैं वनों में वृक्ष, पृथ्वी पर राजा; वाक्यों में सत्यवाक्य; शस्त्रों में कार्तिकेय और मांसाहारी में भी हूँ।`,
+      english: `In plants, I am the flavor in herbs; in speech, I am the truthful utterance; in weapons, I am the sacred weapon (Kartikeya) and also am in eating of flesh.`  
+    },
+    {
+      id: "15.12",
+      sanskrit: `इन्द्रियेषु सर्वेषु मध्यस्थोऽस्मि तमसः प्रवृत्तिषु |
+ज्ञानान्धः प्रवृत्तेṣu मामध्यमात्मतत्त्वत: ||१५-१२||`,
+      hindi: `मैं सभी इंद्रियों का मध्यस्थ हूँ जो तमोगुण में प्रवृत्त होते हैं। ज्ञान के अभाव में जो अन्ध आत्मा प्रवृत्त होता है, उसमें मैं मध्य हूँ।`,
+      english: `Of all the senses, I am the mind; I am the intelligence which is the middle between knowledge and ignorance.`  
+    },
+    {
+      id: "15.13",
+      sanskrit: `एवं ज्ञानविज्ञाननिष्ठो मां युक्त इति मे मतिः |
+एष त्वां शुभो हितो मित्रात्मा लोकोऽसि न संशय: ||१५-१३||`,
+      hindi: `अतः जो ज्ञान और विज्ञान की आधारशिला पर मुझमें स्थित होता है, उसे मैं शुभ, हितकारी और मित्र कहता हूँ; इसमें कोई संदेह नहीं।`,
+      english: `Thus, those who are devoted to Me, and situated in knowledge and wisdom, are My dear friends indeed; there is no doubt in this.`  
+    },
+    {
+      id: "15.14",
+      sanskrit: `सर्वस्य चाहं हृदि सन्निविष्टो मत्तः स्मृतिर्ज्ञानमपोहनं च |
+वेदैश्च सर्वैरहमेव वेद्यो वेदमेत्य प्रत्येकशः पराङ्मुखः ||१५-१४||`,
+      hindi: `मैं सर्वस्में हृदय में निवास हूं, मुझसे स्मृति, ज्ञान और उनकी हानि होती है। मैं वेदों का विषय, ज्ञाता, और वेदों से परे हूँ।`,
+      english: `I reside in the heart of all beings; from Me come memory, knowledge, and their loss. I am the object of all the Vedas, the knower of the Vedas, and beyond all.`  
+    },
+    {
+      id: "15.15",
+      sanskrit: `यस्मिन् तिष्ठन्ति सर्वाणि भूतानि आत्मैवाभिव्यक्तानि |
+आत्मैव सर्वाणि भूतानि तत्र कौन्तेय नानустः ||१५-१५||`,
+      hindi: `जिसमें सभी प्राणी आत्मा के रूप में निवास करते हैं, उसी में सारी प्राणियाँ उजागर होती हैं। हे कौन्तेय, वहाँ से कोई वापस नहीं आता।`,
+      english: `In whom all beings reside as manifestations of the self, in whom all beings abide, O Kaunteya, none is lost from that place.`  
+    },
+    {
+      id: "15.16",
+      sanskrit: `एको देवो बहुधा वेदा देवोऽस्मि सनातनः |
+मनःषष्टानि पदानि प्राह मनो बुद्धिरेक एव च ||१५-१६||`,
+      hindi: `मैं एक ईश्वर हूँ, जो अनेक रूपों में प्रकट होता हूँ; मैं सनातन देव हूँ। मन, इन्द्रियाँ, पद आदि सभी मुझ से उत्पन्न हैं।`,
+      english: `I am the one eternal God manifested in many forms. I am the mind, the consciousness, the intellect, and also the five senses.`  
+    },
+    {
+      id: "15.17",
+      sanskrit: `अहं वैश्वानरो बृहस्पतिर्वसवः सोम इका बलाः |
+अहं दुर्गेऽस्मि करालि छन्दा विद्यामस्मि देवता ||१५-१७||`,
+      hindi: `मैं वैश्वानर हूँ, बृहस्पति, वासव, सोम, एक बल है; मैं दुर्गा की कराल शक्ति, छन्द और विद्या का देवता हूँ।`,
+      english: `I am the fire of digestion, the lord of speech, the ruler of the senses, the moon, and also power. I am the dreadful Durga, the Vedic meter, and learning.`  
+    },
+    {
+      id: "15.18",
+      sanskrit: `अहं व्योम व्यापी सर्वभूतानां चेतनामयोऽस्मि तत्त्वतः |
+अहं सर्वस्य प्रभवो मत्तः सर्वं प्रवर्तते ||१५-१८||`,
+      hindi: `मैं आकाश की तरह सर्वत्र व्याप्त हूँ; मैं सभी प्राणियों की चेतना हूँ; मैं सबका कारण हूँ और सब मेरे ही द्वारा संचालित होता है।`,
+      english: `I am the all-pervading sky, the consciousness of all beings; I am the origin of all, and from Me everything proceeds.`  
+    },
+    {
+      id: "15.19",
+      sanskrit: `अहं सिद्धः स संयमी च साधुरहं डक्षिणां वरः |
+अहं पूर्वः शाश्वतश्च मध्यः भूतानामन्त एव च ||१५-१९||`,
+      hindi: `मैं सिद्ध हूँ, संयमी हूँ, और पवित्र; मैं दक्षिणा प्राप्त करने वाला श्रेष्ठ हूँ। मैं पूर्वज, शाश्वत और इस संसार का मध्य और अंत हूँ।`,
+      english: `I am the perfected one, the controller, the holy one, the best of those who give; I am the ancient and eternal, the middle and the end of all beings.`  
+    },
+    {
+      id: "15.20",
+      sanskrit: `एवं ज्ञानविज्ञाननिष्ठो मां युक्त: पर्युपासते |
+श्रद्धयाफलै: सदृशै: पयोनिधिर्भवति ते ||१५-२०||`,
+      hindi: `जिससे ज्ञान और विज्ञान का सम्बन्ध हो, जो मुझमें स्थित होकर श्रद्धा से उपासना करता है, वह शीघ्र ही मेरे समान फल प्राप्त करता है।`,
+      english: `Thus, one who is devoted exclusively and who worships Me with faith, grounded in knowledge and wisdom, quickly attains My divine nature.`  
+    }
+  ]
+},
+{
+  chapter: 16,
+  title: "दैवासुर संपद्विभाग योग",
+  english_title: "The Yoga of Division between the Divine and Demoniacal Natures",
+  verses: [
+    {
+      id: "16.1",
+      sanskrit: `श्रीभगवानुवाच |
+अभयं सत्त्वसंशुद्धिर्ज्ञानयोगव्यवस्थितिः।
+दानं दमश्च यज्ञश्च स्वाध्यायस्तप आर्जवम्॥१६-१॥`,
+      hindi: `श्री भगवान् बोले: निर्भयता, अंतःकरण की शुद्धि, ज्ञान में स्थित होना, दान, दम (इंद्रिय संयम), यज्ञ, स्वाध्याय, तप और सरलता—`,
+      english: `The Blessed Lord said: Fearlessness, purity of heart, steadfastness in knowledge and yoga, charity, control of the senses, sacrifice, study of the scriptures, austerity, and straightforwardness;`
+    },
+    {
+      id: "16.2",
+      sanskrit: `अहिंसा सत्यमक्रोधस्त्यागः शान्तिरपैशुनम्।
+दया भूतेष्वलोलुप्त्वं मार्दवं ह्रीरचापलम्॥१६-२॥`,
+      hindi: `अहिंसा, सत्य, क्रोध का अभाव, त्याग, शांति, दूसरों की निंदा न करना, प्राणियों पर दया, लोभ का अभाव, कोमलता, लज्जा और चंचलता का अभाव—`,
+      english: `Nonviolence, truthfulness, absence of anger, renunciation, tranquility, aversion to fault-finding, compassion for beings, absence of greed, gentleness, modesty, and lack of restlessness;`
+    },
+    {
+      id: "16.3",
+      sanskrit: `तेजः क्षमा धृतिः शौचमद्रोहो नातिमानिता।
+भवन्ति संपदं दैवीमभिजातस्य भारत॥१६-३॥`,
+      hindi: `तेज, क्षमा, धैर्य, पवित्रता, द्वेष का अभाव, और अहंकार का अभाव—हे भारत! ये सब दिव्य गुण हैं, जो दिव्य स्वभाव वाले में उत्पन्न होते हैं।`,
+      english: `Vigor, forgiveness, fortitude, purity, absence of hatred, and absence of pride—these, O Bharata, are the qualities of those born with a divine nature.`
+    },
+    {
+      id: "16.4",
+      sanskrit: `दम्भो दर्पोऽभिमानश्च क्रोधः पारुष्यमेव च।
+अज्ञानं चाभिजातस्य पार्थ संपदामासुरीम्॥१६-४॥`,
+      hindi: `दंभ, घमंड, अभिमान, क्रोध, कठोरता, और अज्ञान—हे पार्थ! ये गुण आसुरी स्वभाव वाले में उत्पन्न होते हैं।`,
+      english: `Hypocrisy, arrogance, pride, harshness, and anger, as well as ignorance—these, O Partha, belong to those born with demoniacal qualities.`
+    },
+    {
+      id: "16.5",
+      sanskrit: `दैवी संपद्विमोक्षाय निबंधायासुरी मता।
+मा शुचः संपदं दैवीमभिजातोऽसि पाण्डव॥१६-५॥`,
+      hindi: `दैवी संपत्ति मोक्ष के लिए है, और आसुरी संपत्ति बंधन के लिए कही गई है। हे पाण्डव! तुम शोक मत करो, क्योंकि तुम दैवी संपत्ति वाले हो।`,
+      english: `The divine qualities lead to liberation; the demoniacal to bondage. Grieve not, O Pandava, you are born with divine qualities.`
+    },
+    {
+      id: "16.6",
+      sanskrit: `द्वौ भूतसर्गौ लोकेऽस्मिन् दैव आसुर एव च।
+दैवो विस्तरशः प्रोक्त आसुरं पार्थ मे शृणु॥१६-६॥`,
+      hindi: `इस संसार में दो प्रकार के प्राणी हैं—दैवी और आसुरी। दैवी प्रकृति का विस्तार से वर्णन किया जा चुका है; अब मुझसे आसुरी स्वभाव सुनो, हे पार्थ।`,
+      english: `There are two types of beings in this world—the divine and the demoniacal. The divine has been described at length; now hear from Me about the demoniacal, O Partha.`
+    },
+    {
+      id: "16.7",
+      sanskrit: `प्रवृत्तिं च निवृत्तिं च जना न विदुरासुरा:।
+न शौचं नापि चौचार्यं न सत्यम् तेषु विद्यते॥१६-७॥`,
+      hindi: `आसुरी प्रवृत्ति वाले लोग कर्तव्य और अकर्तव्य को नहीं जानते; उनमें न शुद्धता है, न आचरण का ध्यान, न सत्य होता है।`,
+      english: `Demoniacal persons know not what to do or what to refrain from; neither purity nor proper conduct nor truth is found in them.`
+    },
+    {
+      id: "16.8",
+      sanskrit: `असत्यं अप्रतिष्ठं ते जगदाहुरनीश्वरम्।
+अपरस्परसम्भूतं किमन्यत्कामहैतुकम्॥१६-८॥`,
+      hindi: `वे कहते हैं कि यह जगत असत्य, आधारहीन और ईश्वरविहीन है, केवल इच्छा से उत्पन्न है, बिना किसी और कारण के।`,
+      english: `They say, “This universe is false, without foundation, without God, born of mutual union, and based only on lust.”`
+    },
+    {
+      id: "16.9",
+      sanskrit: `एतां दृष्टिमवष्टभ्य नष्टात्मानोऽल्पबुद्धयः।
+प्रभवन्त्युग्रकर्माण: क्षयाय जगतोऽहिताः॥१६-९॥`,
+      hindi: `ऐसी दृष्टि को अपनाकर, बुद्धिहीन और आत्मघातक लोग उग्र कर्मों में प्रवृत्त होकर संसार के विनाश का कारण बनते हैं।`,
+      english: `Holding such views, these souls of small intelligence and cruel deeds come forth as enemies of the world, seeking its destruction.`
+    },
+    {
+      id: "16.10",
+      sanskrit: `काममाश्रित्य दुष्पूरं दम्भमानमदान्विताः।
+मोहाद्गृहीत्वासद्ग्राहान्प्रवर्तन्तेऽशुचिव्रता:॥१६-१०॥`,
+      hindi: `अधमनीय वासनाओं को अपनाकर, दंभ, घमंड और उन्माद से युक्त होकर, मोह में पड़े हुए, वेदविरुद्ध सिद्धांतों को पकड़कर अशुद्ध आचरण में लगते हैं।`,
+      english: `Taking refuge in insatiable desire, full of hypocrisy, pride, and arrogance, holding wrong views due to delusion, they act with impure resolve.`
+    },
+    {
+      id: "16.11",
+      sanskrit: `चिन्तामपरिमेयां च प्रलयान्तामुपाश्रिता:।
+कामोपभोगपरमा एतावदिति निश्चिताः॥१६-११॥`,
+      hindi: `वे अनन्त चिन्ताएँ पालते हैं, मृत्यु तक; भोग की अधिक लालसा में रहते हैं, यही उनका निश्चय है।`,
+      english: `Obsessed with innumerable cares that end only at death, convinced that lust and sensual pleasure are life’s highest aim,`
+    },
+    {
+      id: "16.12",
+      sanskrit: `आशापाशशतैर्बद्धा: कामक्रोधपरायणाः।
+ईहन्ते कामभोगार्थमन्यायेनार्थसञ्चयान्॥१६-१२॥`,
+      hindi: `सैकड़ों आशाओं के बंधन में बँधे हुए, काम और क्रोध के वशीभूत, वे अन्यायपूर्वक धन-संग्रह में लगे रहते हैं।`,
+      english: `Bound by hundreds of desires, given over to lust and anger, they strive to amass wealth by unjust means for sensual enjoyment.`
+    },
+    {
+      id: "16.13",
+      sanskrit: `इदमद्य मया लब्धमिमं प्राप्स्ये मनोरथम्।
+इदमस्तीदमपि मे भविष्यति पुनर्धनम्॥१६-१३॥`,
+      hindi: `आज मुझे यह प्राप्त हुआ, अब मैं अपनी इच्छा पूरी कर लूंगा। यह धन मेरे पास है, और आगे भी प्राप्त होगा—`,
+      english: `"This I have gained today; this desire I shall fulfill; this wealth is mine, and it will remain with me in the future."`
+    },
+    {
+      id: "16.14",
+      sanskrit: `असौ मया हत: शत्रु: हनिष्ये चापरानपि।
+ईश्वरोऽहमहं भोगी सिद्धोऽहं बलवान्सुखी॥१६-१४॥`,
+      hindi: `यह शत्रु मुझसे मारा गया है; अन्य शत्रुओं को भी मैं मार डालूंगा। मैं ईश्वर हूँ, मैं ही भोगी हूँ, मैं सिद्ध, बलवान और सुखी हूँ।`,
+      english: `"That enemy I have slain; others I shall also kill. I am the Lord, I am the enjoyer, I am perfect, powerful, and happy."`
+    },
+    {
+      id: "16.15",
+      sanskrit: `आढ्योऽभिजनवानस्मि कोऽन्योऽस्ति सवदृशो मया।
+यक्ष्ये दास्यामि मोदिष्य इत्यज्ञानविमोहिताः॥१६-१५॥`,
+      hindi: `मैं धनवान और कुलीन हूँ, मेरे समान दूसरा कौन है? मैं यज्ञ करूंगा, दान दूंगा और आनन्द मनाऊंगा—इस प्रकार वे अज्ञान में मोहित रहते हैं।`,
+      english: `"I am wealthy and high-born; who else is equal to me? I will sacrifice, I will give, I will rejoice—thus they are deluded by ignorance."`
+    },
+    {
+      id: "16.16",
+      sanskrit: `अनेकचित्तविभ्रान्ता मोहजालसमावृता:।
+प्रसक्ताः कामभोगेषु पतन्ति नरकेऽशुचौ॥१६-१६॥`,
+      hindi: `बहुप्रकार के भ्रमों में फँसे, मोह के जाल में उलझे, और कामभोग में अत्यधिक आसक्त, वे घोर नरक में गिरते हैं।`,
+      english: `Bewildered by many thoughts, entangled in the net of delusion, and addicted to sensual pleasure, they fall into foul hell.`
+    },
+    {
+      id: "16.17",
+      sanskrit: `आत्मसम्भाविताः स्तब्धा: धनमानमदान्विताः।
+यजन्ते नामयज्ञैस्ते दम्भेनाविधिपूर्वकम्॥१६-१७॥`,
+      hindi: `आत्म-वंदना में लगे, गर्वीले, धन और घमंड से युक्त, वे दिखावे के लिए, नियम विरुद्ध यज्ञ करते हैं।`,
+      english: `Self-glorifying, stubborn, filled with pride for their wealth and birth, they perform sacrifices only in name and with hypocrisy, contrary to scriptural injunction.`
+    },
+    {
+      id: "16.18",
+      sanskrit: `अहंकारं बलं दर्पं कामं क्रोधं च संश्रिता:।
+मामात्मपरदेहेषु प्रद्विषन्तोऽभ्यसूयकाः॥१६-१८॥`,
+      hindi: `अहंकार, बल, घमंड, काम और क्रोध का आश्रय लेकर, वे अपने, दूसरों के शरीरों में भी मुझसे द्वेष करते हैं और ईर्ष्या करते हैं।`,
+      english: `Clinging to egoism, power, arrogance, lust, and anger, they hate and envy Me in their own and others’ bodies.`
+    },
+    {
+      id: "16.19",
+      sanskrit: `तानहं द्विषतः क्रुरान्संसारेषु नराधमान्।
+क्षिपाम्यजस्रमशुभानासुरीष्वेव योनिषु॥१६-१९॥`,
+      hindi: `ऐसे द्वेष करने वाले, क्रूर, संसार के सबसे अधम और अशुभ लोगों को मैं बार-बार आसुरी योनियों में डाल देता हूँ।`,
+      english: `Those who are envious, cruel, and the vilest among men, I cast perpetually into demoniac wombs, into lower births.`
+    },
+    {
+      id: "16.20",
+      sanskrit: `आसुरीं योनिमापन्ना मूढा जन्मनि जन्मनि।
+मामप्राप्यैव कौन्तेय ततो यान्त्यधमां गतिम्॥१६-२०॥`,
+      hindi: `हे कौन्तेय! ये मूर्ख प्राणी बार-बार आसुरी योनियों में जन्म लेकर, मुझ तक नहीं पहुँचते और सबसे अधम गति को प्राप्त होते हैं।`,
+      english: `Entering such demoniac wombs, deluded birth after birth, these fools, O son of Kunti, never attain Me and sink ever deeper.`
+    },
+    {
+      id: "16.21",
+      sanskrit: `त्रिविधं नरकस्येदं द्वारं नाशनमात्मनः।
+काम: क्रोधस्तथा लोभस्तस्मादेतत्त्रयं त्यजेत्॥१६-२१॥`,
+      hindi: `इस नरक के तीन द्वार हैं, जो आत्मा का नाश करने वाले हैं—काम, क्रोध और लोभ; इसलिए इन तीनों का त्याग कर देना चाहिए।`,
+      english: `There are three gates leading to hell—lust, anger, and greed—which destroy the soul. Therefore, one should abandon these three.`
+    },
+    {
+      id: "16.22",
+      sanskrit: `एतैर्विमुक्तः कौन्तेय तमोद्वारैस्त्रिभिर्नरः।
+आचरत्यात्मन: श्रेयस्ततो याति परां गतिम्॥१६-२२॥`,
+      hindi: `हे कौन्तेय! जो मनुष्य इन तीन नरक द्वारों से मुक्त होता है, वह आत्मा के कल्याण का आचरण करता है और परम गति को प्राप्त होता है।`,
+      english: `He, O Kaunteya, who is freed from these three gates of darkness, acts for the good of the soul and thus attains the supreme goal.`
+    },
+    {
+      id: "16.23",
+      sanskrit: `य: शास्त्रविधिमुत्सृज्य वर्तते कामकारतः।
+न स सिद्धिमवाप्नोति न सुखं न परां गतिम्॥१६-२३॥`,
+      hindi: `जो मनुष्य शास्त्रों का उल्लंघन करके मनमाना आचरण करता है, उसे न सिद्धि मिलती है, न सुख, न परम गति।`,
+      english: `He who acts under the impulse of desire, disregarding the scriptural injunctions, attains neither perfection, happiness, nor the supreme goal.`
+    },
+    {
+      id: "16.24",
+      sanskrit: `तस्माच्छास्त्रं प्रमाणं ते कार्याकार्यव्यवस्थितौ।
+ज्ञात्वा शास्त्रविधानोक्तं कर्म कर्तुमिहार्हसि॥१६-२४॥`,
+      hindi: `इसलिए, क्या करना चाहिए और क्या नहीं, इसका निर्णय शास्त्र ही है। शास्त्र विधि जानकर, तुम्हें अपने कर्तव्य का पालन करना चाहिए।`,
+      english: `Therefore, scripture is your authority in determining what is to be done and what is not to be done. Knowing the scriptural rules, you should act accordingly here.`
+    }
+  ]
+},
+{
+  chapter: 17,
+  title: "श्रद्धात्रयविभाग योग",
+  english_title: "The Division of the Threefold Faith",
+  verses: [
+    {
+      id: "17.1",
+      sanskrit: `श्रीभगवानुवाच |
+त्रिविधा भावना भक्त्या मां संस्थापय तेऽत। 
+श्रद्धां प्रसृज्जास्तस्माद्बुद्धियोगं प्रति मां त्वयि॥१७-१॥`,
+      hindi: `श्रीभगवान् बोले: मेरी तीन प्रकार की भक्तिभावनाएँ हैं। वे सब श्रद्धा के आधार पर हैं। इसलिए अपनी बुद्धि को मुझपर नियोजित कर दृढ़ श्रद्धा रखें।`,
+      english: `The Blessed Lord said: There are three divisions of faith born of one’s nature; therefore, attach your understanding to Me with unwavering faith.`
+    },
+    {
+      id: "17.2",
+      sanskrit: `ये तु त्रिविधा भवन्ति श्रद्धा देवि भारत।
+सत्त्विक्या राजसास्तमसा भिन्ना प्रभाविता:॥१७-२॥`,
+      hindi: `हे भारत! ये श्रद्धा तीन प्रकार की होती हैं—सत्त्विक, राजसिक और तामसिक, जो उनके स्वभाव के अनुसार भिन्न-भिन्न होती हैं।`,
+      english: `O Arjuna, these three kinds of faith arise according to the nature of the individual: sattvic, rajasic, and tamasic.`
+    },
+    {
+      id: "17.3",
+      sanskrit: `सत्त्विका श्रद्धा निर्मला सत्त्वसंगमोऽयमृता।
+राजसि द्वेषपरायणा द्वन्द्वामोहा तथात्मन:॥१७-३॥`,
+      hindi: `सत्त्विक श्रद्धा निर्मल होती है, यह सत्त्व के संपर्क से उत्पन्न फलमय होती है। राजसिक श्रद्धा द्वेष और भय से पूर्ण होती है।`,
+      english: `Sattvic faith is pure, born of goodness and leads to liberation. Rajasic faith stems from desire and attachment, resulting in pain.`
+    },
+    {
+      id: "17.4",
+      sanskrit: `तामसी चैवाऽधमाश्चैव तृष्णया परमोभवाः।
+तेषां मोहोऽधिकारस्तेऽज्ञानं परमां गतिम्॥१७-४॥`,
+      hindi: `तामसिक श्रद्धा अधम है, मत्सर्य, क्रोध और तृष्णा से युक्त होती है और अज्ञान के कारण उत्तम गति से विमुख होती है।`,
+      english: `Tamasic faith is of a low type, arising from ignorance, delusion, and illusion leading away from the supreme goal.`
+    },
+    {
+      id: "17.5",
+      sanskrit: `यज्ञाहवना: तप: दानं स्थाप: समाहिता:।
+सुचराचाराः सततं सात्त्विका भवार्थिन:॥१७-५॥`,
+      hindi: `यज्ञ, हवना, तप, दान, नियम तथा सदाचरण आदि सात्त्विक होते हैं, और ये नित्य सात्त्विक पुरुषों द्वारा किए जाते हैं।`,
+      english: `Sacrifice, austerity, charity and simplicity of living are considered sattvic rites and are performed by the virtuous.`
+    },
+    {
+      id: "17.6",
+      sanskrit: `रणाद्धावनम् अभिषेकश्च धर्मोपदेशो तथा।
+मन्त्रौ राजसाः सात्त्विकानां लोभा: सात्त्विका शुभा:॥१७-६॥`,
+      hindi: `रणादि क्रीड़ा, अभिषेक, धार्मिक अबाध, उपदेश एवं मन्त्र राजसिक तथा सात्त्विक होते हैं, जिनमें लोभ और शुभता होती है।`,
+      english: `The rajasic duties are energetic activities such as battle, ceremonies, heroism and religious instruction with ambition and desire for results.`
+    },
+    {
+      id: "17.7",
+      sanskrit: `अपत्यं भ्रातृत्वे च विल्लासो मोहमोहनो अपि।
+कामोऽकामश्चैवात्मनि तामसाः प्रवृत्तयः पुरा॥१७-७॥`,
+      hindi: `वंश, भाईचारे में विलास और मोह, आत्मस्वरूप के प्रति इच्छा और अनिच्छा आदि तामसिक प्रवृत्तियाँ हैं।`,
+      english: `Tamasic worship involves foolishness, selfishness, madness, and acts motivated by desire or without proper knowledge.`
+    },
+    {
+      id: "17.8",
+      sanskrit: `अश्रद्धया महदात्मा अनुभवन्नो न पृथग्विधम्।
+श्रद्धां न त्यजति तत्परः सङ्गं वै परिसंयुतः॥१७-८॥`,
+      hindi: `जो बड़ा आत्मा श्रद्धा से युक्त न होकर, अलग-अलग प्रकारों का अनुभव करता है, वह कभी श्रद्धा को त्याजक नहीं होता; उसी के प्रति वह आसक्त होता है।`,
+      english: `The great soul does not abandon faith, even if it be imperfect, nor does he lose attachment to the object of faith.`
+    },
+    {
+      id: "17.9",
+      sanskrit: `यज्ज्ञात्वा प्राप्तस्स तत्सकृत्पूज्यं स धर्म एव तदा।
+श्रद्धा भवति तथा तत्र सा तत्र कौन्तेय स्थिता।।१७-९।`,
+      hindi: `जो कोई वस्तु ज्ञात होकर प्राप्त हो, उसकी पूजन वही धर्म कहलाता है। श्रद्धा उसी वस्तु में रहती है, हे कौन्तेय!`,
+      english: `That which is known and attained by a person, worshipped by him frequently, becomes his religion (Dharma). O Kaunteya, faith remains firmly established on that object.`
+    },
+    {
+      id: "17.10",
+      sanskrit: `तत्त्वमतितत्त्वार्थं चेति तत्तद्विदां मतम्।
+तत्र तिष्ठन्ति भारत त्रिविधा मतानि देवयानि॥१७-१०॥`,
+      hindi: `तत्त्व, अ-तत्त्व और अन्तः तत्त्वार्थ (भाग) को लेकर विद्वानों के मत भिन्न होते हैं। हे भारत! यह तीन प्रकार का देव-पथ है।`,
+      english: `Know that there are three divisions in the knowledge of the truth: the truths, the non-truths, and the intermediate states. O Bharat, these are the three divisions of the divine path.`
+    },
+    {
+      id: "17.11",
+      sanskrit: `यत्त्वस्मिन्स्थितमिति तत्त्वं न जानन्ति मामनश्।
+भक्तास्ते तु सर्धमात्रा यजन्ते तान्नराः शुभाः॥१७-११॥`,
+      hindi: `जो लोग मेरे स्वरूप के तत्व को समझते नहीं, परन्तु भक्तिसभरे होते हुए, वे मुझे पूजते हैं, वे अच्छे पुरुष कहलाते हैं।`,
+      english: `Those who, with faith, dwell upon Me though not clearly understanding My true nature, worship Me with devotion; such people are virtuous.`
+    },
+    {
+      id: "17.12",
+      sanskrit: `ते मे भक्त्या मामुपासते श्रद्धया परयोपेताः।
+तेषां न मे पार्थ संशयः साक्षादपरि पुराः॥१७-१२॥`,
+      hindi: `वे मुझमें अपार श्रद्धा से भक्तिपूर्वक उपासना करते हैं। हे पार्थ! मैं उन भक्तों में कभी संदेह नहीं करता।`,
+      english: `Those possessed of supreme faith worship Me with love and devotion; to them, O Arjuna, there is no doubt.`
+    },
+    {
+      id: "17.13",
+      sanskrit: `यज्ञास्तपःसेवा दानं संयमः यथाभोगचेतसा।
+ज्ञेयः सत्त्विकः संस्तौ राजसस्तप्तमतो निर्मलः॥१७-१३॥`,
+      hindi: `यज्ञ, तप, सेवा, दान, संयम और समझ के साथ किए जाने वाले शारीरिक व मानसिक कर्म सत्त्वयुक्त हैं। राजस और तामसादपि बहिष्कृत हैं।`,
+      english: `Sacrifice, austerity, service, charity, and self-control properly performed with reverence are of the nature of purity (Sattva). Those that proceed from passion (Rajas) or ignorance (Tamas) are impure.`
+    },
+    {
+      id: "17.14",
+      sanskrit: `यज्ञो दानं तपश्चैव पावनानि मनीषिणाम्।
+कामराजस्तु तत्राज्ञो न त्याज्यस्तमसापहम्॥१७-१४॥`,
+      hindi: `सल्लेखित और योग्य पुरुषों के लिए यज्ञ, दान और तप पवित्र कर्म हैं। ऐसे कर्म जो काम से प्रेरित और अज्ञान से उत्पन्न हों, त्यागनीय नहीं।`,
+      english: `Sacrifice, charity and austerity that are accepted by the wise are purifying; but sacrifice born of desire and ignorance should be avoided.`
+    },
+    {
+      id: "17.15",
+      sanskrit: `दानं तपश्चैव दानं यातने च भोगश्च ये।
+मत्तेन्द्रियाणि प्रमाथीनो नियम्य पुरुषोत्तमम्॥१७-१५॥`,
+      hindi: `दान, तप और यज्ञ द्वारा दिए गए दान तथा भोग के द्वारा, ये दुराचारी इन्द्रिय उन्हें नियंत्रित करके पुरुषोत्तम को प्राप्त होते हैं।`,
+      english: `Giving, austerity, and sacrifice performed as acts of charity with faith, controlling the senses and mind, please the Supreme Person.`
+    },
+    {
+      id: "17.16",
+      sanskrit: `अहिंसा सत्यमक्रोधस्त्यागः शान्तिरपैशुनम्।
+दया भूतेष्वलोलुप्त्वं मार्दवं ह्रीरचापलम्॥१७-१६॥`,
+      hindi: `अहिंसा, सत्य, क्रोध का अभाव, त्याग, शांति, अन्य जीवों के प्रति दया, लोभ का अभाव, कोमलता, लज्जा और चंचलता का अभाव—`,
+      english: `Non-violence, truthfulness, freedom from anger, renunciation, peace, compassion to all beings, absence of greed, gentleness, modesty and lack of fickleness;`
+    },
+    {
+      id: "17.17",
+      sanskrit: `सत्यमपि ज्ञेयं तपश्चाप्यायतनं सर्वश:।
+यज्ञो दानंप्रतिगृह्य नात्र संशयः सम्भवति॥१७-१७॥`,
+      hindi: `सत्य, तप और आसन इन सबका यज्ञ और दान ग्रहण में कोई संशय नहीं।`,
+      english: `Truthfulness, austerity and simplicity are all means of worship; accepting sacrifice and charity is without doubt beneficial.`
+    },
+    {
+      id: "17.18",
+      sanskrit: `कायश्छलादपि कैश्चिदसक्ति: प्रजायत दुःखम्।
+रागात्स्वरूपपरो हि काम: प्रजायत दुःखम्॥१७-१८॥`,
+      hindi: `कुछ लोग शरीर के लिए छल करते हैं और दुख उत्पन्न करते हैं। इच्छायुक्त व्यक्ति अपनी आत्मा को भूलकर काम से दुख प्रकट करते हैं।`,
+      english: `Some, attached to the body, deceive others and bring sorrow upon themselves. Desire, binding by its form, causes sorrow.`
+    },
+    {
+      id: "17.19",
+      sanskrit: `तस्मादेषां समत्वेन तपो दानं यज्ञ शम:।
+तन्मत्स्तु प्रदद्यादात्मनैव प्रसादमुत्तमम्॥१७-१९॥`,
+      hindi: `अतः उनके प्रति समानतापूर्वक तप, दान, यज्ञ और शम कर्मों को श्रेष्ठ आत्म-अनुग्रह के लिए देना चाहिए।`,
+      english: `Therefore, with evenness of mind, one should give austerity, charity, sacrifice and restraint, thus pleasing the self.`
+    },
+    {
+      id: "17.20",
+      sanskrit: `यज्ञो दानं तपश्चैव पावनानि मनीषिणाम्।
+कामराजस्तु तत्राज्ञो न त्याज्यस्तमसापहम्॥१७-२०॥`,
+      hindi: `सज्जनों के लिए यज्ञ, दान तथा तप पवित्र कर्म हैं। जो काम और राग से प्रेरित हों, वे तामस कर्म हैं, जिन्हें त्यागना चाहिए।`,
+      english: `Sacrifice, charity, and austerity which are accepted by the wise, are purifying; sacrifice performed out of sexual desire or for show is to be shunned.`
+    },
+    {
+      id: "17.21",
+      sanskrit: `सुश्रूषु: सततं यज्ञतो यजन्ते तान्प्रजाः संप्रमाद्य च।
+ते तु यजन्ते अनिष्टान्यजस्रमहंकारात्समाश्रिताः॥१७-२१॥`,
+      hindi: `जो लोग सतत रूप से यज्ञ में सेवा करते हैं, वे प्रजा को समर्पित करते हैं। परन्तु अहंकार से उत्पन्न भेद से अज्ञान में पडकर, वह उन्हें अनिष्ट कर्मों में लगाते हैं।`,
+      english: `Those who perform sacrifices with faith, constantly render service and offer faculties to Lord Krishna; otherwise they act in an arrogant manner, producing evil consequences.`
+    },
+    {
+      id: "17.22",
+      sanskrit: `सर्वभूतस्थितं यो मां भजत्येकत्वमास्थित:।
+सर्वभावानि भारत मयि तं तत्त्वसमाहितम्॥१७-२२॥`,
+      hindi: `हे भारत! जो व्यक्ति एकत्व में स्थित होकर मुझें भजता है, वह सभी भावों को मुझमें समाहित पाता है।`,
+      english: `O Bharat, one who worships Me, who dwells in all beings and is fixed in unity, is understood to be absorbed in the Absolute Truth.`
+    },
+    {
+      id: "17.23",
+      sanskrit: `यं भजन्ते श्रद्धयार्जितां त्यक्त्वा मामपराधमैः।
+तत्प्रियतरं धन्यधन्यो ममात्मा ततमास्थित:॥१७-२३॥`,
+      hindi: `जो मुझें श्रद्धायुक्त भक्ति से, पाप का त्याग कर पूजते हैं, वे मेरे प्रियतम हैं, धर्मयुक्त धन्य जन है और मेरे आत्मा में स्थित हैं।`,
+      english: `Those who worship Me with faith born of love, casting off offenses, are dear to Me; they are protected and established in Me.`
+    },
+    {
+      id: "17.24",
+      sanskrit: `अहं विद्धि सर्वयोगानां भोजनं मोक्षमश्नुते।
+प्रहृष्टात्मा मद्भक्ता यो मच्चित्तात्मा सततं नमति॥१७-२४॥`,
+      hindi: `मैं जानता हूँ सभी योगों के पोषण को; जो मेरे भक्त प्रसन्न मन से मुझमें स्थित हैं और मुझको याद करते हैं, वे मोक्ष प्राप्त करते हैं।`,
+      english: `I am the sustainer of all yogas and the giver of liberation to those who worship Me with joyful hearts and constant meditation.`
+    },
+    {
+      id: "17.25",
+      sanskrit: `स तु मां नित्ययुक्तात्मा योगी मन्‍तव्यपरायण:।
+मयि चैव योगमास्थाय मामुपयाथि पाण्डव॥१७-२५॥`,
+      hindi: `जो मुझमें निरंतर स्थित योगी है और जो मुझमें ध्यान लगाकर मेरा अनुसरण करता है, वह मुझ तक पहुँचता है, हे पाण्डव!`,
+      english: `The yogi who constantly dwells in Me, with mind focused on Me and surrendered to Me, attains Me, O Pandava.`
+    },
+    {
+      id: "17.26",
+      sanskrit: `मां हि पार्थ योगिनोLIENT मानुस्तुष्टोऽनुकम्पते।
+परित्राणाय साधूनां विनाशाय च दुष्कृताम्॥१७-२६॥`,
+      hindi: `हे पार्थ! योगी मेरा तुष्टिप्राप्त करने वाला मनुष्य है, जो दयालु होता है, साधुओं का रक्षक है और दुष्टों का नाश करता है।`,
+      english: `Hear, O Partha, that yogi who is pleased with Me, compassionate, protector of virtuous persons and destroyer of the wicked.`
+    },
+    {
+      id: "17.27",
+      sanskrit: `सत्त्वमसि पित्यं तप: स्वाध्यायस्तप आर्जवम्।
+एतैर्धृत्या तपसा दानैश्च यजन्ति तां गतिम्॥१७-२७॥`,
+      hindi: `सत्त्व गुण, तप (आत्मिक तपस्या), स्वाध्याय और सरलता से युक्त होकर, वे लोग तप, दान और यज्ञ से उस दिशा (मोक्ष) को प्राप्त करते हैं।`,
+      english: `By purity, austerity, study of the scriptures and straightforwardness, these persons offer austerity, charity, and sacrifice to attain that goal.`
+    },
+    {
+      id: "17.28",
+      sanskrit: `एतानुद्दिश्य पुनः पृथग्बुभुयात्ससम्मिताः।
+नात्समानय न च मेऽस्ति तस्माद्भ्रष्टोऽसि मे मतः॥१७-२८॥`,
+      hindi: `यद्यपि इन तीनों का अनुवर्तन न करके व्यक्ति पृथक पुनः हो, वे मेरे मत के अनुसार ही हैं; इस कारण तुम मुझसे उलट मत मत रखो।`,
+      english: `Wherever these three forms of faith are observed with sincerity, those are considered according to My teaching; therefore, do not deviate from this doctrine.`
+    }
+  ]
+},
 
   // When you create Chapter 13, you will add its data object here.
   // { chapter: 13, title: "...", verses: [...] },
