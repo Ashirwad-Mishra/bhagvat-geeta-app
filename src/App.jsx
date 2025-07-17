@@ -7,6 +7,7 @@ import SearchBar from './Components/Searchbar';
 import Chapter1 from './Components/Chapters/Chapter1';
 import Chapter2 from './Components/Chapters/Chapter2';
 import Chapter3 from './Components/Chapters/Chapter3';
+import Chapter4 from './Components/Chapters/Chapter4';
 // Import the centralized data from the new file
 import { allChaptersData } from './gita-data';
 
@@ -15,6 +16,7 @@ const chapterComponents = {
   1: Chapter1,
   2: Chapter2,
   3: Chapter3,
+  4: Chapter4,
   // When you create Chapter2.jsx, you will add it here
   // 2: Chapter2, 
 };

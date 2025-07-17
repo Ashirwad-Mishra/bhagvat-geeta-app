@@ -943,6 +943,265 @@ export const allChaptersData = [
     }
   ]
 },
-  // When you create Chapter 4, you will add its data object here.
-  // { chapter: 4, title: "...", verses: [...] },
+{
+  chapter: 4,
+  title: "Jñāna Karma Sanyāsa Yoga",
+  english_title: "The Yoga of Knowledge, Action, and Renunciation",
+  verses: [
+    {
+      id: "4.1",
+      sanskrit: "श्रीभगवानुवाच |\nइमं विवस्वते योगं प्रोक्तवानहमव्ययम् |\nविवस्वान्मनवे प्राह मनुरिक्ष्वाकवेऽब्रवीत् ||४-१||",
+      hindi: "श्री भगवान ने कहा - मैंने इस अमर योगविद्या का उपदेश सूर्यदेव विवस्वान को दिया और विवस्वान ने मनुष्यों के पिता मनु को उपदेश दिया और मनु ने इसका उपदेश इक्ष्वाकु को दिया।",
+      english: "The Supreme Personality of Godhead said: I instructed this imperishable science of yoga to the sun-god, Vivasvan, and Vivasvan instructed it to Manu, the father of mankind, and Manu in turn instructed it to Iksvaku."
+    },
+    {
+      id: "4.2",
+      sanskrit: "एवं परम्पराप्राप्तमिमं राजर्षयो विदुः |\nस कालेनेह महता योगो नष्टः परन्तप ||४-२||",
+      hindi: "इस प्रकार यह परम विज्ञान गुरु-परम्परा द्वारा प्राप्त किया गया और राजर्षियों ने इसी विधि से इसे समझा। किन्तु कालक्रम में यह परम्परा छिन्न हो गई, अतः यह विज्ञान यथारूप में लुप्त हो गया लगता है।",
+      english: "This supreme science was thus received through the chain of disciplic succession, and the saintly kings understood it in that way. But in course of time the succession was broken, and therefore the science as it is appears to be lost."
+    },
+    {
+      id: "4.3",
+      sanskrit: "स एवायं मया तेऽद्य योगः प्रोक्तः पुरातनः |\nभक्तोऽसि मे सखा चेति रहस्यं ह्येतदुत्तमम् ||४-३||",
+      hindi: "आज मेरे द्वारा वही यह प्राचीन योग यानी परमेश्वर के साथ अपने सम्बन्ध का विज्ञान, तुमसे कहा जा रहा है, क्योंकि तुम मेरे भक्त तथा मित्र हो, अतः तुम इस विज्ञान के दिव्य रहस्य को समझ सकते हो।",
+      english: "That very ancient science of the relationship with the Supreme is today told by Me to you because you are My devotee as well as My friend and can therefore understand the transcendental mystery of this science."
+    },
+    {
+      id: "4.4",
+      sanskrit: "अर्जुन उवाच |\nअपरं भवतो जन्म परं जन्म विवस्वतः |\nकथमेतद्विजानीयां त्वमादौ प्रोक्तवानिति ||४-४||",
+      hindi: "अर्जुन ने कहा - सूर्यदेव विवस्वान आप से पहले हो चुके हैं (ज्येष्ठ हैं), तो फिर मैं कैसे समझूँ कि प्रारम्भ में भी आपने उन्हें इस विद्या का उपदेश दिया था?",
+      english: "Arjuna said: The sun-god Vivasvan is senior by birth to You. How am I to understand that in the beginning You instructed this science to him?"
+    },
+    {
+      id: "4.5",
+      sanskrit: "श्रीभगवानुवाच |\nबहूनि मे व्यतीतानि जन्मानि तव चार्जुन |\nतान्यहं वेद सर्वाणि न त्वं वेत्थ परन्तप ||४-५||",
+      hindi: "श्री भगवान ने कहा - हे परन्तप अर्जुन! तुम्हारे तथा मेरे अनेकानेक जन्म हो चुके हैं। मुझे तो उन सबका स्मरण है, किन्तु तुम्हें उनका स्मरण नहीं रह सकता।",
+      english: "The Supreme Personality of Godhead said: Many, many births both you and I have passed. I can remember all of them, but you cannot, O subduer of the enemy!"
+    },
+    {
+      id: "4.6",
+      sanskrit: "अजोऽपि सन्नव्ययात्मा भूतानामीश्वरोऽपि सन् |\nप्रकृतिं स्वामधिष्ठाय सम्भवाम्यात्ममायया ||४-६||",
+      hindi: "यद्यपि मैं अजन्मा तथा अविनाशी हूँ और यद्यपि मैं समस्त जीवों का स्वामी हूँ, तो भी प्रत्येक युग में मैं अपने आदि दिव्य रूप में प्रकट होता हूँ।",
+      english: "Although I am unborn and My transcendental body never deteriorates, and although I am the Lord of all living entities, I still appear in every millennium in My original transcendental form."
+    },
+    {
+      id: "4.7",
+      sanskrit: "यदा यदा हि धर्मस्य ग्लानिर्भवति भारत |\nअभ्युत्थानमधर्मस्य तदात्मानं सृजाम्यहम् ||४-७||",
+      hindi: "हे भरतवंशी! जब भी और जहाँ भी धर्म का पतन होता है और अधर्म की प्रधानता होने लगती है, तब-तब मैं अवतार लेता हूँ।",
+      english: "Whenever and wherever there is a decline in religious practice, O descendant of Bharata, and a predominant rise of irreligion—at that time I descend Myself."
+    },
+    {
+      id: "4.8",
+      sanskrit: "परित्राणाय साधूनां विनाशाय च दुष्कृताम् |\nधर्मसंस्थापनार्थाय सम्भवामि युगे युगे ||४-८||",
+      hindi: "भक्तों का उद्धार करने, दुष्टों का विनाश करने तथा धर्म की फिर से स्थापना करने के लिए मैं हर युग में प्रकट होता हूँ।",
+      english: "To deliver the pious and to annihilate the miscreants, as well as to reestablish the principles of religion, I Myself appear, millennium after millennium."
+    },
+    {
+      id: "4.9",
+      sanskrit: "जन्म कर्म च मे दिव्यमेवं यो वेत्ति तत्त्वतः |\nत्यक्त्वा देहं पुनर्जन्म नैति मामेति सोऽर्जुन ||४-९||",
+      hindi: "हे अर्जुन! जो मेरे अविर्भाव तथा कर्मों की दिव्य प्रकृति को जानता है, वह इस शरीर को छोड़ने पर इस भौतिक संसार में पुनः जन्म नहीं लेता, अपितु मेरे सनातन धाम को प्राप्त होता है।",
+      english: "One who knows the transcendental nature of My appearance and activities does not, upon leaving the body, take his birth again in this material world, but attains My eternal abode, O Arjuna."
+    },
+    {
+      id: "4.10",
+      sanskrit: "वीतरागभयक्रोधा मन्मया मामुपाश्रिताः |\nबहवो ज्ञानतपसा पूता मद्भावमागताः ||४-१०||",
+      hindi: "आसक्ति, भय तथा क्रोध से मुक्त होकर, मुझमें पूर्णतया तन्मय होकर और मेरी शरण में आकर बहुत से व्यक्ति भूतकाल में मेरे ज्ञान से पवित्र हो चुके हैं। इस प्रकार से उन सबों ने मेरे प्रति दिव्यप्रेम को प्राप्त किया है।",
+      english: "Being freed from attachment, fear and anger, being fully absorbed in Me and taking refuge in Me, many, many persons in the past became purified by knowledge of Me—and thus they all attained transcendental love for Me."
+    },
+    {
+      id: "4.11",
+      sanskrit: "ये यथा मां प्रपद्यन्ते तांस्तथैव भजाम्यहम् |\nमम वर्त्मानुवर्तन्ते मनुष्याः पार्थ सर्वशः ||४-११||",
+      hindi: "जिस भाव से सारे लोग मेरी शरण ग्रहण करते हैं, उसी के अनुरूप मैं उन्हें फल देता हूँ। हे पार्थ! प्रत्येक व्यक्ति सभी प्रकार से मेरे पथ का अनुगमन करता है।",
+      english: "As all surrender unto Me, I reward them accordingly. Everyone follows My path in all respects, O son of Pritha."
+    },
+    {
+      id: "4.12",
+      sanskrit: "काङ्क्षन्तः कर्मणां सिद्धिं यजन्त इह देवताः |\nक्षिप्रं हि मानुषे लोके सिद्धिर्भवति कर्मजा ||४-१२||",
+      hindi: "इस संसार में मनुष्य सकाम कर्मों में सफलता चाहते हैं, फलस्वरूप वे देवताओं की पूजा करते हैं। निस्सन्देह इस संसार में मनुष्यों को सकाम कर्म का फल शीघ्र प्राप्त होता है।",
+      english: "Men in this world desire success in fruitive activities, and therefore they worship the demigods. Quickly, of course, men get results from fruitive work in this world."
+    },
+    {
+      id: "4.13",
+      sanskrit: "चातुर्वर्ण्यं मया सृष्टं गुणकर्मविभागशः |\nतस्य कर्तारमपि मां विद्ध्यकर्तारमव्ययम् ||४-१३||",
+      hindi: "प्रकृति के तीनों गुणों और उनसे सम्बद्ध कर्म के अनुसार मेरे द्वारा मानव समाज के चार विभाग रचे गये। यद्यपि मैं इस व्यवस्था का स्रष्टा हूँ, किन्तु तुम यह जान लो कि मैं इतने पर भी अव्यय, अकर्ता हूँ।",
+      english: "According to the three modes of material nature and the work associated with them, the four divisions of human society are created by Me. And although I am the creator of this system, you should know that I am yet the nondoer, being unchangeable."
+    },
+    {
+      id: "4.14",
+      sanskrit: "न मां कर्माणि लिम्पन्ति न मे कर्मफले स्पृहा |\nइति मां योऽभिजानाति कर्मभिर्न स बध्यते ||४-१४||",
+      hindi: "मुझ पर किसी कर्म का प्रभाव नहीं पड़ता, न ही मैं कर्मफल की कामना करता हूँ। जो मेरे इस सत्य को जानता है, वह भी कर्मों के फल से नहीं बँधता।",
+      english: "There is no work that affects Me; nor do I aspire for the fruits of action. One who understands this truth about Me also does not become entangled in the fruitive reactions of work."
+    },
+    {
+      id: "4.15",
+      sanskrit: "एवं ज्ञात्वा कृतं कर्म पूर्वैरपि मुमुक्षुभिः |\nकुरु कर्मैव तस्मात्त्वं पूर्वैः पूर्वतरं कृतम् ||४-१५||",
+      hindi: "प्राचीन काल में समस्त मुक्त आत्माओं ने मेरी दिव्य प्रकृति को जानकर ही कर्म किया, अतः तुम्हें चाहिए कि उनके पदचिन्हों का अनुसरण करते हुए अपने कर्तव्य का पालन करो।",
+      english: "All the liberated souls in ancient times acted with this understanding of My transcendental nature. Therefore you should perform your duty, following in their footsteps."
+    },
+    {
+      id: "4.16",
+      sanskrit: "किं कर्म किमकर्मेति कवयोऽप्यत्र मोहिताः |\nतत्ते कर्म प्रवक्ष्यामि यज्ज्ञात्वा मोक्ष्यसेऽशुभात् ||४-१६||",
+      hindi: "कर्म क्या है और अकर्म क्या है, इसे निश्चित करने में बुद्धिमान व्यक्ति भी मोहग्रस्त हो जाते हैं। अतः मैं तुमको बताऊँगा कि कर्म क्या है, जिसे जानकर तुम सारे अशुभ से मुक्त हो सकोगे।",
+      english: "Even the intelligent are bewildered in determining what is action and what is inaction. Now I shall explain to you what action is, knowing which you shall be liberated from all misfortune."
+    },
+    {
+      id: "4.17",
+      sanskrit: "कर्मणो ह्यपि बोद्धव्यं बोद्धव्यं च विकर्मणः |\nअकर्मणश्च बोद्धव्यं गहना कर्मणो गतिः ||४-१७||",
+      hindi: "कर्म की बारीकियों को समझना अत्यन्त कठिन है। अतः मनुष्य को चाहिए कि वह यह ठीक से जाने कि कर्म क्या है, विकर्म क्या है और अकर्म क्या है।",
+      english: "The intricacies of action are very hard to understand. Therefore one should know properly what action is, what forbidden action is and what inaction is."
+    },
+    {
+      id: "4.18",
+      sanskrit: "कर्मण्यकर्म यः पश्येदकर्मणि च कर्म यः |\nस बुद्धिमान्मनुष्येषु स युक्तः कृत्स्नकर्मकृत् ||४-१८||",
+      hindi: "जो मनुष्य कर्म में अकर्म और अकर्म में कर्म देखता है, वह सभी मनुष्यों में बुद्धिमान है और सब प्रकार के कर्मों में प्रवृत्त रहकर भी दिव्य स्थिति में रहता है।",
+      english: "One who sees inaction in action, and action in inaction, is intelligent among men, and he is in the transcendental position, although engaged in all sorts of activities."
+    },
+    {
+      id: "4.19",
+      sanskrit: "यस्य सर्वे समारम्भाः कामसङ्कल्पवर्जिताः |\nज्ञानाग्निदग्धकर्माणं तमाहुः पण्डितं बुधाः ||४-१९||",
+      hindi: "जिस व्यक्ति का प्रत्येक प्रयास इन्द्रियतृप्ति की कामना से रहित होता है, उसे पूर्णज्ञानी समझा जाता है। उसे ही ज्ञानीजन ऐसा कर्ता कहते हैं, जिसने सकाम कर्मों को ज्ञान की अग्नि से भस्मसात् कर दिया है।",
+      english: "One is understood to be in full knowledge whose every endeavor is devoid of desire for sense gratification. He is said by sages to be a worker for whom the reactions of work have been burned up by the fire of perfect knowledge."
+    },
+    {
+      id: "4.20",
+      sanskrit: "त्यक्त्वा कर्मफलासङ्गं नित्यतृप्तो निराश्रयः |\nकर्मण्यभिप्रवृत्तोऽपि नैव किञ्चित्करोति सः ||४-२०||",
+      hindi: "अपने कर्मफल की सारी आसक्ति को त्याग कर, सदैव सन्तुष्ट तथा स्वतन्त्र रहकर, वह सभी प्रकार के कार्यों में व्यस्त रहकर भी कोई सकाम कर्म नहीं करता।",
+      english: "Abandoning all attachment to the results of his activities, ever satisfied and independent, he performs no fruitive action, although engaged in all kinds of undertakings."
+    },
+    {
+      id: "4.21",
+      sanskrit: "निराशीर्यतचित्तात्मा त्यक्तसर्वपरिग्रहः |\nशारीरं केवलं कर्म कुर्वन्नाप्नोति किल्बिषम् ||४-२१||",
+      hindi: "ऐसा ज्ञानी पुरुष पूर्णतया संयमित मन तथा बुद्धि से कार्य करता है, अपनी सम्पत्ति के सारे स्वामित्व को त्याग देता है और केवल जीवन-निर्वाह के लिए कर्म करता है। इस तरह कार्य करता हुआ वह पाप रूपी फलों से प्रभावित नहीं होता।",
+      english: "Such a man of understanding acts with mind and intelligence perfectly controlled, gives up all sense of proprietorship over his possessions, and acts only for the bare necessities of life. Thus working, he is not affected by sinful reactions."
+    },
+    {
+      id: "4.22",
+      sanskrit: "यदृच्छालाभसन्तुष्टो द्वन्द्वातीतो विमत्सरः |\nसमः सिद्धावसिद्धौ च कृत्वापि न निबध्यते ||४-२२||",
+      hindi: "जो स्वतः होने वाले लाभ से सन्तुष्ट रहता है, जो द्वन्द्व से मुक्त है और ईर्ष्या नहीं करता, जो सफलता तथा असफलता दोनों में स्थिर रहता है, वह कर्म करता हुआ भी कभी बँधता नहीं।",
+      english: "He who is satisfied with gain which comes of its own accord, who is free from duality and does not envy, who is steady in both success and failure, is never entangled, although performing actions."
+    },
+    {
+      id: "4.23",
+      sanskrit: "गतसङ्गस्य मुक्तस्य ज्ञानावस्थितचेतसः |\nयज्ञायाचरतः कर्म समग्रं प्रविलीयते ||४-२३||",
+      hindi: "जो पुरुष प्रकृति के गुणों के प्रति अनासक्त है और जो दिव्य ज्ञान में पूर्णतया स्थित है, उसके सारे कर्म ब्रह्म में लीन हो जाते हैं।",
+      english: "The work of a man who is unattached to the modes of material nature and who is fully situated in transcendental knowledge merges entirely into transcendence."
+    },
+    {
+      id: "4.24",
+      sanskrit: "ब्रह्मार्पणं ब्रह्म हविर् ब्रह्माग्नौ ब्रह्मणा हुतम् |\nब्रह्मैव तेन गन्तव्यं ब्रह्मकर्मसमाधिना ||४-२४||",
+      hindi: "जो व्यक्ति कृष्णभावनामृत में पूर्णतया लीन रहता है, उसे अपने आध्यात्मिक कर्मों के योगदान के कारण अवश्य ही भगवद्धाम की प्राप्ति होती है, क्योंकि उसमें हवन आध्यात्मिक होता है और हवि भी आध्यात्मिक होती है।",
+      english: "A person who is fully absorbed in Krishna consciousness is sure to attain the spiritual kingdom because of his full contribution to spiritual activities, in which the consummation is absolute and that which is offered is of the same spiritual nature."
+    },
+    {
+      id: "4.25",
+      sanskrit: "दैवमेवापरे यज्ञं योगिनः पर्युपासते |\nब्रह्माग्नावपरे यज्ञं यज्ञेनैवोपजुह्वति ||४-२५||",
+      hindi: "कुछ योगी विभिन्न प्रकार के यज्ञों द्वारा देवताओं की भलीभाँति पूजा करते हैं और कुछ परब्रह्म रूपी अग्नि में आहुति डालते हैं।",
+      english: "Some yogis perfectly worship the demigods by offering different sacrifices to them, and some of them offer sacrifices in the fire of the Supreme Brahman."
+    },
+    {
+      id: "4.26",
+      sanskrit: "श्रोत्रादीनीन्द्रियाण्यन्ये संयमाग्निषु जुह्वति |\nशब्दादीन्विषयानन्य इन्द्रियाग्निषु जुह्वति ||४-२६||",
+      hindi: "इनमें से कुछ (जो शुद्ध ब्रह्मचारी हैं) श्रवण आदि क्रियाओं तथा इन्द्रियों को मन की नियन्त्रण रूपी अग्नि में स्वाहा कर देते हैं, तो दूसरे (नियमित गृहस्थ) इन्द्रिय-विषयों को इन्द्रियों की अग्नि में स्वाहा कर देते हैं।",
+      english: "Some [the unadulterated brahmacaris] sacrifice the hearing process and the senses in the fire of mental control, and others [the regulated householders] sacrifice the objects of the senses in the fire of the senses."
+    },
+    {
+      id: "4.27",
+      sanskrit: "सर्वाणीन्द्रियकर्माणि प्राणकर्माणि चापरे |\nआत्मसंयमयोगाग्नौ जुह्वति ज्ञानदीपिते ||४-२७||",
+      hindi: "दूसरे, जो मन तथा इन्द्रियों को वश में करके आत्म-साक्षात्कार करना चाहते हैं, सम्पूर्ण इन्द्रियों तथा प्राणवायु के कार्यों को संयमित मन रूपी अग्नि में आहुति कर देते हैं।",
+      english: "Others, who are interested in achieving self-realization through control of the mind and senses, offer the functions of all the senses, and of the life breath, as oblations into the fire of the controlled mind."
+    },
+    {
+      id: "4.28",
+      sanskrit: "द्रव्ययज्ञास्तपोयज्ञा योगयज्ञास्तथापरे |\nस्वाध्यायज्ञानयज्ञाश्च यतयः संशितव्रताः ||४-२८||",
+      hindi: "कठोर व्रत अङ्गीकार करके कुछ लोग अपनी सम्पत्ति का त्याग करके, कुछ कठिन तपस्या द्वारा, कुछ अष्टांगयोग पद्धति के अभ्यास द्वारा अथवा कुछ दिव्यज्ञान में उन्नति करने के लिए वेदों के अध्ययन द्वारा प्रबुद्ध बनते हैं।",
+      english: "Having accepted strict vows, some become enlightened by sacrificing their possessions, and others by performing severe austerities, by practicing the yoga of eightfold mysticism, or by studying the Vedas to advance in transcendental knowledge."
+    },
+    {
+      id: "4.29",
+      sanskrit: "अपाने जुह्वति प्राणं प्राणेऽपानं तथापरे |\nप्राणापानगती रुद्ध्वा प्राणायामपरायणाः |\nअपरे नियताहाराः प्राणान्प्राणेषु जुह्वति ||४-२९||",
+      hindi: "अन्य योगी भी हैं जो समाधि में रहने के लिए श्वास को रोककर प्राण को अपान में तथा अपान को प्राण में आहुति देते हैं। और अन्त में श्वास को रोककर प्राणायाम में तत्पर रहते हैं। अन्य योगी कम भोजन करके प्राण की प्राण में ही आहुति दे देते हैं।",
+      english: "Still others, who are inclined to the process of breath restraint to remain in trance, practice by offering the movement of the outgoing breath into the incoming, and the incoming breath into the outgoing, and thus at last remain in trance, stopping all breathing. Others, curtailing the eating process, offer the outgoing breath into itself as a sacrifice."
+    },
+    {
+      id: "4.30",
+      sanskrit: "सर्वेऽप्येते यज्ञविदो यज्ञक्षपितकल्मषाः |\nयज्ञशिष्टामृतभुजो यान्ति ब्रह्म सनातनम् ||४-३०||",
+      hindi: "ये सभी यज्ञ करने वाले यज्ञों का अर्थ जानने के कारण पापकर्मों से मुक्त हो जाते हैं और यज्ञों के फल रूपी अमृत को चखकर परम दिव्य आकाश की ओर प्रगति करते हैं।",
+      english: "All these performers who know the meaning of sacrifice become cleansed of sinful reactions, and, having tasted the nectar of the results of sacrifices, they advance toward the supreme eternal atmosphere."
+    },
+    {
+      id: "4.31",
+      sanskrit: "नायं लोकोऽस्त्ययज्ञस्य कुतोऽन्यः कुरुसत्तम ||४-३१||",
+      hindi: "हे कुरुश्रेष्ठ! जब यज्ञ के बिना मनुष्य इस लोक में या इस जीवन में ही सुखपूर्वक नहीं रह सकता, तो फिर अगले जन्म में कैसे रह सकेगा?",
+      english: "O best of the Kuru dynasty, without sacrifice one can never live happily on this planet or in this life: what then of the next?"
+    },
+    {
+      id: "4.32",
+      sanskrit: "एवं बहुविधा यज्ञा वितता ब्रह्मणो मुखे |\nकर्मजान्विद्धि तान्सर्वानेवं ज्ञात्वा विमोक्ष्यसे ||४-३२||",
+      hindi: "ये विभिन्न प्रकार के यज्ञ वेद द्वारा अनुमोदित हैं और ये सभी विभिन्न प्रकार के कर्मों से उत्पन्न हैं। इन्हें इस रूप में जानने पर तुम मुक्त हो जाओगे।",
+      english: "All these different types of sacrifice are approved by the Vedas, and all of them are born of different types of work. Knowing them as such, you will become liberated."
+    },
+    {
+      id: "4.33",
+      sanskrit: "श्रेयान्द्रव्यमयाद्यज्ञाज्ज्ञानयज्ञः परन्तप |\nसर्वं कर्माखिलं पार्थ ज्ञाने परिसमाप्यते ||४-३३||",
+      hindi: "हे परन्तप! द्रव्ययज्ञ से ज्ञानयज्ञ श्रेष्ठ है। हे पार्थ! अन्ततः सारे कर्मयज्ञों का अवसान दिव्यज्ञान में होता है।",
+      english: "O chastiser of the enemy, the sacrifice performed in knowledge is better than the mere sacrifice of material possessions. After all, O son of Pritha, all sacrifices of work culminate in transcendental knowledge."
+    },
+    {
+      id: "4.34",
+      sanskrit: "तद्विद्धि प्रणिपातेन परिप्रश्नेन सेवया |\nउपदेक्ष्यन्ति ते ज्ञानं ज्ञानिनस्तत्त्वदर्शिनः ||४-३४||",
+      hindi: "तुम गुरु के पास जाकर सत्य को जानने का प्रयास करो। उनसे विनीत होकर जिज्ञासा करो और उनकी सेवा करो। स्वरूपसिद्ध व्यक्ति तुम्हें ज्ञान प्रदान कर सकते हैं, क्योंकि उन्होंने सत्य का दर्शन किया है।",
+      english: "Just try to learn the truth by approaching a spiritual master. Inquire from him submissively and render service unto him. The self-realized souls can impart knowledge unto you because they have seen the truth."
+    },
+    {
+      id: "4.35",
+      sanskrit: "यज्ज्ञात्वा न पुनर्मोहमेवं यास्यसि पाण्डव |\nयेन भूतान्यशेषेण द्रक्ष्यस्यात्मन्यथो मयि ||४-३५||",
+      hindi: "स्वरूपसिद्ध व्यक्ति से वास्तविक ज्ञान प्राप्त हो जाने पर तुम पुनः कभी ऐसे मोह को प्राप्त नहीं होगे, क्योंकि इस ज्ञान के द्वारा तुम देख सकोगे कि सभी जीव परमात्मा के अंशस्वरूप हैं, अर्थात् वे सब मेरे हैं।",
+      english: "Having obtained real knowledge from a self-realized soul, you will never fall again into such illusion, for by this knowledge you will see that all living beings are but part of the Supreme, or, in other words, that they are Mine."
+    },
+    {
+      id: "4.36",
+      sanskrit: "अपि चेदसि पापेभ्यः सर्वेभ्यः पापकृत्तमः |\nसर्वं ज्ञानप्लवेनैव वृजिनं सन्तरिष्यसि ||४-३६||",
+      hindi: "यदि तुम्हें समस्त पापियों में भी सर्वाधिक पापी समझा जाये, तो भी तुम दिव्यज्ञान रूपी नाव में स्थित होकर दुख-सागर को पार करने में समर्थ होगे।",
+      english: "Even if you are considered to be the most sinful of all sinners, when you are situated in the boat of transcendental knowledge you will be able to cross over the ocean of miseries."
+    },
+    {
+      id: "4.37",
+      sanskrit: "यथैधांसि समिद्धोऽग्निर्भस्मसात्कुरुतेऽर्जुन |\nज्ञानाग्निः सर्वकर्माणि भस्मसात्कुरुते तथा ||४-३७||",
+      hindi: "जैसे प्रज्ज्वलित अग्नि ईंधन को भस्म कर देती है, उसी तरह हे अर्जुन! ज्ञान रूपी अग्नि भौतिक कर्मों के समस्त फलों को जला डालती है।",
+      english: "As a blazing fire turns firewood to ashes, O Arjuna, so does the fire of knowledge burn to ashes all reactions to material activities."
+    },
+    {
+      id: "4.38",
+      sanskrit: "न हि ज्ञानेन सदृशं पवित्रमिह विद्यते |\nतत्स्वयं योगसंसिद्धः कालेनात्मनि विन्दति ||४-३८||",
+      hindi: "इस संसार में दिव्यज्ञान के समान कुछ भी उद्दात तथा शुद्ध नहीं है। ऐसा ज्ञान समस्त योग का परिपक्व फल है। जो व्यक्ति भक्ति में सिद्ध हो जाता है, वह यथासमय अपने अन्तर में इस ज्ञान का आस्वादन करता है।",
+      english: "In this world, there is nothing so sublime and pure as transcendental knowledge. Such knowledge is the mature fruit of all mysticism. And one who has become accomplished in the practice of devotional service enjoys this knowledge within himself in due course of time."
+    },
+    {
+      id: "4.39",
+      sanskrit: "श्रद्धावाँल्लभते ज्ञानं तत्परः संयतेन्द्रियः |\nज्ञानं लब्ध्वा परां शान्तिमचिरेणाधिगच्छति ||४-३९||",
+      hindi: "जो श्रद्धालु दिव्यज्ञान में समर्पित है और जिसने इन्द्रियों को वश में कर लिया है, वह इस ज्ञान को प्राप्त करने का अधिकारी है और इसे प्राप्त करते ही वह तुरन्त आध्यात्मिक शान्ति को प्राप्त होता है।",
+      english: "A faithful man who is dedicated to transcendental knowledge and who subdues his senses is eligible to achieve such knowledge, and having achieved it he quickly attains the supreme spiritual peace."
+    },
+    {
+      id: "4.40",
+      sanskrit: "अज्ञश्चाश्रद्दधानश्च संशयात्मा विनश्यति |\nनायं लोकोऽस्ति न परो न सुखं संशयात्मनः ||४-४०||",
+      hindi: "किन्तु जो अज्ञानी तथा श्रद्धविहीन व्यक्ति शास्त्रों में संदेह करते हैं, वे भगवद्भावनामृत नहीं प्राप्त कर पाते, अपितु नीचे गिर जाते हैं। संशयात्मा के लिए न तो इस लोक में, न ही परलोक में कोई सुख है।",
+      english: "But ignorant and faithless persons who doubt the revealed scriptures do not attain God consciousness; they fall down. For the doubting soul there is happiness neither in this world nor in the next."
+    },
+    {
+      id: "4.41",
+      sanskrit: "योगसन्न्यस्तकर्माणं ज्ञानसञ्छिन्नसंशयम् |\nआत्मवन्तं न कर्माणि निबध्नन्ति धनञ्जय ||४-४१||",
+      hindi: "जो व्यक्ति अपने कर्मफलों का त्याग करते हुए भक्ति करता है और जिसके संशय दिव्यज्ञान द्वारा विनष्ट हो चुके होते हैं, वही वास्तव में आत्मपरायण है। हे धनञ्जय! वह कर्मों के बन्धन से नहीं बँधता।",
+      english: "One who acts in devotional service, renouncing the fruits of his actions, and whose doubts have been destroyed by transcendental knowledge, is situated in the self. Thus he is not bound by the reactions of work, O conqueror of riches."
+    },
+    {
+      id: "4.42",
+      sanskrit: "तस्मादज्ञानसम्भूतं हृत्स्थं ज्ञानासिनात्मनः |\nछित्त्वैनं संशयं योगमातिष्ठोत्तिष्ठ भारत ||४-४२||",
+      hindi: "अतः तुम्हारे हृदय में अज्ञान के कारण जो संशय उठे हैं, उन्हें ज्ञान रूपी शस्त्र से काट डालो। हे भारत! तुम योग से समन्वित होकर खड़े होओ और युद्ध करो।",
+      english: "Therefore the doubts which have arisen in your heart out of ignorance should be slashed by the weapon of knowledge. Armed with yoga, O Bharata, stand and fight."
+    }
+  ]
+},
+  // When you create Chapter 5, you will add its data object here.
+  // { chapter: 5, title: "...", verses: [...] },
 ];
