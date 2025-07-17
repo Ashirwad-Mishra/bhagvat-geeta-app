@@ -22,6 +22,7 @@ import Chapter14 from './Components/Chapters/Chapter14';
 import Chapter15 from './Components/Chapters/Chapter15';
 import Chapter16 from './Components/Chapters/Chapter16';
 import Chapter17 from './Components/Chapters/Chapter17';
+import Chapter18 from './Components/Chapters/Chapter18';
 // Import the centralized data
 import { allChaptersData } from './gita-data';
 
@@ -44,6 +45,7 @@ const chapterComponents = {
   15: Chapter15,
   16: Chapter16,
   17: Chapter17,
+  18: Chapter18
 };
 
 function App() {
