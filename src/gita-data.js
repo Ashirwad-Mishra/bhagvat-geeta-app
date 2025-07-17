@@ -678,6 +678,271 @@ export const allChaptersData = [
     }
   ]
 },
-  // When you create Chapter 3, you will add its data object here.
-  // { chapter: 2, title: "...", verses: [...] },
+{
+  chapter: 3,
+  title: "Karma Yoga",
+  english_title: "The Yoga of Action",
+  verses: [
+    {
+      id: "3.1",
+      sanskrit: "अर्जुन उवाच |\nज्यायसी चेत्कर्मणस्ते मता बुद्धिर्जनार्दन |\nतत्किं कर्मणि घोरे मां नियोजयसि केशव ||३-१||",
+      hindi: "अर्जुन ने कहा - हे जनार्दन! हे केशव! यदि आप बुद्धि को सकाम कर्म से श्रेष्ठ समझते हैं तो फिर आप मुझे इस घोर युद्ध में क्यों लगाना चाहते हैं?",
+      english: "Arjuna said: O Janardana, O Keshava, why do you want to engage me in this ghastly warfare, if you think that intelligence is better than fruitive work?"
+    },
+    {
+      id: "3.2",
+      sanskrit: "व्यामिश्रेणेव वाक्येन बुद्धिं मोहयसीव मे |\nतदेकं वद निश्चित्य येन श्रेयोऽहमाप्नुयाम् ||३-२||",
+      hindi: "आपके व्यामिश्रित (अनेकार्थक) उपदेशों से मेरी बुद्धि मोहित हो गई है। अतः कृपा करके निश्चयपूर्वक मुझे बताएँ कि इनमें से मेरे लिए सर्वाधिक श्रेयस्कर क्या होगा?",
+      english: "My intelligence is bewildered by Your equivocal instructions. Therefore, please tell me decisively which will be most beneficial for me."
+    },
+    {
+      id: "3.3",
+      sanskrit: "श्रीभगवानुवाच |\nलोकेऽस्मिन्द्विविधा निष्ठा पुरा प्रोक्ता मयानघ |\nज्ञानयोगेन साङ्ख्यानां कर्मयोगेन योगिनाम् ||३-३||",
+      hindi: "श्री भगवान ने कहा - हे निष्पाप अर्जुन! मैं पहले ही बता चुका हूँ कि आत्म-साक्षात्कार का प्रयत्न करने वाले दो प्रकार के पुरुष होते हैं। कुछ इसे ज्ञानयोग द्वारा समझने का प्रयत्न करते हैं, तो कुछ भक्तियोग द्वारा।",
+      english: "The Supreme Personality of Godhead said: O sinless Arjuna, I have already explained that there are two classes of men who try to realize the self. Some are inclined to understand it by empirical, philosophical speculation, and others by devotional service."
+    },
+    {
+      id: "3.4",
+      sanskrit: "न कर्मणामनारम्भान्नैष्कर्म्यं पुरुषोऽश्नुते |\nन च सन्न्यसनादेव सिद्धिं समधिगच्छति ||३-४||",
+      hindi: "न तो कर्म से विमुख होकर कोई कर्मफल से छुटकारा पा सकता है और न केवल संन्यास से सिद्धि प्राप्त की जा सकती है।",
+      english: "Not by merely abstaining from work can one achieve freedom from reaction, nor by renunciation alone can one attain perfection."
+    },
+    {
+      id: "3.5",
+      sanskrit: "न हि कश्चित्क्षणमपि जातु तिष्ठत्यकर्मकृत् |\nकार्यते ह्यवशः कर्म सर्वः प्रकृतिजैर्गुणैः ||३-५||",
+      hindi: "सारे मनुष्य प्रकृति के गुणों के अनुसार विवश होकर कर्म करने के लिए बाध्य हैं; अतः कोई भी एक क्षण के लिए भी बिना कर्म किए नहीं रह सकता।",
+      english: "Everyone is forced to act helplessly according to the qualities he has acquired from the modes of material nature; therefore no one can refrain from doing something, not even for a moment."
+    },
+    {
+      id: "3.6",
+      sanskrit: "कर्मेन्द्रियाणि संयम्य य आस्ते मनसा स्मरन् |\nइन्द्रियार्थान्विमूढात्मा मिथ्याचारः स उच्यते ||३-६||",
+      hindi: "जो कर्मेन्द्रियों को तो वश में करता है, किन्तु जिसका मन इन्द्रिय विषयों का चिन्तन करता रहता है, वह निश्चित रूप से स्वयं को धोखा देता है और मिथ्याचारी कहलाता है।",
+      english: "One who restrains the senses of action but whose mind dwells on sense objects certainly deludes himself and is called a pretender."
+    },
+    {
+      id: "3.7",
+      sanskrit: "यस्त्विन्द्रियाणि मनसा नियम्यारभतेऽर्जुन |\nकर्मेन्द्रियैः कर्मयोगमसक्तः स विशिष्यते ||३-७||",
+      hindi: "लेकिन जो व्यक्ति मन से इन्द्रियों को वश में करने का प्रयत्न करता है और बिना किसी आसक्ति के कर्मयोग (कृष्णभावनामृत में) प्रारम्भ करता है, वह कहीं श्रेष्ठ है।",
+      english: "On the other hand, if a sincere person tries to control the active senses by the mind and begins karma-yoga [in Krishna consciousness] without attachment, he is by far superior."
+    },
+    {
+      id: "3.8",
+      sanskrit: "नियतं कुरु कर्म त्वं कर्म ज्यायो ह्यकर्मणः |\nशरीरयात्रापि च ते न प्रसिद्धयेदकर्मणः ||३-८||",
+      hindi: "अपना नियत कर्म करो, क्योंकि कर्म न करने की अपेक्षा कर्म करना श्रेष्ठ है। कर्म के बिना तो शरीर-निर्वाह भी नहीं हो सकता।",
+      english: "Perform your prescribed duty, for doing so is better than not working. One cannot even maintain one's physical body without work."
+    },
+    {
+      id: "3.9",
+      sanskrit: "यज्ञार्थात्कर्मणोऽन्यत्र लोकोऽयं कर्मबन्धनः |\nतदर्थं कर्म कौन्तेय मुक्तसङ्गः समाचर ||३-९||",
+      hindi: "भगवान् विष्णु के लिए यज्ञ के रूप में कर्म करना चाहिए, अन्यथा कर्म के द्वारा इस भौतिक जगत् में बन्धन उत्पन्न होता है। अतः हे कुन्तीपुत्र! उनकी प्रसन्नता के लिए अपने नियत कर्म करो। इस तरह तुम बन्धन से सदा मुक्त रहोगे।",
+      english: "Work done as a sacrifice for Vishnu has to be performed; otherwise work causes bondage in this material world. Therefore, O son of Kunti, perform your prescribed duties for His satisfaction, and in that way you will always remain free from bondage."
+    },
+    {
+      id: "3.10",
+      sanskrit: "सहयज्ञाः प्रजाः सृष्ट्वा पुरोवाच प्रजापतिः |\nअनेन प्रसविष्यध्वमेष वोऽस्त्विष्टकामधुक् ||३-१०||",
+      hindi: "सृष्टि के प्रारम्भ में समस्त प्राणियों के स्वामी (प्रजापति) ने विष्णु के लिए यज्ञ सहित मनुष्यों तथा देवताओं की पीढ़ियों को रचा और उनसे कहा, 'तुम इस यज्ञ से सुखी रहो क्योंकि इसके करने से तुम्हें सुखपूर्वक रहने तथा मुक्ति प्राप्त करने के लिए समस्त वांछित वस्तुएँ प्राप्त हो सकेंगी।'",
+      english: "In the beginning of creation, the Lord of all creatures sent forth generations of men and demigods, along with sacrifices for Vishnu, and blessed them by saying, 'Be thou happy by this yajna [sacrifice] because its performance will bestow upon you everything desirable for living happily and achieving liberation.'"
+    },
+    {
+      id: "3.11",
+      sanskrit: "देवान्भावयतानेन ते देवा भावयन्तु वः |\nपरस्परं भावयन्तः श्रेयः परमवाप्स्यथ ||३-११||",
+      hindi: "यज्ञों के द्वारा प्रसन्न होकर देवता तुम्हें भी प्रसन्न करेंगे और इस तरह मनुष्यों तथा देवताओं के मध्य सहयोग से सबों को सम्पन्नता प्राप्त होगी।",
+      english: "The demigods, being pleased by sacrifices, will also please you, and thus, by cooperation between men and demigods, prosperity will reign for all."
+    },
+    {
+      id: "3.12",
+      sanskrit: "इष्टान्भोगान्हि वो देवा दास्यन्ते यज्ञभाविताः |\nतैर्दत्तानप्रदायैभ्यो यो भुङ्क्ते स्तेन एव सः ||३-१२||",
+      hindi: "जीवन की विभिन्न आवश्यकताओं की पूर्ति करने वाले विभिन्न देवता यज्ञ सम्पन्न होने पर प्रसन्न होकर तुम्हारी सारी आवश्यकताओं की पूर्ति करेंगे। किन्तु जो इन उपहारों को देवताओं को अर्पित किये बिना भोगता है, वह निश्चित रूप से चोर है।",
+      english: "In charge of the various necessities of life, the demigods, being satisfied by the performance of yajna [sacrifice], will supply all necessities to you. But he who enjoys such gifts without offering them to the demigods in return is certainly a thief."
+    },
+    {
+      id: "3.13",
+      sanskrit: "यज्ञशिष्टाशिनः सन्तो मुच्यन्ते सर्वकिल्बिषैः |\nभुञ्जते ते त्वघं पापा यः पचन्त्यात्मकारणात् ||३-१३||",
+      hindi: "भगवान् के भक्त सभी प्रकार के पापों से मुक्त हो जाते हैं क्योंकि वे यज्ञ में अर्पित किये भोजन (प्रसाद) को ही खाते हैं। अन्य लोग जो अपने इन्द्रियसुख के लिए भोजन बनाते हैं, वे निश्चित रूप से पाप खाते हैं।",
+      english: "The devotees of the Lord are released from all kinds of sins because they eat food which is offered first for sacrifice. Others, who prepare food for personal sense enjoyment, verily eat only sin."
+    },
+    {
+      id: "3.14",
+      sanskrit: "अन्नाद्भवन्ति भूतानि पर्जन्यादन्नसम्भवः |\nयज्ञाद्भवति पर्जन्यो यज्ञः कर्मसमुद्भवः ||३-१४||",
+      hindi: "सारे प्राणी अन्न पर आश्रित हैं, जो वर्षा से उत्पन्न होता है। वर्षा यज्ञ सम्पन्न करने से होती है और यज्ञ नियत कर्मों से उत्पन्न होता है।",
+      english: "All living bodies subsist on food grains, which are produced from rains. Rains are produced by performance of yajna [sacrifice], and yajna is born of prescribed duties."
+    },
+    {
+      id: "3.15",
+      sanskrit: "कर्म ब्रह्मोद्भवं विद्धि ब्रह्माक्षरसमुद्भवम् |\nतस्मात्सर्वगतं ब्रह्म नित्यं यज्ञे प्रतिष्ठितम् ||३-१५||",
+      hindi: "नियत कर्मों का विधान वेदों में है और ये वेद साक्षात् श्रीभगवान् (परब्रह्म) से प्रकट हुए हैं। फलस्वरूप सर्वव्यापी ब्रह्म यज्ञ-कर्मों में सदा स्थित रहता है।",
+      english: "Regulated activities are prescribed in the Vedas, and the Vedas are directly manifested from the Supreme Personality of Godhead. Consequently the all-pervading Transcendence is eternally situated in acts of sacrifice."
+    },
+    {
+      id: "3.16",
+      sanskrit: "एवं प्रवर्तितं चक्रं नानुवर्तयतीह यः |\nअघायुरिन्द्रियारामो मोघं पार्थ स जीवति ||३-१६||",
+      hindi: "हे अर्जुन! जो मनुष्य जीवन में इस प्रकार वेदों द्वारा स्थापित यज्ञ-चक्र का पालन नहीं करता, वह निश्चय ही पापमय जीवन व्यतीत करता है। ऐसा व्यक्ति केवल इन्द्रियों की तुष्टि के लिए रहता है, अतः उसका जीवन व्यर्थ ही है।",
+      english: "My dear Arjuna, one who does not follow in human life the cycle of sacrifice thus established by the Vedas certainly leads a life full of sin. Living only for the satisfaction of the senses, such a person lives in vain."
+    },
+    {
+      id: "3.17",
+      sanskrit: "यस्त्वात्मरतिरेव स्यादात्मतृप्तश्च मानवः |\nआत्मन्येव च सन्तुष्टस् तस्य कार्यं न विद्यते ||३-१७||",
+      hindi: "किन्तु जो व्यक्ति आत्मा में ही आनन्द लेता है तथा जिसका जीवन आत्म-साक्षात्कार युक्त है और जो अपने में ही पूर्णतया सन्तुष्ट रहता है, उसके लिए कोई कर्तव्य नहीं होता।",
+      english: "But for one who takes pleasure in the self, whose human life is one of self-realization, and who is satisfied in the self only, fully satiated—for him there is no duty."
+    },
+    {
+      id: "3.18",
+      sanskrit: "नैव तस्य कृतेनार्थो नाकृतेनेह कश्चन |\nन चास्य सर्वभूतेषु कश्चिदर्थव्यपाश्रयः ||३-१८||",
+      hindi: "आत्म-साक्षात्कार व्यक्ति के लिए न तो अपने नियत कर्मों को करने की आवश्यकता रह जाती है, न ही ऐसा कर्म न करने का कोई कारण ही रहता है। उसे किसी अन्य जीव पर निर्भर रहने की आवश्यकता भी नहीं रह जाती।",
+      english: "A self-realized man has no purpose to fulfill in the discharge of his prescribed duties, nor has he any reason not to perform such work. Nor has he any need to depend on any other living being."
+    },
+    {
+      id: "3.19",
+      sanskrit: "तस्मादसक्तः सततं कार्यं कर्म समाचर |\nअसक्तो ह्याचरन्कर्म परमाप्नोति पूरुषः ||३-१९||",
+      hindi: "अतः कर्मफल में आसक्त हुए बिना मनुष्य को अपना कर्तव्य समझकर निरन्तर कर्म करते रहना चाहिए, क्योंकि अनासक्त होकर कर्म करने से परब्रह्म (भगवान्) की प्राप्ति होती है।",
+      english: "Therefore, without being attached to the fruits of activities, one should act as a matter of duty, for by working without attachment one attains the Supreme."
+    },
+    {
+      id: "3.20",
+      sanskrit: "कर्मणैव हि संसिद्धिमास्थिता जनकादयः |\nलोकसङ्ग्रहमेवापि सम्पश्यन्कर्तुमर्हसि ||३-२०||",
+      hindi: "जनक जैसे राजाओं ने केवल नियत कर्मों को करने से ही सिद्धि प्राप्त की। अतः सामान्य जनों को शिक्षा देने की दृष्टि से तुम्हें कर्म करना चाहिए।",
+      english: "Kings such as Janaka attained perfection solely by performance of prescribed duties. Therefore, just for the sake of educating the people in general, you should perform your work."
+    },
+    {
+      id: "3.21",
+      sanskrit: "यद्यदाचरति श्रेष्ठस्तत्तदेवेतरो जनः |\nस यत्प्रमाणं कुरुते लोकस्तदनुवर्तते ||३-२१||",
+      hindi: "महापुरुष जो-जो आचरण करता है, सामान्य व्यक्ति उसी का अनुसरण करते हैं। वह अपने अनुसरणीय कार्यों से जो आदर्श प्रस्तुत करता है, सम्पूर्ण विश्व उसका अनुगमन करता है।",
+      english: "Whatever action a great man performs, common men follow. And whatever standards he sets by exemplary acts, all the world pursues."
+    },
+    {
+      id: "3.22",
+      sanskrit: "न मे पार्थास्ति कर्तव्यं त्रिषु लोकेषु किञ्चन |\nनानवाप्तमवाप्तव्यं वर्त एव च कर्मणि ||३-२२||",
+      hindi: "हे पृथापुत्र! तीनों लोकों में मेरे लिए कोई भी कर्म नियत नहीं है। न मुझे किसी वस्तु का अभाव है और न ही किसी वस्तु की आवश्यकता है - तो भी मैं नियत कर्म करने में तत्पर रहता हूँ।",
+      english: "O son of Pritha, there is no work prescribed for Me within all the three planetary systems. Nor am I in want of anything, nor have I a need to obtain anything—and yet I am engaged in prescribed duties."
+    },
+    {
+      id: "3.23",
+      sanskrit: "यदि ह्यहं न वर्तेयं जातु कर्मण्यतन्द्रितः |\nमम वर्त्मानुवर्तन्ते मनुष्याः पार्थ सर्वशः ||३-२३||",
+      hindi: "क्योंकि यदि मैं नियत कर्मों को सावधानीपूर्वक न करूँ, तो हे पार्थ! यह निश्चित है कि सारे मनुष्य मेरे ही पथ का अनुगमन करेंगे।",
+      english: "For if I ever failed to engage in carefully performing prescribed duties, O Partha, certainly all men would follow My path."
+    },
+    {
+      id: "3.24",
+      sanskrit: "उत्सीदेयुरिमे लोका न कुर्यां कर्म चेदहम् |\nसङ्करस्य च कर्ता स्यामुपहन्यामिमाः प्रजाः ||३-२४||",
+      hindi: "यदि मैं नियत कर्म न करूँ, तो ये सारे लोक नष्ट हो जाएँ। तब मैं अवांछित जन-समुदाय (वर्णसंकर) को उत्पन्न करने का कारण होऊँगा और इस तरह इन समस्त प्राणियों की शान्ति का विनाशक बनूँगा।",
+      english: "If I did not perform prescribed duties, all these worlds would be put to ruination. I would be the cause of creating unwanted population, and I would thereby destroy the peace of all living beings."
+    },
+    {
+      id: "3.25",
+      sanskrit: "सक्ताः कर्मण्यविद्वांसो यथा कुर्वन्ति भारत |\nकुर्याद्विद्वांस्तथासक्तश् चिकीर्षुर्लोकसङ्ग्रहम् ||३-२५||",
+      hindi: "जिस प्रकार अज्ञानीजन फल की आसक्ति से अपना कर्तव्य करते हैं, उसी तरह विद्वान जनों को चाहिए कि वे लोगों को उचित पथ पर ले जाने के लिए अनासक्त रहकर अपना कर्तव्य करें।",
+      english: "As the ignorant perform their duties with attachment to results, the learned may similarly act, but without attachment, for the sake of leading people on the right path."
+    },
+    {
+      id: "3.26",
+      sanskrit: "न बुद्धिभेदं जनयेदज्ञानां कर्मसङ्गिनाम् |\nजोषयेत्सर्वकर्माणि विद्वान्युक्तः समाचरन् ||३-२६||",
+      hindi: "विद्वान् व्यक्ति को चाहिए कि वह सकाम कर्मों में आसक्त अज्ञानी पुरुषों को कर्म करने से न रोके, ताकि उनकी बुद्धि विचलित न हो। अपितु उसे चाहिए कि वह भक्तिभाव से कर्म करते हुए उन्हें सभी प्रकार के कार्यों में लगाए (जिससे कृष्णभावनामृत का क्रमिक विकास हो)।",
+      english: "So as not to disrupt the minds of ignorant men attached to the fruitive results of prescribed duties, a learned person should not induce them to stop work. Rather, by working in the spirit of devotion, he should engage them in all sorts of activities [for the gradual development of Krishna consciousness]."
+    },
+    {
+      id: "3.27",
+      sanskrit: "प्रकृतेः क्रियमाणानि गुणैः कर्माणि सर्वशः |\nअहङ्कारविमूढात्मा कर्ताहमिति मन्यते ||३-२७||",
+      hindi: "जीवात्मा अहंकार के प्रभाव से मोहग्रस्त होकर अपने आपको समस्त कर्मों का कर्ता मान बैठता है, जबकि वास्तव में वे प्रकृति के तीनों गुणों द्वारा सम्पन्न किये जाते हैं।",
+      english: "The spirit soul bewildered by the influence of false ego thinks himself the doer of activities that are in actuality carried out by the three modes of material nature."
+    },
+    {
+      id: "3.28",
+      sanskrit: "तत्त्ववित्तु महाबाहो गुणकर्मविभागयोः |\nगुणा गुणेषु वर्तन्त इति मत्वा न सज्जते ||३-२८||",
+      hindi: "हे महाबाहु! भक्तिभावमय कर्म तथा सकाम कर्म के भेद को भलीभाँति जानते हुए जो परमसत्य को जानने वाला है, वह कभी भी अपने आपको इन्द्रियों तथा इन्द्रियतृप्ति में नहीं लगाता।",
+      english: "One who is in knowledge of the Absolute Truth, O mighty-armed, does not engage himself in the senses and sense gratification, knowing well the differences between work in devotion and work for fruitive results."
+    },
+    {
+      id: "3.29",
+      sanskrit: "प्रकृतेर्गुणसम्मूढाः सज्जन्ते गुणकर्मसु |\nतानकृत्स्नविदो मन्दान्कृत्स्नविन्न विचालयेत् ||३-२९||",
+      hindi: "प्रकृति के गुणों से मोहग्रस्त होने पर अज्ञानी पुरुष पूर्णतया भौतिक कार्यों में संलग्न रहकर उनमें आसक्त हो जाते हैं। यद्यपि उनके ये कार्य उनमें ज्ञानभाव के कारण अधम होते हैं, किन्तु ज्ञानी को चाहिए कि उन्हें विचलित न करे।",
+      english: "Bewildered by the modes of material nature, the ignorant fully engage themselves in material activities and become attached. But the wise should not unsettle them, although these duties are inferior due to the performers' lack of knowledge."
+    },
+    {
+      id: "3.30",
+      sanskrit: "मयि सर्वाणि कर्माणि सन्न्यस्याध्यात्मचेतसा |\nनिराशीर्निर्ममो भूत्वा युध्यस्व विगतज्वरः ||३-३०||",
+      hindi: "अतः हे अर्जुन! अपने सारे कर्मों को मुझमें समर्पित करके, मेरे पूर्ण ज्ञान से युक्त होकर, लाभ की आकांक्षा से रहित, स्वामित्व के किसी दावे के बिना तथा आलस्य से रहित होकर युद्ध करो।",
+      english: "Therefore, O Arjuna, surrendering all your works unto Me, with full knowledge of Me, without desires for profit, with no claims to proprietorship, and free from lethargy, fight."
+    },
+    {
+      id: "3.31",
+      sanskrit: "ये मे मतमिदं नित्यमनुतिष्ठन्ति मानवाः |\nश्रद्धावन्तोऽनसूयन्तो मुच्यन्ते तेऽपि कर्मभिः ||३-३१||",
+      hindi: "जो व्यक्ति मेरे आदेशों के अनुसार अपना कर्तव्य करते रहते हैं और ईर्ष्यारहित होकर इस उपदेश का श्रद्धापूर्वक पालन करते हैं, वे सकाम कर्मों के बन्धन से मुक्त हो जाते हैं।",
+      english: "Those persons who execute their duties according to My injunctions and who follow this teaching faithfully, without envy, become free from the bondage of fruitive actions."
+    },
+    {
+      id: "3.32",
+      sanskrit: "ये त्वेतदभ्यसूयन्तो नानुतिष्ठन्ति मे मतम् |\nसर्वज्ञानविमूढांस् तान्विद्धि नष्टानचेतसः ||३-३२||",
+      hindi: "किन्तु जो ईर्ष्यावश इन उपदेशों की उपेक्षा करते हैं और उनका पालन नहीं करते, उन्हें समस्त ज्ञान से रहित, दिगभ्रमित तथा सिद्धि के प्रयासों में नष्ट हुआ समझना चाहिए।",
+      english: "But those who, out of envy, disregard these teachings and do not follow them are to be considered bereft of all knowledge, befooled, and ruined in their endeavors for perfection."
+    },
+    {
+      id: "3.33",
+      sanskrit: "सदृशं चेष्टते स्वस्याः प्रकृतेर्ज्ञानवानपि |\nप्रकृतिं यान्ति भूतानि निग्रहः किं करिष्यति ||३-३३||",
+      hindi: "ज्ञानी पुरुष भी अपनी प्रकृति के अनुसार कार्य करता है, क्योंकि सभी प्राणी तीनों गुणों से प्राप्त अपनी प्रकृति का ही अनुसरण करते हैं। भला दमन करने से क्या हो सकता है?",
+      english: "Even a man of knowledge acts according to his own nature, for everyone follows the nature he has acquired from the three modes. What can repression accomplish?"
+    },
+    {
+      id: "3.34",
+      sanskrit: "इन्द्रियस्येन्द्रियस्यार्थे रागद्वेषौ व्यवस्थितौ |\nतयोर्न वशमागच्छेत्तौ ह्यस्य परिपन्थिनौ ||३-३४||",
+      hindi: "प्रत्येक इन्द्रिय तथा उसके विषय से सम्बन्धित राग-द्वेष होते हैं। मनुष्य को ऐसे राग तथा द्वेष के वशीभूत नहीं होना चाहिए, क्योंकि ये आत्म-साक्षात्कार के मार्ग में अवरोधक हैं।",
+      english: "There are principles to regulate attachment and aversion pertaining to the senses and their objects. One should not come under the control of such attachment and aversion, because they are stumbling blocks on the path of self-realization."
+    },
+    {
+      id: "3.35",
+      sanskrit: "श्रेयान्स्वधर्मो विगुणः परधर्मात्स्वनुष्ठितात् |\nस्वधर्मे निधनं श्रेयः परधर्मो भयावहः ||३-३५||",
+      hindi: "अपने नियत कर्मों को दोषपूर्ण ढंग से सम्पन्न करना भी अन्य के कर्मों को भलीभाँति करने से श्रेयस्कर है। अपने कर्मों को करते हुए मरना पराये कर्मों में प्रवृत्त होने की अपेक्षा श्रेष्ठतर है, क्योंकि अन्य किसी के मार्ग का अनुसरण भयावह होता है।",
+      english: "It is far better to discharge one's prescribed duties, even though faultily, than another's duties perfectly. Destruction in the course of performing one's own duty is better than engaging in another's duties, for to follow another's path is dangerous."
+    },
+    {
+      id: "3.36",
+      sanskrit: "अर्जुन उवाच |\nअथ केन प्रयुक्तोऽयं पापं चरति पूरुषः |\nअनिच्छन्नपि वार्ष्णेय बलादिव नियोजितः ||३-३६||",
+      hindi: "अर्जुन ने कहा - हे वृष्णिवंशी! मनुष्य न चाहते हुए भी पापकर्मों के लिए प्रेरित क्यों होता है? ऐसा लगता है कि उसे बलपूर्वक उनमें लगाया जा रहा हो।",
+      english: "Arjuna said: O descendant of Vrishni, by what is one impelled to sinful acts, even unwillingly, as if engaged by force?"
+    },
+    {
+      id: "3.37",
+      sanskrit: "श्रीभगवानुवाच |\nकाम एष क्रोध एष रजोगुणसमुद्भवः |\nमहाशनो महापाप्मा विद्ध्येनमिह वैरिणम् ||३-३७||",
+      hindi: "श्री भगवान ने कहा - हे अर्जुन! इसका कारण रजोगुण के सम्पर्क से उत्पन्न काम है, जो बाद में क्रोध का रूप धारण करता है और जो इस संसार का सर्वभक्षी पापी शत्रु है।",
+      english: "The Supreme Personality of Godhead said: It is lust only, Arjuna, which is born of contact with the material mode of passion and later transformed into wrath, and which is the all-devouring sinful enemy of this world."
+    },
+    {
+      id: "3.38",
+      sanskrit: "धूमेनाव्रियते वह्निर्यथादर्शो मलेन च |\nयथोल्बेनावृतो गर्भस्तथा तेनेदमावृतम् ||३-३८||",
+      hindi: "जिस प्रकार अग्नि धुएँ से, दर्पण धूल से अथवा भ्रूण गर्भाशय से ढका रहता है, उसी प्रकार जीवात्मा इस काम की विभिन्न मात्राओं से ढका रहता है।",
+      english: "As fire is covered by smoke, as a mirror is covered by dust, or as the embryo is covered by the womb, the living entity is similarly covered by different degrees of this lust."
+    },
+    {
+      id: "3.39",
+      sanskrit: "आवृतं ज्ञानमेतेन ज्ञानिनो नित्यवैरिणा |\nकामरूपेण कौन्तेय दुष्पूरेणानलेन च ||३-३९||",
+      hindi: "इस प्रकार ज्ञानी जीवात्मा की शुद्ध चेतना काम रूपी नित्य शत्रु से ढकी रहती है, जो कभी भी तुष्ट नहीं होता और अग्नि के समान जलता रहता है।",
+      english: "Thus the wise living entity's pure consciousness becomes covered by his eternal enemy in the form of lust, which is never satisfied and which burns like fire."
+    },
+    {
+      id: "3.40",
+      sanskrit: "इन्द्रियाणि मनो बुद्धिरस्याधिष्ठानमुच्यते |\nएतैर्विमोहयत्येष ज्ञानमावृत्य देहिनम् ||३-४०||",
+      hindi: "इन्द्रियाँ, मन तथा बुद्धि इस काम के निवास-स्थान हैं। इनके द्वारा यह काम जीवात्मा के वास्तविक ज्ञान को ढक कर उसे मोहित कर लेता है।",
+      english: "The senses, the mind and the intelligence are the sitting places of this lust. Through them lust covers the real knowledge of the living entity and bewilders him."
+    },
+    {
+      id: "3.41",
+      sanskrit: "तस्मात्त्वमिन्द्रियाण्यादौ नियम्य भरतर्षभ |\nपाप्मानं प्रजहि ह्येनं ज्ञानविज्ञाननाशनम् ||३-४१||",
+      hindi: "इसलिए हे भरतवंशियों में श्रेष्ठ अर्जुन! प्रारम्भ में ही इन्द्रियों को वश में करके इस पाप का महान प्रतीक (काम) का दमन करो और ज्ञान तथा आत्म-साक्षात्कार के इस विनाशकर्ता का वध करो।",
+      english: "Therefore, O Arjuna, best of the Bharatas, in the very beginning curb this great symbol of sin [lust] by regulating the senses, and slay this destroyer of knowledge and self-realization."
+    },
+    {
+      id: "3.42",
+      sanskrit: "इन्द्रियाणि पराण्याहुरिन्द्रियेभ्यः परं मनः |\nमनसस्तु परा बुद्धिर्यो बुद्धेः परतस्तु सः ||३-४२||",
+      hindi: "कर्मेन्द्रियाँ जड़ पदार्थ की अपेक्षा श्रेष्ठ हैं, मन इन्द्रियों से बढ़कर है, बुद्धि मन से भी उच्च है और वह (आत्मा) बुद्धि से भी बढ़कर है।",
+      english: "The working senses are superior to dull matter; mind is higher than the senses; intelligence is still higher than the mind; and he [the soul] is even higher than the intelligence."
+    },
+    {
+      id: "3.43",
+      sanskrit: "एवं बुद्धेः परं बुद्ध्वा संस्तभ्यात्मानमात्मना |\nजहि शत्रुं महाबाहो कामरूपं दुरासदम् ||३-४३||",
+      hindi: "इस प्रकार हे महाबाहु अर्जुन! अपने आपको भौतिक इन्द्रियों, मन तथा बुद्धि से परे जान कर और मन को सावधान आध्यात्मिक बुद्धि (कृष्णभावनामृत) से स्थिर करके आध्यात्मिक शक्ति द्वारा इस काम-रूपी दुर्जेय शत्रु को जीतो।",
+      english: "Thus knowing oneself to be transcendental to the material senses, mind and intelligence, O mighty-armed Arjuna, one should steady the mind by deliberate spiritual intelligence [Krishna consciousness] and thus—by spiritual strength—conquer this insatiable enemy known as lust."
+    }
+  ]
+},
+  // When you create Chapter 4, you will add its data object here.
+  // { chapter: 4, title: "...", verses: [...] },
 ];
